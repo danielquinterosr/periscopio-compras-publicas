@@ -1,8 +1,14 @@
 {
-  "last_update_iso": "2025-12-16T11:58:48.565600Z",
+  "last_update_iso": "2025-12-16T14:50:22.092455Z",
+  "repo": "danielquinterosr/periscopio-compras-publicas",
   "counts": {
-    "licitaciones_total": 3794,
-    "licitaciones_mostradas": 56
+    "licitaciones_total": 3828,
+    "licitaciones_mostradas": 199,
+    "detalle_ok": 400,
+    "detalle_fail": 0,
+    "candidates_top": 800,
+    "max_detail": 400,
+    "reviewed_ids": 0
   },
-  "version": "v0.1"
+  "version": "v0.4"
 }
