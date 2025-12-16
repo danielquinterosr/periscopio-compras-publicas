@@ -1,58 +1,104 @@
-include:
-  encuestas:
-    weight: 4
-    patterns:
-      - "\\bencuesta(s)?\\b"
-      - "\\bcuestionario\\b"
-      - "\\blevantamiento\\b"
-      - "\\bterreno\\b"
-      - "\\bmuestra\\b"
-      - "\\bCAPI\\b"
-      - "\\bCATI\\b"
-      - "\\bCAWI\\b"
-  estudios:
-    weight: 3
-    patterns:
-      - "\\bestudio(s)?\\b"
-      - "\\bdiagn[oó]stico\\b"
-      - "\\bl[ií]nea base\\b"
-      - "\\bevaluaci[oó]n\\b"
-      - "\\bcaracterizaci[oó]n\\b"
-      - "\\binforme\\b"
-      - "\\ban[aá]lisis\\b"
-  asesorias:
-    weight: 2
-    patterns:
-      - "\\basesor[ií]a\\b"
-      - "\\bconsultor[ií]a\\b"
-      - "\\basistencia t[eé]cnica\\b"
-      - "\\bacompa[nñ]amiento\\b"
-      - "\\bsoporte t[eé]cnico\\b"
-  talleres:
-    weight: 2
-    patterns:
-      - "\\btaller(es)?\\b"
-      - "\\bcapacitaci[oó]n\\b"
-      - "\\brelator[ií]a\\b"
-      - "\\bjornada\\b"
-      - "\\bcurso(s)?\\b"
-      - "\\bformaci[oó]n\\b"
-
-exclude:
-  weight: -6
-  patterns:
-    - "\\bmantenci[oó]n\\b"
-    - "\\breparaci[oó]n\\b"
-    - "\\binsumo(s)?\\b"
-    - "\\bservicio de aseo\\b"
-    - "\\bobra(s)?\\b"
-    - "\\bconstrucci[oó]n\\b"
-    - "\\bequipo(s)?\\b"
-    - "\\bcomputador(es)?\\b"
-    - "\\bimpresora(s)?\\b"
-    - "\\bveh[ií]culo(s)?\\b"
-    - "\\bcombustible(s)?\\b"
-
 thresholds:
-  show_min_score: 3
-  email_min_score: 7
+  show_min_score: 3          # umbral de visualización en dashboard
+  display_max_score: 20      # escala entera para mostrar (0..20)
+
+# Ponderaciones: 70% pertinencia / 30% monto
+weights:
+  keywords: 0.70
+  amount: 0.30
+
+# Tramos de monto (CLP) que tú definiste (+1..+7)
+# Nota: estos puntos se normalizan a 0..10 y luego se ponderan al 30%.
+amount_max_points: 7
+amount_bands:
+  - label: "Hasta 5MM"
+    min: 0
+    max: 5000000
+    points: 1
+  - label: "5–10MM"
+    min: 5000000
+    max: 10000000
+    points: 2
+  - label: "10–20MM"
+    min: 10000000
+    max: 20000000
+    points: 3
+  - label: "20–40MM"
+    min: 20000000
+    max: 40000000
+    points: 4
+  - label: "40–70MM"
+    min: 40000000
+    max: 70000000
+    points: 5
+  - label: "70–100MM"
+    min: 70000000
+    max: 100000000
+    points: 6
+  - label: "+100MM"
+    min: 100000000
+    max: null
+    points: 7
+
+# Keywords: el objetivo es estimar "pertinencia Periscopio"
+# Score keywords: (include - exclude), normalizado a 0..10 con max_points.
+keywords:
+  max_points: 12
+
+  include:
+    - pattern: '\bencuest(a|as|ar|ado|ados)\b'
+      weight: 4
+      note: 'Encuestas'
+    - pattern: '\bestudio(s)?\b'
+      weight: 2
+      note: 'Estudios (genérico)'
+    - pattern: '\bdiagn[oó]stico(s)?\b'
+      weight: 3
+      note: 'Diagnósticos'
+    - pattern: '\bevaluaci[oó]n(es)?\b'
+      weight: 3
+      note: 'Evaluación'
+    - pattern: '\ban[aá]lisis\s+de\s+datos\b'
+      weight: 3
+      note: 'Análisis de datos'
+    - pattern: '\blevantamiento\s+de\s+informaci[oó]n\b'
+      weight: 3
+      note: 'Levantamiento'
+    - pattern: '\btaller(es)?\b'
+      weight: 2
+      note: 'Talleres'
+    - pattern: '\bcapacitaci[oó]n\b|\bcurso(s)?\b|\bformaci[oó]n\b'
+      weight: 2
+      note: 'Capacitación / cursos'
+    - pattern: '\basesor[ií]a(s)?\b|\bconsultor[ií]a(s)?\b'
+      weight: 2
+      note: 'Asesorías / consultorías'
+    - pattern: '\bclima\s+laboral\b|\bsatisfacci[oó]n\s+usuari(a|o)\b'
+      weight: 3
+      note: 'Clima laboral / satisfacción usuaria'
+    - pattern: '\bfocus\s*group\b|\bgrupo(s)?\s+focal(es)?\b'
+      weight: 3
+      note: 'Cualitativo'
+
+  exclude:
+    - pattern: '\bcirug[ií]a(s)?\b|\bquir[uú]rgic(a|o|as|os)\b|\bcat[aá]rata(s)?\b'
+      weight: 6
+      note: 'Prestaciones clínicas'
+    - pattern: '\bmedicamento(s)?\b|\bf[áa]rmaco(s)?\b|\binsumo(s)?\s+m[eé]dico(s)?\b'
+      weight: 6
+      note: 'Compras clínicas / insumos'
+    - pattern: '\bequipamiento\b|\bdispositivo(s)?\b|\bmaquinari(a|as)\b'
+      weight: 4
+      note: 'Equipamiento (genérico)'
+    - pattern: '\bobra(s)?\b|\bconstrucci[oó]n\b|\bmantenci[oó]n\b|\breparaci[oó]n\b'
+      weight: 4
+      note: 'Obras / mantención'
+    - pattern: '\baseo\b|\blimpieza\b|\bseguridad\b|\bguardia(s)?\b'
+      weight: 4
+      note: 'Aseo / seguridad'
+    - pattern: '\btransporte\b|\bflete(s)?\b|\blog[ií]stic(a|o)\b'
+      weight: 3
+      note: 'Logística / transporte'
+    - pattern: '\bservidor(es)?\b|\blicencia(s)?\b|\bsoftware\b|\bhardware\b|\bhosting\b'
+      weight: 3
+      note: 'TI dura'
