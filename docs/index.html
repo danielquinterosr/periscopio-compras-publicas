@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Periscopio — Radar de Compras Públicas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Radar de Compras Públicas — Periscopio</h1>
+
+    <div class="meta">
+      <div><strong>Última actualización:</strong> <span id="lastUpdate">—</span></div>
+      <div><strong>Registros mostrados:</strong> <span id="countShown">—</span></div>
+    </div>
+
+    <div class="controls">
+      <input id="q" type="search" placeholder="Buscar por título o comprador…" />
+      <label>Score mínimo:
+        <input id="minScore" type="number" value="3" min="-20" max="50" />
+      </label>
+    </div>
+
+    <table id="tbl">
+      <thead>
+        <tr>
+          <th>Score</th>
+          <th>Título</th>
+          <th>Comprador</th>
+          <th>Monto (CLP)</th>
+          <th>Publicación</th>
+          <th>Cierre</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

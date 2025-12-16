@@ -1,0 +1,58 @@
+include:
+  encuestas:
+    weight: 4
+    patterns:
+      - "\\bencuesta(s)?\\b"
+      - "\\bcuestionario\\b"
+      - "\\blevantamiento\\b"
+      - "\\bterreno\\b"
+      - "\\bmuestra\\b"
+      - "\\bCAPI\\b"
+      - "\\bCATI\\b"
+      - "\\bCAWI\\b"
+  estudios:
+    weight: 3
+    patterns:
+      - "\\bestudio(s)?\\b"
+      - "\\bdiagn[oó]stico\\b"
+      - "\\bl[ií]nea base\\b"
+      - "\\bevaluaci[oó]n\\b"
+      - "\\bcaracterizaci[oó]n\\b"
+      - "\\binforme\\b"
+      - "\\ban[aá]lisis\\b"
+  asesorias:
+    weight: 2
+    patterns:
+      - "\\basesor[ií]a\\b"
+      - "\\bconsultor[ií]a\\b"
+      - "\\basistencia t[eé]cnica\\b"
+      - "\\bacompa[nñ]amiento\\b"
+      - "\\bsoporte t[eé]cnico\\b"
+  talleres:
+    weight: 2
+    patterns:
+      - "\\btaller(es)?\\b"
+      - "\\bcapacitaci[oó]n\\b"
+      - "\\brelator[ií]a\\b"
+      - "\\bjornada\\b"
+      - "\\bcurso(s)?\\b"
+      - "\\bformaci[oó]n\\b"
+
+exclude:
+  weight: -6
+  patterns:
+    - "\\bmantenci[oó]n\\b"
+    - "\\breparaci[oó]n\\b"
+    - "\\binsumo(s)?\\b"
+    - "\\bservicio de aseo\\b"
+    - "\\bobra(s)?\\b"
+    - "\\bconstrucci[oó]n\\b"
+    - "\\bequipo(s)?\\b"
+    - "\\bcomputador(es)?\\b"
+    - "\\bimpresora(s)?\\b"
+    - "\\bveh[ií]culo(s)?\\b"
+    - "\\bcombustible(s)?\\b"
+
+thresholds:
+  show_min_score: 3
+  email_min_score: 7
