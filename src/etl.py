@@ -53,7 +53,7 @@ def main():
 
         url = ""
         if codigo:
-            url = f"https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs={codigo}"
+            url = f"https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion={codigo}"
 
         opps.append({
             "source": "licitaciones",

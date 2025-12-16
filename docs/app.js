@@ -34,7 +34,7 @@ function applyFilters() {
 }
 
 async function init() {
-  const meta = await fetch("data/meta.json").then(r => r.json());
+  const meta = await fetch("data/meta.json", { cache: "no-store" }).then(r => r.json());
 
   // Mostrar en hora Chile
   try {
@@ -44,7 +44,7 @@ async function init() {
     document.getElementById("lastUpdate").textContent = meta.last_update_iso || "—";
   }
 
-  DATA = await fetch("data/opportunities.json").then(r => r.json());
+  DATA = await fetch("data/opportunities.json", { cache: "no-store" }).then(r => r.json());
   render(DATA);
 
   document.getElementById("q").addEventListener("input", applyFilters);
