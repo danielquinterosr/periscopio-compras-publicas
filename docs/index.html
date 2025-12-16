@@ -3,39 +3,47 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Periscopio — Radar de Compras Públicas</title>
+  <title>Periscopio — Compras Públicas</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="container">
+    <div class="header-row">
+      <div>
+        <h1>Periscopio — Radar de Compras Públicas</h1>
+        <div class="sub">
+          <span id="lastUpdate">Última actualización: —</span>
+          <span class="sep">·</span>
+          <span id="counts">—</span>
+        </div>
+      </div>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Buscar (título, comprador, id)..." />
+      </div>
+    </div>
+  </header>
+
   <main class="container">
-    <h1>Radar de Compras Públicas — Periscopio</h1>
-
-    <div class="meta">
-      <div><strong>Última actualización:</strong> <span id="lastUpdate">—</span></div>
-      <div><strong>Registros mostrados:</strong> <span id="countShown">—</span></div>
-    </div>
-
-    <div class="controls">
-      <input id="q" type="search" placeholder="Buscar por título o comprador…" />
-      <label>Score mínimo:
-        <input id="minScore" type="number" value="3" min="-20" max="50" />
-      </label>
-    </div>
-
     <table id="tbl">
       <thead>
         <tr>
           <th>Score</th>
+          <th>Revisada</th>
           <th>Título</th>
           <th>Comprador</th>
-          <th>Monto (CLP)</th>
+          <th>Monto</th>
           <th>Publicación</th>
+          <th>Cierre preguntas</th>
           <th>Cierre</th>
-          <th>Link</th>
+          <th>Acción</th>
         </tr>
       </thead>
-      <tbody></tbody>
+      <tbody id="tbody"></tbody>
     </table>
+
+    <p class="note">
+      “Marcar” crea un Issue en GitHub con label <code>reviewed</code>. El ETL diario marca como revisadas las oportunidades cuyo ID esté en esos issues.
+    </p>
   </main>
 
   <script src="app.js"></script>
