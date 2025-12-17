@@ -1,6 +1,246 @@
 [
   {
     "source": "licitaciones",
+    "id": "1057489-550-LP25",
+    "title": "Servicios Especializados de Ecocardiografías por un período de treinta y seis 36 meses para el Hospital del Salvador",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 201000000.0,
+    "published_at": "2025-12-04T13:54:01.03",
+    "close_at": "2025-12-26T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 12,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 4.166666666666667,
+        "amount_0_10": 10.0,
+        "total_0_10": 5.916666666666666,
+        "display_max": 20,
+        "display_score": 12
+      },
+      "keywords": {
+        "include_points": 5.0,
+        "exclude_points": 0.0,
+        "raw_points": 5.0,
+        "max_points": 12.0,
+        "score_0_10": 4.166666666666667,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          },
+          {
+            "pattern": "\\bdiagn[oó]stico(s)?\\b",
+            "weight": 3.0,
+            "note": "Diagnósticos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 201000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-550-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057500-86-LP25",
+    "title": "S. DE EVALUACIÓN Y TRATAMIENTO INTEGRAL TEA",
+    "buyer": "SERVICIO DE SALUD METROPOLITANO SUR ORIENTE",
+    "amount_clp": 144705000.0,
+    "published_at": "2025-12-09T12:45:27.63",
+    "close_at": "2025-12-29T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 10,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 10.0,
+        "total_0_10": 4.75,
+        "display_max": 20,
+        "display_score": 10
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 144705000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057500-86-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-238-LP25",
+    "title": "SER MEDICOS DE BIOPSIA CORE Y ECOGRAFIA MAMMARIA",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 151580000.0,
+    "published_at": "2025-11-24T09:21:49.94",
+    "close_at": "2025-12-18T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 10,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 10.0,
+        "total_0_10": 4.75,
+        "display_max": 20,
+        "display_score": 10
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bdiagn[oó]stico(s)?\\b",
+            "weight": 3.0,
+            "note": "Diagnósticos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 151580000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-238-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057500-82-LR25",
+    "title": "RENOVACIÓN PLATAFORMAS RESPALDO Y VIRTUALIZACIÓN",
+    "buyer": "SERVICIO DE SALUD METROPOLITANO SUR ORIENTE",
+    "amount_clp": 600000000.0,
+    "published_at": "2025-11-17T12:32:24.81",
+    "close_at": "2025-12-17T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 8,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.6666666666666665,
+        "amount_0_10": 10.0,
+        "total_0_10": 4.166666666666666,
+        "display_max": 20,
+        "display_score": 8
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 12.0,
+        "score_0_10": 1.6666666666666665,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b",
+            "weight": 2.0,
+            "note": "Capacitación / cursos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 600000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057500-82-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-516-LE25",
+    "title": "INSUMOS DE NEUROTRAUMA EMERGENCIAS Y DIAGNOSTICO",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 55000000.0,
+    "published_at": "2025-12-15T16:35:21.84",
+    "close_at": "2025-12-26T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 8,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 3.892857142857143,
+        "display_max": 20,
+        "display_score": 8
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bdiagn[oó]stico(s)?\\b",
+            "weight": 3.0,
+            "note": "Diagnósticos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 55000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-516-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "1004823-30-LR25",
     "title": "Construcción del Centro de Formación Técnica de la",
     "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE COQUIMBO",
@@ -232,6 +472,58 @@
       }
     },
     "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1019-153-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1019-156-LP25",
+    "title": "SERVICIO DE ASEO INTEGRAL",
+    "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+    "amount_clp": 300000000.0,
+    "published_at": "2025-12-16T15:53:40.723",
+    "close_at": "2026-01-05T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 8.0,
+        "raw_points": -8.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          },
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 300000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1019-156-LP25"
   },
   {
     "source": "licitaciones",
@@ -775,6 +1067,3576 @@
   },
   {
     "source": "licitaciones",
+    "id": "1057390-84-LP25",
+    "title": "CONVENIO SERVICIO DE ASEO H. CURACAUTÍN 2026",
+    "buyer": "SERVICIO DE SALUD ARAUCANIA NORTE",
+    "amount_clp": 160000000.0,
+    "published_at": "2025-12-11T10:26:57.337",
+    "close_at": "2025-12-31T09:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 160000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057390-84-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057390-85-LP25",
+    "title": "SERV. DE GUARDIAS Y SEGURIDAD H. CURACAUTÍN 2026",
+    "buyer": "SERVICIO DE SALUD ARAUCANIA NORTE",
+    "amount_clp": 270000000.0,
+    "published_at": "2025-12-15T17:41:35.27",
+    "close_at": "2026-01-02T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 270000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057390-85-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057404-94-LP25",
+    "title": "SERVICIO DE SEGURIDAD Y VIGILANCIA PARA EL HOSPITA",
+    "buyer": "SERVICIO DE SALUD ARAUCO HOSPITAL DE ARAUCO",
+    "amount_clp": 334866000.0,
+    "published_at": "2025-12-01T10:08:01.67",
+    "close_at": "2025-12-22T16:21:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 334866000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057404-94-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057417-279-LR25",
+    "title": "Convenio Suministro de Sillas de Ruedas",
+    "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+    "amount_clp": 508497456.0,
+    "published_at": "2025-11-27T14:23:48.52",
+    "close_at": "2025-12-29T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 508497456.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057417-279-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057417-394-LP25",
+    "title": "CONVENIO DE MANTENCIÓN PREVENTIVA Y CORRECTIVA DE LOS EQUIPOS MÉDICOS ECÓGRAFOS",
+    "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+    "amount_clp": 236033280.0,
+    "published_at": "2025-12-03T17:19:49.66",
+    "close_at": "2025-12-23T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 236033280.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057417-394-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057417-401-LP25",
+    "title": "ADQUISICIÓN INSTRUMENTAL QUIRÚRGICO UROLÓGICO",
+    "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+    "amount_clp": 100000000.0,
+    "published_at": "2025-12-02T11:16:45.093",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 100000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057417-401-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057418-37-LE25",
+    "title": "CONVENIO PARA EL SERVICIO DE ATENCION A PARTICIPANTES DE CAPACITACIÓN Y OTROS DEL HOSPITAL MULCHÉN POR 36 MESES",
+    "buyer": "SERVICIO DE SALUD BIO BIO HOSPITAL DE MULCHEN",
+    "amount_clp": 30000000.0,
+    "published_at": "2025-12-11T11:23:03.13",
+    "close_at": "2025-12-22T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.6666666666666665,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 2.8809523809523805,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 12.0,
+        "score_0_10": 1.6666666666666665,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b",
+            "weight": 2.0,
+            "note": "Capacitación / cursos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 30000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057418-37-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057432-100-LR25",
+    "title": "SERVICIO DE VIGILANCIA CON GUARDIAS PARA LA DSSC",
+    "buyer": "SERVICIO DE SALUD CONCEPCION",
+    "amount_clp": 828240000.0,
+    "published_at": "2025-12-05T10:46:00.247",
+    "close_at": "2026-01-05T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 828240000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057432-100-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057468-15-LP25",
+    "title": "Contratación del servicio de aseo para COSAM Lo Errázuriz",
+    "buyer": "SERVICIO DE SALUD METROPOLITANO CENTRAL",
+    "amount_clp": 115000000.0,
+    "published_at": "2025-12-15T10:46:48.35",
+    "close_at": "2026-01-05T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 115000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057468-15-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057480-83-LP25",
+    "title": "Compra de Ropa Clínica y Ropa Hospitalaria para el Hospital San José de Melipilla.",
+    "buyer": "Hospital de Melipilla",
+    "amount_clp": 340000000.0,
+    "published_at": "2025-12-02T14:48:46.74",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 340000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057480-83-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057480-87-LP25",
+    "title": "Servicios De Casa De Acogida Para Pacientes Del Hospital De Melipilla.",
+    "buyer": "Hospital de Melipilla",
+    "amount_clp": 347000000.0,
+    "published_at": "2025-12-12T15:51:16.633",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 347000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057480-87-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-533-LR25",
+    "title": "S. REACTIVOS E INSUMOS PARA ÁNALISIS AUTOMATIZADO.",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 1349834385.0,
+    "published_at": "2025-11-21T15:40:47.46",
+    "close_at": "2025-12-22T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bequipamiento\\b|\\bdispositivo(s)?\\b|\\bmaquinari(a|as)\\b",
+            "weight": 4.0,
+            "note": "Equipamiento (genérico)"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 1349834385.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-533-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-537-I225",
+    "title": "Servicios de Personal Administrativo de Apoyo para diversas Unidades Administrativas y Clínicas del Hospital del Salvador",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 593000000.0,
+    "published_at": "2025-11-25T15:46:30.56",
+    "close_at": "2025-12-29T15:10:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 593000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-537-I225"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-547-LP25",
+    "title": "Servicio de Almacenamiento Custodia y destrucción segura de Documentos y Fichas Clínicas del HdS ",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 320000000.0,
+    "published_at": "2025-12-03T09:04:05.9",
+    "close_at": "2025-12-23T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 320000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-547-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-548-LP25",
+    "title": "SERVICIO DE HORAS DE ENFERMERÍA PARA GESTIÓN DE CAMAS DEL HOSPITAL DEL SALVADOR.",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 218000000.0,
+    "published_at": "2025-12-03T12:36:32.41",
+    "close_at": "2025-12-23T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 218000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-548-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-549-LP25",
+    "title": "CONVENIO DE SUMINISTRO DE INSUMOS PARA OFTALMOLOGÍA POR 36 MESES PARA HOSPITAL DEL SALVADOR.",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 250768652.0,
+    "published_at": "2025-12-03T17:18:47.333",
+    "close_at": "2025-12-24T11:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 250768652.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-549-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-551-LP25",
+    "title": "Servicio de Higiene de exteriores parques cuidado de jardines corte de ramas y tala de urgencia de árboles del HdS” por un periodo de veinticuatro 24 meses",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 180000000.0,
+    "published_at": "2025-12-05T12:09:57.86",
+    "close_at": "2025-12-26T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 8.0,
+        "raw_points": -8.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          },
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 180000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-551-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-552-LP25",
+    "title": "Convenio de Suministro de Insumos para Sistema Robótico Quirúrgico con incorporación de equipamiento por 5 meses para Hospital del Salvador",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 343000000.0,
+    "published_at": "2025-12-09T10:41:04.98",
+    "close_at": "2025-12-29T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 10.0,
+        "raw_points": -10.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          },
+          {
+            "pattern": "\\bequipamiento\\b|\\bdispositivo(s)?\\b|\\bmaquinari(a|as)\\b",
+            "weight": 4.0,
+            "note": "Equipamiento (genérico)"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 343000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-552-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-555-LR25",
+    "title": "Convenio de Suministro de Insumos para Cirugía de Cataratas por 36 meses para Hospital del Salvador",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 4927452040.0,
+    "published_at": "2025-12-11T09:05:53.44",
+    "close_at": "2026-01-12T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 4927452040.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-555-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-557-LP25",
+    "title": "Convenio de Suministro de Kit Cirugía de Manga Gástrica por 36 meses para Hospital del Salvador ",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 160000000.0,
+    "published_at": "2025-12-15T14:57:41.06",
+    "close_at": "2026-01-05T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 160000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-557-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-558-LP25",
+    "title": "REEMPLZOS HORAS MÉDICAS UPC PARA EL HDS",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 302400000.0,
+    "published_at": "2025-12-15T18:13:48.457",
+    "close_at": "2026-01-06T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 302400000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-558-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-560-LR25",
+    "title": "CONVENIO DE SUMINISTRO DE STAPLER LINEAL ENGRAPADORAS Y RECARGAS PARA CIRUGÍA ABIERTA CON INCORPORACIÓN DE INSTRUMENTAL POR 36 MESES PARA HOSPITAL DEL SALVADOR.",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 815507000.0,
+    "published_at": "2025-12-16T12:08:12.803",
+    "close_at": "2026-01-15T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 815507000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-560-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-561-I225",
+    "title": "Servicio de Medicina Oftalmológica en Unidad de Trauma Ocular del Hospital del Salvador",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 380000000.0,
+    "published_at": "2025-12-16T12:32:55.95",
+    "close_at": "2026-01-16T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 380000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-561-I225"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057503-133-LR25",
+    "title": "Test Reportado de Gases en Sangre y Electrolitos",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 2100000000.0,
+    "published_at": "2025-11-24T16:54:33.567",
+    "close_at": "2026-01-05T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bequipamiento\\b|\\bdispositivo(s)?\\b|\\bmaquinari(a|as)\\b",
+            "weight": 4.0,
+            "note": "Equipamiento (genérico)"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 2100000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057503-133-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057503-134-LR25",
+    "title": "Adquisición de Pinzas Quirúrgicas de Ultrasonido",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 674000000.0,
+    "published_at": "2025-11-25T11:51:28.18",
+    "close_at": "2025-12-26T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 674000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057503-134-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057503-136-LR25",
+    "title": "Adquisición de Kit de Insumos con Equipos en Comodato para Cirugías de Enucleación y Morcelación de la Próstata y Cirugía Percutánea de Litiasis Urinaria por Convenio de Suministro para el Hospital Padre Alberto Hurtado",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 674000000.0,
+    "published_at": "2025-12-03T16:19:57.55",
+    "close_at": "2026-01-05T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 674000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057503-136-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057503-137-LP25",
+    "title": "Adquisición de Cintas y Sensores para Determinación de Glucosa Insumos Asociados y Equipos en Comodato por Sistema de Suministro para el Hospital Padre Alberto Hurtado",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 337000000.0,
+    "published_at": "2025-12-03T17:09:09.487",
+    "close_at": "2025-12-23T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 337000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057503-137-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057503-138-LP25",
+    "title": "Adquisición de Medios de Cultivo para Microbiología por Convenio de Suministro con Equipo en Comodato ",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 192000000.0,
+    "published_at": "2025-12-05T08:09:58.117",
+    "close_at": "2025-12-26T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 192000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057503-138-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057503-142-LP25",
+    "title": "Adquisición de Insumos para Toma de Muestra de Laboratorio por Sistema de Suministro para el Hospital Padre Alberto Hurtado",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 337000000.0,
+    "published_at": "2025-12-15T12:27:11.517",
+    "close_at": "2026-01-05T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 337000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057503-142-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057508-104-LP25",
+    "title": "Servicio de Residencia Protegida para Usuarios SSÑ",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 315100000.0,
+    "published_at": "2025-12-10T14:46:52.787",
+    "close_at": "2025-12-30T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 315100000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057508-104-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057509-372-LP25",
+    "title": "CONVENIO COMPRA DE SERVICIOS DE ANESTESIOLOGÍA PARA TURNOS DE URGENCIA fzv",
+    "buyer": "HOSPITAL CLINICO HERMINDA MARTIN",
+    "amount_clp": 229617000.0,
+    "published_at": "2025-12-16T10:20:05.407",
+    "close_at": "2025-12-29T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 229617000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057509-372-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057510-60-LP25",
+    "title": "CONVENIO MÓDULO APOYO GESTIÓN TIC PARA EL HOSPITAL DE SAN CARLOS DR. BENICIO ARZOLA MEDINA",
+    "buyer": "SERVICIO DE SALUD NUBLE HOSPITAL DE SAN CARLOS DR BENICIO ARZOLA MEDIN",
+    "amount_clp": 140372400.0,
+    "published_at": "2025-12-05T16:13:11.873",
+    "close_at": "2025-12-26T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 140372400.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057510-60-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057510-62-LR25",
+    "title": "CONVENIO COMPRA DE SERVICIOS HORAS DE PROFESIONALES MÉDICOS PARA DESARROLLO DE PRESTACIONES DEL HOSPITAL DE SAN CARLOS DR. BENICIO ARZOLA MEDINA",
+    "buyer": "SERVICIO DE SALUD NUBLE HOSPITAL DE SAN CARLOS DR BENICIO ARZOLA MEDIN",
+    "amount_clp": 672404880.0,
+    "published_at": "2025-12-12T16:55:22.09",
+    "close_at": "2026-01-12T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 672404880.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057510-62-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057536-177-LR25",
+    "title": "SERVICIO DE TRANSPORTE SANITARIO VIA AEREA",
+    "buyer": "SERVICIO SALUD DEL RELONCAVI",
+    "amount_clp": 400000000.0,
+    "published_at": "2025-11-19T14:55:00",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 3.0,
+        "raw_points": -3.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\btransporte\\b|\\bflete(s)?\\b|\\blog[ií]stic(a|o)\\b",
+            "weight": 3.0,
+            "note": "Logística / transporte"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 400000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057536-177-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057536-181-LR25",
+    "title": "SERVICIOS DE VIGILANCIA",
+    "buyer": "SERVICIO SALUD DEL RELONCAVI",
+    "amount_clp": 2448886344.0,
+    "published_at": "2025-11-25T15:47:27.063",
+    "close_at": "2025-12-29T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 2448886344.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057536-181-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-240-LR25",
+    "title": "CS Insumos Patología Litiásica con Eq. en Comodato",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 493875704.0,
+    "published_at": "2025-11-24T11:54:00",
+    "close_at": "2025-12-26T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 493875704.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-240-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-241-LP25",
+    "title": "SER DE JARDIN INFANTIL Y SALA CUNA EXTERNA HPM",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 183800000.0,
+    "published_at": "2025-11-24T10:17:34.55",
+    "close_at": "2025-12-18T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 183800000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-241-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-244-LR25",
+    "title": "Convenio Suministro de Insumos Apósitos y Torulas",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 423893000.0,
+    "published_at": "2025-12-03T10:54:00",
+    "close_at": "2026-01-06T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 423893000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-244-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-250-LR25",
+    "title": "Convenio Suministro Insumos para Oftalmología HPM",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 571184960.0,
+    "published_at": "2025-12-05T10:39:07.863",
+    "close_at": "2026-01-05T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 571184960.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-250-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-253-LR25",
+    "title": "RESOLUCIÓN INTEGRAL DE CIRUGÍA DE CATARATAS Y NUEV",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 663686800.0,
+    "published_at": "2025-12-05T11:51:36.39",
+    "close_at": "2026-01-06T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 6.0,
+        "exclude_points": 6.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [
+          {
+            "pattern": "\\bdiagn[oó]stico(s)?\\b",
+            "weight": 3.0,
+            "note": "Diagnósticos"
+          },
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 663686800.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-253-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-255-LP25",
+    "title": "SERVICIOS PROFESIONALES DEL ÁREA INFORMÁTICA HPM",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 130062240.0,
+    "published_at": "2025-12-11T10:19:50.32",
+    "close_at": "2026-01-06T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 3.0,
+        "raw_points": -3.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bservidor(es)?\\b|\\blicencia(s)?\\b|\\bsoftware\\b|\\bhardware\\b|\\bhosting\\b",
+            "weight": 3.0,
+            "note": "TI dura"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 130062240.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-255-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-257-LP25",
+    "title": "Convenio de Suministro de Catéteres Quimioterapia",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 279888000.0,
+    "published_at": "2025-12-15T11:09:51.5",
+    "close_at": "2026-01-05T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 279888000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-257-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057541-48-LR25",
+    "title": "SERVICIOS DIAS CAMA DE RESIDENCIA PROTEGIDA 2026",
+    "buyer": "DIRECCION SERVICIO DE SALUD TALCAHUANO",
+    "amount_clp": 577685500.0,
+    "published_at": "2025-11-13T15:55:00",
+    "close_at": "2025-12-17T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 577685500.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057541-48-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057544-409-LR25",
+    "title": "MANTENCIÓN PREVENTIVA DE RESONADOR MAGNÉTICO",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 350000000.0,
+    "published_at": "2025-11-20T11:33:52.173",
+    "close_at": "2025-12-22T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 350000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057544-409-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057544-422-LR25",
+    "title": "TRANSPORTE TIPO SEDÁN INCLUYENDO CONDUCTOR",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 620000000.0,
+    "published_at": "2025-12-04T11:57:03.897",
+    "close_at": "2026-01-05T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 3.0,
+        "raw_points": -3.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\btransporte\\b|\\bflete(s)?\\b|\\blog[ií]stic(a|o)\\b",
+            "weight": 3.0,
+            "note": "Logística / transporte"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 620000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057544-422-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057544-425-LR25",
+    "title": "Servicio de Arriendo de Impresoras Multifuncionales y Compra de Consumibles",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 394000000.0,
+    "published_at": "2025-12-09T09:00:31.197",
+    "close_at": "2026-01-08T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 394000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057544-425-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057545-105-LR25",
+    "title": "Contratación de servicios arriendo UHCIP del HBV",
+    "buyer": "SERVICIO DE SALUD LOS RIOS",
+    "amount_clp": 1516322304.0,
+    "published_at": "2025-11-18T16:48:55.89",
+    "close_at": "2026-01-05T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 1516322304.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057545-105-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-484-LR25",
+    "title": "CONVENIO SUMINISTRO INSUMOS DE CURACION",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 410000000.0,
+    "published_at": "2025-11-18T16:19:30.34",
+    "close_at": "2025-12-18T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 410000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-484-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-490-LR25",
+    "title": "COMPRA SERV PARA PROCEDIMIENTOS ENDOSCOPIA DIGEST.",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 650000000.0,
+    "published_at": "2025-11-24T09:18:37.297",
+    "close_at": "2025-12-26T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 650000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-490-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-498-LR25",
+    "title": "CONVENIO DE SUMINISTRO DE EXÁMENES DE LABORATORIO",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 530000000.0,
+    "published_at": "2025-12-09T15:41:17.963",
+    "close_at": "2026-01-08T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 530000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-498-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-499-LP25",
+    "title": "COMPRA SERVICIOS PROCEDIMIENTO COLANGIOPANCREATOGR",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 337000000.0,
+    "published_at": "2025-12-11T16:47:34.677",
+    "close_at": "2025-12-22T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 337000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-499-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-500-LR25",
+    "title": "CONVENIO DE INSUMOS PARA EQUIPO FACOEMULSIFICADOR",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 338000000.0,
+    "published_at": "2025-12-10T11:28:35.18",
+    "close_at": "2026-01-09T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 338000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-500-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-504-LR25",
+    "title": "ADQUISICIÓN DE TIRAS REACTIVAS",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 660000000.0,
+    "published_at": "2025-12-10T17:02:58.323",
+    "close_at": "2026-01-09T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 660000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-504-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-505-LP25",
+    "title": "CONV. MANT. PREV.CORRECT. UMA BOMBAS CALOR CHILLER",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 191107575.0,
+    "published_at": "2025-12-11T09:35:17.37",
+    "close_at": "2025-12-24T11:55:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 191107575.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-505-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-510-LP25",
+    "title": "CONV. MANTEN. PREVENT. Y CORRECT. EQUIPOS CRITICOS",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 200000000.0,
+    "published_at": "2025-12-12T09:31:56.537",
+    "close_at": "2025-12-24T11:55:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 200000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-510-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-517-LR25",
+    "title": "SUMINISTRO PARA LA DETECCIÓN DE PATÓGENOS",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 450000000.0,
+    "published_at": "2025-12-15T16:51:01.663",
+    "close_at": "2026-01-14T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 450000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-517-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-521-LP25",
+    "title": "CONVENIO SUMINISTRO DE RADIOYODO I-131",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 295000000.0,
+    "published_at": "2025-12-16T20:13:18.777",
+    "close_at": "2026-01-06T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 295000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-521-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-71-LR25",
+    "title": "ADQUISICIÓN INSTRUMENTAL ESPECIALIDAD DE PABELLÓN",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 547399000.0,
+    "published_at": "2025-11-20T16:44:37.693",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 547399000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-71-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-73-LR25",
+    "title": "ADQUISICIÓN DE MONITOREO 2 PARA EL NUEVO HOSPITAL",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 1244938000.0,
+    "published_at": "2025-11-17T16:41:00",
+    "close_at": "2025-12-29T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 1244938000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-73-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-74-LP25",
+    "title": "ADQUISICIÓN EQUIPOS CARDIOLOGÍA COMPLEMENTARIO PARA EL NUEVO HOSPITAL REGIONAL DE ÑUBLE.",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 142000000.0,
+    "published_at": "2025-12-01T10:52:27.27",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 142000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-74-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-79-LR25",
+    "title": "ADQ. MOBILIARIO CLÍNICO DE ACERO INOXIDABLE HRÑ",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 371955000.0,
+    "published_at": "2025-11-26T09:34:00",
+    "close_at": "2026-01-05T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bequipamiento\\b|\\bdispositivo(s)?\\b|\\bmaquinari(a|as)\\b",
+            "weight": 4.0,
+            "note": "Equipamiento (genérico)"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 371955000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-79-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-80-LP25",
+    "title": "ADQUISICIÓN DE EQUIPO Y EQUIPAMIENTO DE OFTALMOLOGÍA PARA EL NUEVO HOSPITAL REGIONAL DE ÑUBLE",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 171884000.0,
+    "published_at": "2025-12-02T15:22:41.48",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bequipamiento\\b|\\bdispositivo(s)?\\b|\\bmaquinari(a|as)\\b",
+            "weight": 4.0,
+            "note": "Equipamiento (genérico)"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 171884000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-80-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-86-LR25",
+    "title": "ADQUISICIÓN INSTRUMENTAL LAPAROSCOPÍA HRÑ",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 819497000.0,
+    "published_at": "2025-12-03T16:50:00",
+    "close_at": "2026-01-05T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 819497000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-86-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-89-LR25",
+    "title": "ADQUISICIÓN INSTRUMENTAL OTORRINO LAPAROSCOPICO HR",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 443485000.0,
+    "published_at": "2025-12-12T15:49:04.453",
+    "close_at": "2026-01-12T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 443485000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-89-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-94-LR25",
+    "title": "ADQUISICIÓN INSTRUMENTAL OTORRINO PARA EL NUEVO HOSPITAL REGIONAL DE ÑUBLE",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 558587000.0,
+    "published_at": "2025-12-16T16:34:24.713",
+    "close_at": "2026-01-15T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 558587000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-94-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057977-21-I225",
+    "title": "Centro de Salud Mental Comunitaria Alerce",
+    "buyer": "SERVICIO SALUD DEL RELONCAVI",
+    "amount_clp": 5271376000.0,
+    "published_at": "2025-11-14T12:25:44.957",
+    "close_at": "2026-01-07T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 5271376000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057977-21-I225"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057979-17-LP25",
+    "title": "HABILITACIÓN GIMNASIO UNIDAD NEUROLOGÍA HOSPITAL LAS HIGUERAS DE TALCAHUANO",
+    "buyer": "DIRECCION SERVICIO DE SALUD TALCAHUANO",
+    "amount_clp": 220000000.0,
+    "published_at": "2025-12-01T16:24:27.833",
+    "close_at": "2025-12-22T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 220000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057979-17-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058024-26-LR25",
+    "title": "CONVENIO SUMINISTRO FÁRMACOS RESPIRATORIOS",
+    "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+    "amount_clp": 591000000.0,
+    "published_at": "2025-12-01T17:19:04.367",
+    "close_at": "2026-01-02T18:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 591000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058024-26-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058024-27-LR25",
+    "title": "CONVENIO SUMINISTRO NUTRICIONES PRE-LLENADAS E INYECTABLES",
+    "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+    "amount_clp": 562000000.0,
+    "published_at": "2025-12-10T10:52:07.117",
+    "close_at": "2026-01-09T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 562000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058024-27-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058085-275-LR25",
+    "title": "CONVENIO DE SUMINISTRO DE RITUXIMAB PARA EL HDS",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 3534669376.0,
+    "published_at": "2025-11-27T11:26:05.67",
+    "close_at": "2025-12-30T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 3534669376.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058085-275-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058085-277-LP25",
+    "title": "CONVENIO SUMINISTRO DE LIDOCAÍNA PARCHE TRANSDÉRMICO CASO DE NO DESPACHO DE CENABAST PARA EL HOSPITAL DEL SALVADOR.",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 100000000.0,
+    "published_at": "2025-12-11T15:37:01.11",
+    "close_at": "2025-12-22T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 100000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058085-277-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058085-278-LP25",
+    "title": "CONVENIO SUMINISTRO DE MEDICAMENTOS ONCOLÓGICOS G-6 EN CASO DE NO DESPACHO DE CENABAST PARA EL HOSPITAL DEL SALVADOR.",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 347000000.0,
+    "published_at": "2025-12-11T16:48:33.543",
+    "close_at": "2025-12-31T11:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 347000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058085-278-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058087-35-LP25",
+    "title": "SUMINISTRO DE MEDICAMENTO DEXRAZOXANO 500 MG FA IV",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+    "amount_clp": 168000000.0,
+    "published_at": "2025-12-09T17:20:02.57",
+    "close_at": "2025-12-29T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 168000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058087-35-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058087-36-LP25",
+    "title": "SUMINISTRO DE MEDICAMENTO PEGASPARGASA 3.750 UI",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+    "amount_clp": 236000000.0,
+    "published_at": "2025-12-10T12:48:13.9",
+    "close_at": "2025-12-30T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 236000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058087-36-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058097-16-LR25",
+    "title": "Adquisición de Sueros por Convenio de Suministro",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 674000000.0,
+    "published_at": "2025-11-20T09:05:14.153",
+    "close_at": "2025-12-22T16:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 674000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058097-16-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058097-18-LR25",
+    "title": "Adquisición de Medios de Contraste",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 2990000000.0,
+    "published_at": "2025-12-10T16:34:31.007",
+    "close_at": "2026-01-12T16:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 2990000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058097-18-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058132-54-LR25",
+    "title": "Suministro de Medicamentos Uso Restringido XXXVI",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 530000000.0,
+    "published_at": "2025-11-17T14:29:21.893",
+    "close_at": "2025-12-18T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 530000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058132-54-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058132-58-LR25",
+    "title": "SUMINISTRO SOLUCIONES PARENTERALES Y AGUA BIDESTIL",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 384000000.0,
+    "published_at": "2025-12-01T15:02:13.15",
+    "close_at": "2026-01-02T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 384000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058132-58-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058134-141-LR25",
+    "title": "CONV. MEDICAMENTOS IMATINIB Y TREPROSTINIL",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 615000000.0,
+    "published_at": "2025-11-19T17:15:00",
+    "close_at": "2025-12-19T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 615000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058134-141-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058134-142-LR25",
+    "title": "CONV. SUMINISTRO MEDICAMENTOS ONCOLÓGICOS 7 -2025",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 500000000.0,
+    "published_at": "2025-11-20T17:13:00",
+    "close_at": "2025-12-22T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 500000000.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058134-142-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058339-16-LP25",
+    "title": "SS PRODUCCIÓN EVENTO X VERSIÓN EXPO HUARA 2026",
+    "buyer": "ILUSTRE MUNICIPALIDAD DE HUARA",
+    "amount_clp": 134400520.0,
+    "published_at": "2025-12-05T17:23:10.413",
+    "close_at": "2025-12-19T09:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 10.0,
+        "total_0_10": 3.0,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 134400520.0,
+        "band": "+100MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058339-16-LP25"
+  },
+  {
+    "source": "licitaciones",
     "id": "2479-2-LS10",
     "title": "Curso de perfeccionamiento sobre estrategias e instrumentos de evaluación para docentes",
     "buyer": "",
@@ -1097,6 +4959,586 @@
   },
   {
     "source": "licitaciones",
+    "id": "1057417-148-LP25",
+    "title": "CONVENIO DE MANTENCIÓN PREVENTIVA Y CORRECTIVA DE CAMAS UCI - UTI ",
+    "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+    "amount_clp": 77796250.0,
+    "published_at": "2025-11-25T17:37:00",
+    "close_at": "2025-12-19T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 77796250.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057417-148-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-553-LP25",
+    "title": "Convenio de Suministro de Kit de Cobertor Estéril para Transductor de ultrasonido Ecógrafo por 36 meses para Hospital del Salvador",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 89000000.0,
+    "published_at": "2025-12-09T15:39:20.88",
+    "close_at": "2025-12-29T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 89000000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-553-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057491-174-LP25",
+    "title": "ADQUISICIÓN DE DE ENDOPRÓTESIS E INSUMOS PARA CIRU",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+    "amount_clp": 80970000.0,
+    "published_at": "2025-11-28T12:35:00",
+    "close_at": "2025-12-19T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 80970000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057491-174-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057509-358-LP25",
+    "title": "CONVENIO SERVICIO DE AMBULANCIA AÉREA PARA TRASLADO DE PACIENTES fzv",
+    "buyer": "HOSPITAL CLINICO HERMINDA MARTIN",
+    "amount_clp": 82350000.0,
+    "published_at": "2025-12-02T10:58:57.2",
+    "close_at": "2025-12-22T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 82350000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057509-358-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057509-393-LP25",
+    "title": "CONVENIO DE SERVICIO DE AMBULANCIAS TERRESTRES PARA EL TRASLADO DE PACIENTES lbl",
+    "buyer": "HOSPITAL CLINICO HERMINDA MARTIN",
+    "amount_clp": 89060000.0,
+    "published_at": "2025-12-16T09:49:49.703",
+    "close_at": "2025-12-26T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 7.0,
+        "raw_points": -7.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\baseo\\b|\\blimpieza\\b|\\bseguridad\\b|\\bguardia(s)?\\b",
+            "weight": 4.0,
+            "note": "Aseo / seguridad"
+          },
+          {
+            "pattern": "\\btransporte\\b|\\bflete(s)?\\b|\\blog[ií]stic(a|o)\\b",
+            "weight": 3.0,
+            "note": "Logística / transporte"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 89060000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057509-393-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057532-109-LP25",
+    "title": "CONVENIO CONTROL DE PLAGAS DSSO 2026 Y 2027",
+    "buyer": "SERVICIO DE SALUD OSORNO",
+    "amount_clp": 95481792.0,
+    "published_at": "2025-12-12T18:12:58.447",
+    "close_at": "2026-01-02T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 95481792.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057532-109-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057533-4-LP25",
+    "title": "SERVICIO DE MOVILIZACIÓN DE FUNCIONARIOS 2026",
+    "buyer": "HOSPITAL DEL PERPETUO SOCORRO DE QUILACAHUIN",
+    "amount_clp": 81000000.0,
+    "published_at": "2025-12-04T12:59:00",
+    "close_at": "2025-12-24T11:50:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 81000000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057533-4-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057539-249-LP25",
+    "title": "suministro insumos desechables -central alimentaci",
+    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+    "amount_clp": 81795840.0,
+    "published_at": "2025-12-04T11:53:52.917",
+    "close_at": "2026-01-05T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 81795840.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-249-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-497-LP25",
+    "title": "CONV. MANT. PREV. Y CORREC CENTRAL MONITOREO Y MUL",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 91000000.0,
+    "published_at": "2025-12-09T16:57:30.787",
+    "close_at": "2025-12-29T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 91000000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-497-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-515-LP25",
+    "title": "TORNILLO CANULADO Y ORTESIS TERMOPLASTICA",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 72300000.0,
+    "published_at": "2025-12-15T16:10:57.847",
+    "close_at": "2026-01-05T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bcirug[ií]a(s)?\\b|\\bquir[uú]rgic(a|o|as|os)\\b|\\bcat[aá]rata(s)?\\b",
+            "weight": 6.0,
+            "note": "Prestaciones clínicas"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 72300000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-515-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-522-LP25",
+    "title": "COMPRA DE SERVICIOS DE SALA CUNA",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 82000000.0,
+    "published_at": "2025-12-16T20:48:48.423",
+    "close_at": "2025-12-29T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 82000000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-522-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-83-LP25",
+    "title": "ADQUISICIÓN DE PLESTIMÓGRAFO PULMONAR PARA EL NUEVO HOSPITAL REGIONAL DE ÑUBLE",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 91987000.0,
+    "published_at": "2025-12-12T15:03:50.81",
+    "close_at": "2026-01-02T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 91987000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-83-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-93-LP25",
+    "title": "ADQUISICIÓN DE PANELES SEPARADORES PARA EL NUEVO HOSPITAL REGIONAL DE ÑUBLE",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 81804000.0,
+    "published_at": "2025-12-15T12:21:09.427",
+    "close_at": "2026-01-05T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 2.571428571428571,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 81804000.0,
+        "band": "70–100MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-93-LP25"
+  },
+  {
+    "source": "licitaciones",
     "id": "624-27-LP25",
     "title": "CONSULTORÍA ESTUDIO PREFACTIBILIDAD",
     "buyer": "",
@@ -1289,12 +5731,100 @@
   },
   {
     "source": "licitaciones",
-    "id": "1057500-86-LP25",
-    "title": "S. DE EVALUACIÓN Y TRATAMIENTO INTEGRAL TEA",
-    "buyer": "",
+    "id": "1057390-80-LE25",
+    "title": "ARRIENDO DE 14 EQUIPOS COMPUTACIONALES",
+    "buyer": "SERVICIO DE SALUD ARAUCANIA NORTE",
+    "amount_clp": 42940800.0,
+    "published_at": "2025-12-11T15:21:05.2",
+    "close_at": "2025-12-18T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 42940800.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057390-80-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057390-87-LE25",
+    "title": "CONVENIO DE SUMINISTRO INSULINAS 2025 SSAN 2",
+    "buyer": "SERVICIO DE SALUD ARAUCANIA NORTE",
+    "amount_clp": 50000000.0,
+    "published_at": "2025-12-05T09:51:00",
+    "close_at": "2025-12-18T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 50000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057390-87-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057430-76-LR25",
+    "title": "Convenio de Suministro de Frutas y Verduras",
+    "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
     "amount_clp": null,
-    "published_at": "",
-    "close_at": "2025-12-29T15:01:00",
+    "published_at": "2025-11-27T09:56:00.713",
+    "close_at": "2025-12-29T15:30:00",
     "questions_end_at": "",
     "reviewed": false,
     "score": 4,
@@ -1332,15 +5862,619 @@
         "score_0_10": 0.0
       }
     },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057500-86-LP25"
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057430-76-LR25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057430-77-LE25",
+    "title": "Convenio de Suministro Arriendo Fotocopiadora",
+    "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+    "amount_clp": null,
+    "published_at": "2025-12-12T10:51:54.137",
+    "close_at": "2025-12-22T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 0.0,
+        "total_0_10": 1.75,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057430-77-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057430-78-LP25",
+    "title": "Convenio Sumi. Alimentos Enterales Segundo Llamado",
+    "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+    "amount_clp": null,
+    "published_at": "2025-12-12T15:22:41.18",
+    "close_at": "2025-12-23T18:40:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 0.0,
+        "total_0_10": 1.75,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057430-78-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057472-210-LE25",
+    "title": "Suministro de insumos: Especialidades Ambulatorias",
+    "buyer": "HOSPITAL CLINICO METROPOLITANO EL CARMEN DOCTOR LUIS VALENTIN FERRADA",
+    "amount_clp": 67429000.0,
+    "published_at": "2025-12-16T16:56:23.86",
+    "close_at": "2025-12-26T18:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 67429000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057472-210-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-554-LE25",
+    "title": "SUMINISTRO CUBRE MANGOS DE LAMPARAS PARA EL HDS",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 63000000.0,
+    "published_at": "2025-12-09T16:56:38.693",
+    "close_at": "2025-12-22T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 63000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-554-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-556-LE25",
+    "title": "SUMINISTRO DE DRENAJES PABELLON PARA EL HDS",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 67100000.0,
+    "published_at": "2025-12-12T12:49:20.65",
+    "close_at": "2025-12-19T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 67100000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-556-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057489-559-LE25",
+    "title": "Servicio de arriendo de licencias de Microsoft 365 Apps for Business para Hospital del Salvador",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+    "amount_clp": 41650000.0,
+    "published_at": "2025-12-16T08:58:13.697",
+    "close_at": "2025-12-26T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 3.0,
+        "raw_points": -3.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bservidor(es)?\\b|\\blicencia(s)?\\b|\\bsoftware\\b|\\bhardware\\b|\\bhosting\\b",
+            "weight": 3.0,
+            "note": "TI dura"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 41650000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-559-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057496-43-LE25",
+    "title": "SERVICIO EXTERNO DE ESTERILIZACIÓN HSLBP",
+    "buyer": "SERVICIO DE SALUD SUR HOSPITAL SAN LUIS",
+    "amount_clp": 67294000.0,
+    "published_at": "2025-12-11T09:34:15.09",
+    "close_at": "2025-12-23T16:20:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 67294000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057496-43-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057499-86-LE25",
+    "title": "ADQ INSUMOS VENTILADOS",
+    "buyer": "SERVICIO DE SALUD SUR UNIDAD HOSPITALARI",
+    "amount_clp": 65000000.0,
+    "published_at": "2025-12-11T11:50:46.863",
+    "close_at": "2025-12-22T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 65000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057499-86-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057500-88-LE25",
+    "title": "PÓLIZAS DE SEGUROS PARA VEHÍCULOS INSTITUCIONALES",
+    "buyer": "SERVICIO DE SALUD METROPOLITANO SUR ORIENTE",
+    "amount_clp": 45000000.0,
+    "published_at": "2025-12-09T11:37:45.5",
+    "close_at": "2025-12-23T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 4.0,
+        "raw_points": -1.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 45000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057500-88-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057506-33-LE25",
+    "title": "SUMINISTRO ABARROTES PERECIBLES Y NO PERECIBLES HC",
+    "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE COELEMU",
+    "amount_clp": 69500000.0,
+    "published_at": "2025-12-10T08:56:58.42",
+    "close_at": "2025-12-22T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 69500000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057506-33-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057506-34-LE25",
+    "title": "SUMINISTRO FRUTASVERDURAS Y OTROS PARA EL HCSF",
+    "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE COELEMU",
+    "amount_clp": 44000000.0,
+    "published_at": "2025-12-10T09:29:53.27",
+    "close_at": "2025-12-22T15:06:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 44000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057506-34-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057506-35-LE25",
+    "title": "SERVICIOS PROFESIONALES AREA CLINICA PARA HCSF",
+    "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE COELEMU",
+    "amount_clp": 58000000.0,
+    "published_at": "2025-12-10T16:13:35.69",
+    "close_at": "2025-12-22T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 58000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057506-35-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057510-63-LE25",
+    "title": "SEGUNDO LLAMADO COMPRA SERVICIOS DE RESONANCIA NUCLEAR MAGNÉTICA CON ANESTESIA PARA HOSPITAL DE SAN CARLOS DR. BENICIO ARZOLA MEDINA",
+    "buyer": "SERVICIO DE SALUD NUBLE HOSPITAL DE SAN CARLOS DR BENICIO ARZOLA MEDIN",
+    "amount_clp": 50000000.0,
+    "published_at": "2025-12-11T16:18:34.157",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 50000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057510-63-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057513-20-LE25",
+    "title": "Servicios de Traslados para Hospital Quirihue",
+    "buyer": "SERVICIO DE SALUD NUBLE HOSPITAL DE QUIRIHUE",
+    "amount_clp": 65000000.0,
+    "published_at": "2025-12-12T17:17:18.877",
+    "close_at": "2025-12-22T19:46:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 65000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057513-20-LE25"
   },
   {
     "source": "licitaciones",
     "id": "1057532-123-CO25",
     "title": "ARRIENDO DE EQUIPOS PARA EL MONITOREO AMBULATORIO DE LA PRESIÓN ARTERIAL Y SERVICIO DE INFORMES: INTERPRETACIÓN Y DIAGNÓSTICO DEL MONITOREO AMBULATORIO DE PRESIÓN ARTERIAL HOLTER DE PRESIÓN ARTERIAL POR VÍA TELEMÁTICA PARA 16 ESTABLECIMIENTOS DE APS",
-    "buyer": "",
+    "buyer": "SERVICIO DE SALUD OSORNO",
     "amount_clp": null,
-    "published_at": "",
+    "published_at": "2025-12-09T11:14:09.123",
     "close_at": "2025-12-19T15:00:00",
     "questions_end_at": "",
     "reviewed": false,
@@ -1383,12 +6517,12 @@
   },
   {
     "source": "licitaciones",
-    "id": "1057547-516-LE25",
-    "title": "INSUMOS DE NEUROTRAUMA EMERGENCIAS Y DIAGNOSTICO",
-    "buyer": "",
+    "id": "1057540-134-LP25",
+    "title": "COMPRA DE SERVICIOS PROFESIONALES Y TECNICOS PARA EL CR APOYO DIAGNOSTICO Y TERAPEUTICO",
+    "buyer": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
     "amount_clp": null,
-    "published_at": "",
-    "close_at": "2025-12-26T19:00:00",
+    "published_at": "2025-12-16T14:46:40.203",
+    "close_at": "2025-12-26T15:30:00",
     "questions_end_at": "",
     "reviewed": false,
     "score": 4,
@@ -1426,7 +6560,300 @@
         "score_0_10": 0.0
       }
     },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-516-LE25"
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057540-134-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057544-428-CO25",
+    "title": "Contratación de Servicios Profesional y administrativos para el Área Finanzas del Hospital Las Higueras",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 58000000.0,
+    "published_at": "2025-12-09T09:03:41.733",
+    "close_at": "2025-12-23T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 58000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057544-428-CO25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057545-112-LE25",
+    "title": "Contratación de Servicios para Mantenimiento de Bombas Hidráulicas y Accesorios para Establecimientos dependientes del Servicio de Salud Los Ríos",
+    "buyer": "SERVICIO DE SALUD LOS RIOS",
+    "amount_clp": 53460750.0,
+    "published_at": "2025-12-12T16:09:00",
+    "close_at": "2025-12-26T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 53460750.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057545-112-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-501-LE25",
+    "title": "COMPRA SERV. MANTEN. PREVENTIVO COMPRESORES KAESER",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 44297800.0,
+    "published_at": "2025-12-10T12:52:43.61",
+    "close_at": "2025-12-22T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 44297800.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-501-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-512-LE25",
+    "title": "CONVEN. MANTEN. PREVENT. Y CORRECT. VENTILADORES MECANICOS NO INVASIVOS",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 54000000.0,
+    "published_at": "2025-12-12T10:23:11.36",
+    "close_at": "2025-12-18T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 54000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-512-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-513-LE25",
+    "title": "CONV. SUMINISTRO DE SILLAS Y MESAS",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 63000000.0,
+    "published_at": "2025-12-12T10:36:06.463",
+    "close_at": "2025-12-24T11:59:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 63000000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-513-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057898-82-LE25",
+    "title": "ADQUISICIÓN DE PISOS CLÍNICOS PARA EL NUEVO HOSPITAL REGIONAL ÑUBLE",
+    "buyer": "SERVICIO DE SALUD NUBLE",
+    "amount_clp": 55870000.0,
+    "published_at": "2025-12-03T09:23:00",
+    "close_at": "2025-12-23T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 2.142857142857143,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 55870000.0,
+        "band": "40–70MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057898-82-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1375760-2-LE25",
+    "title": "EVALUACIONES PSICOLABORALES SLEP VALLE CACHAPOAL",
+    "buyer": "",
+    "amount_clp": null,
+    "published_at": "",
+    "close_at": "2025-12-29T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 0.0,
+        "total_0_10": 1.75,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1375760-2-LE25"
   },
   {
     "source": "licitaciones",
@@ -1759,6 +7186,53 @@
   },
   {
     "source": "licitaciones",
+    "id": "730566-28-L125",
+    "title": "E1O2RT9 CONTRATACIÓN DE SUMINISTRO DE SERVICIOS DE COFFE BREAK PARA LA SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
+    "buyer": "",
+    "amount_clp": null,
+    "published_at": "",
+    "close_at": "2025-12-22T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 0.0,
+        "total_0_10": 1.75,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=730566-28-L125"
+  },
+  {
+    "source": "licitaciones",
     "id": "858-179-LE25",
     "title": "EVALUACIÓN PROYECTOS FONDEPORTE Y DONACIONES 2026",
     "buyer": "",
@@ -1850,6 +7324,53 @@
       }
     },
     "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=979-66-LP25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1001-49-LE25",
+    "title": "SUMINISTRO DE AGUA PURIFICADA EMBOTELLADA",
+    "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+    "amount_clp": 15000000.0,
+    "published_at": "2025-12-16T16:37:11.97",
+    "close_at": "2025-12-22T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 15000000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1001-49-LE25"
   },
   {
     "source": "licitaciones",
@@ -2160,5 +7681,924 @@
       }
     },
     "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1048-92-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057384-164-LE25",
+    "title": "SERVICIOS PROFESIONALES PARA UN PODOLOGO",
+    "buyer": "SERVICIO DE SALUD ANTOFAGASTA HOSPITAL M",
+    "amount_clp": 17160000.0,
+    "published_at": "2025-12-10T10:37:18.777",
+    "close_at": "2025-12-22T18:45:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 17160000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057384-164-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057419-42-LE25",
+    "title": "Convenio suministro de mantencion equipos de rayos",
+    "buyer": "SERVICIO DE SALUD BIO BIO HOSPITAL SANTA BARBARA",
+    "amount_clp": 15000000.0,
+    "published_at": "2025-12-11T17:23:40.793",
+    "close_at": "2025-12-22T19:50:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 15000000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057419-42-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057491-176-LE25",
+    "title": "ADQUISICION DE EQUIPOS MEDICOS GRUPO 1",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+    "amount_clp": 17500000.0,
+    "published_at": "2025-12-15T15:42:24.123",
+    "close_at": "2025-12-29T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 17500000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057491-176-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057491-177-LE25",
+    "title": "ADQUISICIÓN POR SISTEMA DE SUMINISTRO EN MODALIDA",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+    "amount_clp": 32000000.0,
+    "published_at": "2025-12-16T11:11:17.137",
+    "close_at": "2025-12-29T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 32000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057491-177-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057503-141-LE25",
+    "title": "Adquisición de Cubetas de Medición de Hemoglobina con Equipos en Comodato por Sistema de Suministro para el Hospital Padre Alberto Hurtado",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+    "amount_clp": 30000000.0,
+    "published_at": "2025-12-12T13:45:07.03",
+    "close_at": "2025-12-22T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 30000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057503-141-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057506-36-LE25",
+    "title": "SERVICIOS TECNÓLOGO MEDICO PARA HOSPITAL COELEMU",
+    "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE COELEMU",
+    "amount_clp": 10500000.0,
+    "published_at": "2025-12-10T16:36:58.71",
+    "close_at": "2025-12-22T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 10500000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057506-36-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057509-399-LE25",
+    "title": "CONVENIO DE MANTENCION PREVENTIVA Y REPARACION EQUIPO ESTABILIZADOR DE BAJA TEMPERATURA STERI-VAC lbl",
+    "buyer": "HOSPITAL CLINICO HERMINDA MARTIN",
+    "amount_clp": 17000000.0,
+    "published_at": "2025-12-16T11:51:00.813",
+    "close_at": "2025-12-26T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 17000000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057509-399-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057510-61-LE25",
+    "title": "CONVENIO DE SERVICIOS DE ARRIENDO DE VEHÍCULO PARA DEPARTAMENTO DE INGENIERÍA Y MANTENCIÓN INDUSTRIAL DEL HOSPITAL DE SAN CARLOS DR. BENICIO ARZOLA MEDINA",
+    "buyer": "SERVICIO DE SALUD NUBLE HOSPITAL DE SAN CARLOS DR BENICIO ARZOLA MEDIN",
+    "amount_clp": 16800000.0,
+    "published_at": "2025-12-10T15:49:41.973",
+    "close_at": "2025-12-22T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 10.0,
+        "raw_points": -10.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          },
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 16800000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057510-61-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057513-19-LE25",
+    "title": "Habilitación de Espacio para Programa AIDIA",
+    "buyer": "SERVICIO DE SALUD NUBLE HOSPITAL DE QUIRIHUE",
+    "amount_clp": 28500000.0,
+    "published_at": "2025-12-12T16:54:36.943",
+    "close_at": "2025-12-17T19:49:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 28500000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057513-19-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057533-3-LE25",
+    "title": "CONVENIO DE SUMINISTRO DE FRUTAS Y VERDURAS PARA EL AÑO 2026",
+    "buyer": "HOSPITAL DEL PERPETUO SOCORRO DE QUILACAHUIN",
+    "amount_clp": 27000000.0,
+    "published_at": "2025-12-11T16:28:49.393",
+    "close_at": "2025-12-19T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 27000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057533-3-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057536-191-LE25",
+    "title": "CAMILLA OFTALMOLOGICA - CRR HPM",
+    "buyer": "SERVICIO SALUD DEL RELONCAVI",
+    "amount_clp": 20000000.0,
+    "published_at": "2025-12-10T15:54:25.72",
+    "close_at": "2025-12-19T16:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 20000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057536-191-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057536-194-LE25",
+    "title": "MANTENIMIENTO CORRECTIVO SISTEMA DE AGUA POTABLE",
+    "buyer": "SERVICIO SALUD DEL RELONCAVI",
+    "amount_clp": 17909500.0,
+    "published_at": "2025-12-12T15:50:26.177",
+    "close_at": "2025-12-26T17:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 17909500.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057536-194-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057544-427-LE25",
+    "title": "Suministro de Sistema de Tubería para Insuflación y Extracción de Humo en Procedimientos de Pabellón",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 25000000.0,
+    "published_at": "2025-12-09T09:03:10.23",
+    "close_at": "2025-12-19T15:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 25000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057544-427-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-503-LE25",
+    "title": "COMPRA SERV. PERSONAL  APOYO PARA TRASPLANTE RENAL DONANTE CADAVER",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 17500000.0,
+    "published_at": "2025-12-10T16:56:00",
+    "close_at": "2025-12-17T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 17500000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-503-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-506-LE25",
+    "title": "CONV. ANALISIS BACTERIOLOGICO QUIMICO AGUA TRATADA",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 12805580.0,
+    "published_at": "2025-12-11T18:08:29.743",
+    "close_at": "2025-12-22T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 12805580.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-506-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-507-LE25",
+    "title": "CONVENIO MP Y MC EQUIPOS DE AIRE ACONDICIONADOS",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 32000000.0,
+    "published_at": "2025-12-11T18:07:15.657",
+    "close_at": "2025-12-22T19:00:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 0.0,
+        "raw_points": 0.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 32000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-507-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-509-LE25",
+    "title": "CONV. SUMINISTRO MANT SERVICIO RECARGAS EXTINTORES",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 26000000.0,
+    "published_at": "2025-12-12T09:13:33.927",
+    "close_at": "2025-12-24T11:59:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 4.0,
+        "raw_points": -4.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bobra(s)?\\b|\\bconstrucci[oó]n\\b|\\bmantenci[oó]n\\b|\\breparaci[oó]n\\b",
+            "weight": 4.0,
+            "note": "Obras / mantención"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 26000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-509-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1057547-511-LE25",
+    "title": "MP Y MC PARA INCUBADORA DE TRANSPORTE",
+    "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+    "amount_clp": 10591000.0,
+    "published_at": "2025-12-12T10:04:45.73",
+    "close_at": "2025-12-24T11:59:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 1.2857142857142856,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 3.0,
+        "raw_points": -3.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\btransporte\\b|\\bflete(s)?\\b|\\blog[ií]stic(a|o)\\b",
+            "weight": 3.0,
+            "note": "Logística / transporte"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 10591000.0,
+        "band": "10–20MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057547-511-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058023-11-LE25",
+    "title": "ADQ DE FÁRMACOS Y DISPOSITIVOS MÉDICOS PARA EL SSB",
+    "buyer": "SERVICIO DE SALUD BIO BIO",
+    "amount_clp": 32238450.0,
+    "published_at": "2025-12-16T09:53:04.09",
+    "close_at": "2025-12-22T15:30:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 10.0,
+        "raw_points": -10.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          },
+          {
+            "pattern": "\\bequipamiento\\b|\\bdispositivo(s)?\\b|\\bmaquinari(a|as)\\b",
+            "weight": 4.0,
+            "note": "Equipamiento (genérico)"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 32238450.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058023-11-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058132-60-LE25",
+    "title": "Compra por Suministro de Medicamentos Tabla 5 Grupo L",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 22000000.0,
+    "published_at": "2025-12-10T12:28:26.333",
+    "close_at": "2025-12-22T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 22000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058132-60-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "1058132-61-LE25",
+    "title": "Compra por Suministro Medios de Contraste",
+    "buyer": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+    "amount_clp": 29000000.0,
+    "published_at": "2025-12-15T08:57:04.907",
+    "close_at": "2025-12-26T15:01:00",
+    "questions_end_at": "",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 0.0,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 1.714285714285714,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "keywords": {
+        "include_points": 0.0,
+        "exclude_points": 6.0,
+        "raw_points": -6.0,
+        "max_points": 12.0,
+        "score_0_10": 0.0,
+        "include_hits": [],
+        "exclude_hits": [
+          {
+            "pattern": "\\bmedicamento(s)?\\b|\\bf[áa]rmaco(s)?\\b|\\binsumo(s)?\\s+m[eé]dico(s)?\\b",
+            "weight": 6.0,
+            "note": "Compras clínicas / insumos"
+          }
+        ]
+      },
+      "amount": {
+        "amount_clp": 29000000.0,
+        "band": "20–40MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1058132-61-LE25"
   }
 ]
