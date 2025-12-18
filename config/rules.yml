@@ -1,14 +1,14 @@
 thresholds:
-  show_min_score: 3          # umbral de visualización en dashboard
-  display_max_score: 20      # escala entera para mostrar (0..20)
+  show_min_score: 2          # TEMPORAL para calibración (luego lo subimos a 3)
+  display_max_score: 20
+  gate_on_keywords: true
 
 # Ponderaciones: 70% pertinencia / 30% monto
 weights:
   keywords: 0.70
   amount: 0.30
 
-# Tramos de monto (CLP) que tú definiste (+1..+7)
-# Nota: estos puntos se normalizan a 0..10 y luego se ponderan al 30%.
+# Tramos de monto (CLP) (+1..+7)
 amount_max_points: 7
 amount_bands:
   - label: "Hasta 5MM"
@@ -40,12 +40,12 @@ amount_bands:
     max: null
     points: 7
 
-# Keywords: el objetivo es estimar "pertinencia Periscopio"
-# Score keywords: (include - exclude), normalizado a 0..10 con max_points.
 keywords:
-  max_points: 12
+  # subimos un poco el techo para evitar que 2-3 hits saturen en 10/10
+  max_points: 16
 
   include:
+    # Core Periscopio (mantengo lo que ya tenías)
     - pattern: '\bencuest(a|as|ar|ado|ados)\b'
       weight: 4
       note: 'Encuestas'
@@ -80,19 +80,55 @@ keywords:
       weight: 3
       note: 'Cualitativo'
 
-  exclude:
-    - pattern: '\bcirug[ií]a(s)?\b|\bquir[uú]rgic(a|o|as|os)\b|\bcat[aá]rata(s)?\b'
+    # NUEVO: señales de proyectos/CTCI/política pública (para capturar Ciencia Pública)
+    - pattern: '\bciencia\s+p[uú]blica\b'
       weight: 6
+      note: 'Ciencia Pública (clave)'
+    - pattern: '\bctci\b|\bconocimiento\s+e\s+innovaci[oó]n\b|\binnovaci[oó]n\b'
+      weight: 4
+      note: 'CTCI / innovación'
+    - pattern: '\bproyecto(s)?\b.*\bcomunitari(a|o|as|os)\b|\bcomunidad(es)?\b'
+      weight: 4
+      note: 'Proyectos comunitarios / comunidad'
+    - pattern: '\btransferenci(a|ar)\b|\bfortalecimiento\s+de\s+capacidades\b|\bdesarrollo\s+de\s+capacidades\b'
+      weight: 3
+      note: 'Transferencia / capacidades'
+    - pattern: '\bsistematizaci[oó]n\b|\bmanual(es)?\b|\bgu[ií]a(s)?\b|\bprotocolo(s)?\b'
+      weight: 2
+      note: 'Sistematización / manuales / guías'
+    - pattern: '\bment(or|or[íi]a|ores)\b|\bacompa[nñ]amiento\b|\bcoaching\b'
+      weight: 2
+      note: 'Mentoría / acompañamiento'
+    - pattern: '\bdise[nñ]o\s+e\s+implementaci[oó]n\b|\bimplementaci[oó]n\b.*\bdise[nñ]o\b'
+      weight: 4
+      note: 'Diseño e implementación (frase típica)'
+
+    # NUEVO: “laboratorio” pero con peso bajo (porque es ambiguo)
+    - pattern: '\blaboratorio\b'
+      weight: 0.5
+      note: 'Laboratorio (ambigua; peso bajo)'
+
+  exclude:
+    # Clínico / prestaciones (mantengo y refuerzo)
+    - pattern: '\bcirug[ií]a(s)?\b|\bquir[uú]rgic(a|o|as|os)\b|\bcat[aá]rata(s)?\b'
+      weight: 7
       note: 'Prestaciones clínicas'
     - pattern: '\bmedicamento(s)?\b|\bf[áa]rmaco(s)?\b|\binsumo(s)?\s+m[eé]dico(s)?\b'
-      weight: 6
+      weight: 7
       note: 'Compras clínicas / insumos'
-    - pattern: '\bequipamiento\b|\bdispositivo(s)?\b|\bmaquinari(a|as)\b'
+
+    # NUEVO: infraestructura/equipamiento “de laboratorio” (para cortar tus falsos positivos #5 y #6)
+    - pattern: '\bc[aá]mara(s)?\b|\bmontura(s)?\b|\bequipamiento\b|\bdispositivo(s)?\b|\bmaquinari(a|as)\b|\binsumo(s)?\b'
+      weight: 6
+      note: 'Equipamiento / insumos (especialmente laboratorio físico)'
+    - pattern: '\bampliaci[oó]n\b|\bconstrucci[oó]n\b|\bobra(s)?\b|\bmantenci[oó]n\b|\breparaci[oó]n\b|\bremodelaci[oó]n\b'
+      weight: 6
+      note: 'Obras / ampliación / construcción'
+    - pattern: '\bcampus\b|\buniversidad\b.*\bcampus\b|\bobra\s+civil\b'
       weight: 4
-      note: 'Equipamiento (genérico)'
-    - pattern: '\bobra(s)?\b|\bconstrucci[oó]n\b|\bmantenci[oó]n\b|\breparaci[oó]n\b'
-      weight: 4
-      note: 'Obras / mantención'
+      note: 'Infraestructura en campus (proxy)'
+
+    # Servicios no foco
     - pattern: '\baseo\b|\blimpieza\b|\bseguridad\b|\bguardia(s)?\b'
       weight: 4
       note: 'Aseo / seguridad'
@@ -102,3 +138,17 @@ keywords:
     - pattern: '\bservidor(es)?\b|\blicencia(s)?\b|\bsoftware\b|\bhardware\b|\bhosting\b'
       weight: 3
       note: 'TI dura'
+    
+    #Laboratorio clinico
+    - pattern: '\blaboratorio\s+(cl[ií]nico|cl[ií]nica|odontol[oó]gico|dental)\b'
+      weight: 8
+      note: 'Laboratorio clínico / odontológico'
+    - pattern: '\bortodoncia\b|\bodontopediatr[ií]a\b|\bpr[oó]tesis\b|\bdental(es)?\b'
+      weight: 8
+      note: 'Odontología / dental'
+    
+    #Vehiculos / maquinaria pesada
+    - pattern: '\bcami[oó]n(es)?\b|\bcompactador(es)?\b|\bveh[ií]culo(s)?\b'
+      weight: 8
+      note: 'Vehículos / maquinaria pesada'
+
