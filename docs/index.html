@@ -6,6 +6,7 @@
   <title>Periscopio — Compras Públicas</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="container">
     <div class="header-row">
@@ -17,8 +18,9 @@
           <span id="counts">—</span>
         </div>
       </div>
+
       <div class="controls">
-        <input id="search" type="search" placeholder="Buscar (título, comprador, id)..." />
+        <input id="search" type="search" placeholder="Buscar (título, comprador, id, fuente)..." />
       </div>
     </div>
   </header>
@@ -27,17 +29,19 @@
     <table id="tbl">
       <thead>
         <tr>
-          <th>Score</th>
-          <th>Revisada</th>
+          <th data-sort="score">Score <span class="sort-indicator"></span></th>
+          <th data-sort="reviewed">Revisada <span class="sort-indicator"></span></th>
+          <th data-sort="source">Fuente <span class="sort-indicator"></span></th>
           <th>Título</th>
-          <th>Comprador</th>
-          <th>Monto</th>
-          <th>Publicación</th>
-          <th>Cierre preguntas</th>
-          <th>Cierre</th>
+          <th data-sort="buyer">Comprador <span class="sort-indicator"></span></th>
+          <th data-sort="amount">Monto <span class="sort-indicator"></span></th>
+          <th data-sort="published_at">Publicación <span class="sort-indicator"></span></th>
+          <th data-sort="questions_end_at">Cierre preguntas <span class="sort-indicator"></span></th>
+          <th data-sort="close_at">Cierre <span class="sort-indicator"></span></th>
           <th>Acción</th>
         </tr>
       </thead>
+
       <tbody id="tbody"></tbody>
     </table>
 
