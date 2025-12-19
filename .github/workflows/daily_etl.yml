@@ -3,7 +3,11 @@ name: Daily ETL
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 5 * * *" # 05:20 UTC (02:20 Chile, ajusta si quieres)
+    - cron: "20 5 * * *" # 05:20 UTC
+
+concurrency:
+  group: daily-etl-main
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -35,17 +39,29 @@ jobs:
         env:
           MP_TICKET: ${{ secrets.MP_TICKET }}
           MP_COMPRA_AGIL_API_KEY: ${{ secrets.MP_COMPRA_AGIL_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # se inyecta automáticamente
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CANDIDATES_TOP: "800"
           MAX_DETAIL: "400"
           DETAIL_SLEEP: "0.12"
         run: |
           python src/etl.py
 
+      - name: Debug sources
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          data=json.load(open("docs/data/opportunities.json","r",encoding="utf-8"))
+          c=Counter([o.get("source","(none)") for o in data])
+          print("Total:", len(data))
+          print("Por fuente:", dict(c))
+          PY
+
       - name: Commit and push data
         run: |
           git config user.name "periscopio-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data/meta.json docs/data/opportunities.json
+          git add docs/data/meta.json docs/data/opportunities.json docs/data/opportunities_registry.json
           git diff --cached --quiet || git commit -m "Daily update: data"
+          git pull --rebase origin main
           git push
