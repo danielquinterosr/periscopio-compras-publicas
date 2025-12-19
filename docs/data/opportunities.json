@@ -9,7 +9,7 @@
     "published_at": "2025-12-04T13:54:01.03",
     "questions_end_at": "2025-12-09T16:00:00",
     "close_at": "2025-12-26T16:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": true,
     "score": 10,
     "score_detail": {
@@ -67,7 +67,7 @@
     "published_at": "2025-12-09T12:45:27.63",
     "questions_end_at": "2025-12-15T12:00:00",
     "close_at": "2025-12-29T15:01:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 9,
     "score_detail": {
@@ -112,59 +112,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "1057539-238-LP25",
-    "title": "SER MEDICOS DE BIOPSIA CORE Y ECOGRAFIA MAMMARIA",
-    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
-    "status": "Publicada",
-    "amount_clp": 151580000.0,
-    "published_at": "2025-11-24T09:21:49.94",
-    "questions_end_at": "2025-12-01T15:00:00",
-    "close_at": "2025-12-18T15:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 9,
-    "score_detail": {
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.875,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.3125,
-        "display_max": 20,
-        "display_score": 9
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 16.0,
-        "score_0_10": 1.875,
-        "include_hits": [
-          {
-            "pattern": "\\bdiagn[oó]stico(s)?\\b",
-            "weight": 3.0,
-            "note": "Diagnósticos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 151580000.0,
-        "band": "+100MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057539-238-LP25"
-  },
-  {
-    "source": "licitaciones",
     "id": "1057509-372-LP25",
     "title": "CONVENIO COMPRA DE SERVICIOS DE ANESTESIOLOGÍA PARA TURNOS DE URGENCIA fzv",
     "buyer": "HOSPITAL CLINICO HERMINDA MARTIN",
@@ -173,7 +120,7 @@
     "published_at": "2025-12-16T10:20:05.407",
     "questions_end_at": "2025-12-22T10:00:00",
     "close_at": "2025-12-29T15:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 8,
     "score_detail": {
@@ -226,7 +173,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:01:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 6,
     "score_detail": {
@@ -284,7 +231,7 @@
     "published_at": "2025-12-11T11:23:03.13",
     "questions_end_at": "2025-12-16T15:00:00",
     "close_at": "2025-12-22T15:01:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -337,7 +284,7 @@
     "published_at": "2025-12-10T16:13:35.69",
     "questions_end_at": "2025-12-13T19:26:00",
     "close_at": "2025-12-22T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -443,7 +390,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:01:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -554,7 +501,7 @@
     "published_at": "2025-12-12T10:51:54.137",
     "questions_end_at": "2025-12-17T17:00:00",
     "close_at": "2025-12-22T16:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -612,7 +559,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:01:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -670,7 +617,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:30:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -786,7 +733,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T15:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -897,7 +844,7 @@
     "published_at": "2025-11-27T09:56:00.713",
     "questions_end_at": "2025-12-08T14:58:00",
     "close_at": "2025-12-29T15:30:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -950,7 +897,7 @@
     "published_at": "2025-12-12T15:22:00",
     "questions_end_at": "2025-12-18T19:54:00",
     "close_at": "2025-12-23T18:40:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1003,7 +950,7 @@
     "published_at": "2025-12-09T11:14:09.123",
     "questions_end_at": "2025-12-15T15:00:00",
     "close_at": "2025-12-19T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1056,7 +1003,7 @@
     "published_at": "2025-12-16T14:46:40.203",
     "questions_end_at": "2025-12-20T15:05:00",
     "close_at": "2025-12-26T15:30:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1109,7 +1056,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T16:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1162,7 +1109,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T16:21:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1215,7 +1162,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T15:30:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1268,7 +1215,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:01:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1321,7 +1268,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T15:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1479,8 +1426,8 @@
     "amount_clp": null,
     "published_at": "",
     "questions_end_at": "",
-    "close_at": "2025-12-18T16:44:00",
-    "dias_cierre_licitacion": 1,
+    "close_at": "2025-12-22T16:44:00",
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1533,7 +1480,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:01:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1639,7 +1586,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T20:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1692,7 +1639,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:30:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1745,7 +1692,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-19T15:01:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1798,7 +1745,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:01:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -1843,59 +1790,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "1002772-136-LR25",
-    "title": "CONVENIO DE SUMINISTRO DE CEPILLOS CANULADOS",
-    "buyer": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
-    "status": "Publicada",
-    "amount_clp": null,
-    "published_at": "2025-11-18T14:53:34.443",
-    "questions_end_at": "2025-11-25T15:30:00",
-    "close_at": "2025-12-18T16:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Sistematización / manuales / guías"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1002772-136-LR25"
-  },
-  {
-    "source": "licitaciones",
     "id": "1002772-140-LR25",
     "title": "SUMINISTRO DE TIJERAS ULTRASONICAS Y PINZA BIPOLAR",
     "buyer": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
@@ -1904,7 +1798,7 @@
     "published_at": "2025-11-26T15:51:03.077",
     "questions_end_at": "2025-12-03T16:30:00",
     "close_at": "2025-12-26T16:30:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -1957,7 +1851,7 @@
     "published_at": "2025-12-16T14:37:48.73",
     "questions_end_at": "2025-12-22T12:30:00",
     "close_at": "2025-12-30T15:00:00",
-    "dias_cierre_licitacion": 13,
+    "dias_cierre_licitacion": 12,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2010,7 +1904,7 @@
     "published_at": "2025-12-18T10:07:28.55",
     "questions_end_at": "2025-12-24T16:00:00",
     "close_at": "2026-01-02T16:00:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2063,7 +1957,7 @@
     "published_at": "2025-12-16T09:23:00",
     "questions_end_at": "2025-12-22T12:00:00",
     "close_at": "2026-01-05T15:30:00",
-    "dias_cierre_licitacion": 19,
+    "dias_cierre_licitacion": 18,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2116,7 +2010,7 @@
     "published_at": "2025-12-10T16:49:06.723",
     "questions_end_at": "2025-12-12T16:00:00",
     "close_at": "2025-12-22T16:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2169,7 +2063,7 @@
     "published_at": "2025-12-17T17:11:28.203",
     "questions_end_at": "2025-12-22T10:00:00",
     "close_at": "2026-01-07T15:00:00",
-    "dias_cierre_licitacion": 21,
+    "dias_cierre_licitacion": 20,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2222,7 +2116,7 @@
     "published_at": "2025-12-05T12:58:43.457",
     "questions_end_at": "2025-12-10T12:00:00",
     "close_at": "2025-12-26T15:01:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2275,7 +2169,7 @@
     "published_at": "2025-12-11T17:01:03.28",
     "questions_end_at": "2025-12-15T15:30:00",
     "close_at": "2025-12-22T15:01:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2328,7 +2222,7 @@
     "published_at": "2025-12-15T15:59:32.47",
     "questions_end_at": "2025-12-22T16:00:00",
     "close_at": "2025-12-30T17:00:00",
-    "dias_cierre_licitacion": 13,
+    "dias_cierre_licitacion": 12,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2381,7 +2275,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:30:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2434,7 +2328,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:40:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2593,7 +2487,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:01:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2646,7 +2540,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:01:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2752,7 +2646,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:01:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2805,7 +2699,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T18:30:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2858,7 +2752,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T18:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -2903,59 +2797,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "1469-287-L125",
-    "title": "SERVICIO DE CAPACITACIÓN EN LENGUA DE SEÑAS PARA PROFESIONALES PACE DE LA UNIVERSIDAD DE TALCA",
-    "buyer": "",
-    "status": "",
-    "amount_clp": null,
-    "published_at": "",
-    "questions_end_at": "",
-    "close_at": "2025-12-18T15:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b",
-            "weight": 2.0,
-            "note": "Capacitación / cursos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1469-287-L125"
-  },
-  {
-    "source": "licitaciones",
     "id": "1469-293-LE25",
     "title": "ADQUISICIÓN DE SERVICIO DE CONSULTORÍA Y DESARROLLO EN LOS MÓDULOS DE FINANZAS INTEGRACIONES ERP SAP PARA LA UNIVERSIDAD DE TALCA",
     "buyer": "",
@@ -2964,7 +2805,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-30T18:30:00",
-    "dias_cierre_licitacion": 13,
+    "dias_cierre_licitacion": 12,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3017,7 +2858,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3070,7 +2911,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3123,7 +2964,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-16T15:01:00",
-    "dias_cierre_licitacion": 30,
+    "dias_cierre_licitacion": 29,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3176,7 +3017,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T19:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3388,7 +3229,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:30:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3430,6 +3271,59 @@
       }
     },
     "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=2080-509-LE25"
+  },
+  {
+    "source": "licitaciones",
+    "id": "2126-183-LP25",
+    "title": "SERVICIOS DE ESTUDIOS E INFORMES DE BIOPSIAS ",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-20T16:00:00",
+    "dias_cierre_licitacion": 33,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=2126-183-LP25"
   },
   {
     "source": "licitaciones",
@@ -3494,7 +3388,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T15:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3547,7 +3441,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T16:08:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3592,59 +3486,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "2698-44-L125",
-    "title": "SERVICIO DE PRODUCCION CIERRE DE TALLERES",
-    "buyer": "",
-    "status": "",
-    "amount_clp": null,
-    "published_at": "",
-    "questions_end_at": "",
-    "close_at": "2025-12-18T14:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\btaller(es)?\\b",
-            "weight": 2.0,
-            "note": "Talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=2698-44-L125"
-  },
-  {
-    "source": "licitaciones",
     "id": "272-5-LE25",
     "title": "ESTUDIO PREFACTIBILIDAD AUMENTO CAUDAL DE AGUA",
     "buyer": "",
@@ -3653,7 +3494,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T15:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3706,7 +3547,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:01:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3759,7 +3600,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T20:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3804,59 +3645,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "3073-38-L125",
-    "title": "CONTRATACIÓN DE SERVICIO DE ASESORÍA PROFESIONAL DE PROFESOR DE EDUCACIÓN FÍSICA, PARA EL SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA",
-    "buyer": "",
-    "status": "",
-    "amount_clp": null,
-    "published_at": "",
-    "questions_end_at": "",
-    "close_at": "2025-12-18T15:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
-            "weight": 2.0,
-            "note": "Asesorías / consultorías"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=3073-38-L125"
-  },
-  {
-    "source": "licitaciones",
     "id": "3172-96-LE25",
     "title": "ESTUDIO DE MECÁNICA DE SUELOS RETÉN DIUMEN.",
     "buyer": "",
@@ -3865,7 +3653,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T16:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -3918,7 +3706,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T16:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4183,7 +3971,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-19T16:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4236,7 +4024,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:01:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4289,7 +4077,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T16:25:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4342,7 +4130,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T15:10:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4448,7 +4236,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-19T16:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4554,7 +4342,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-19T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4599,59 +4387,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "45-80-LR25",
-    "title": "RENOVACIÓN DEL SERVICIO INSTITUCIONAL DE OFICINA DE GESTIÓN DE PROYECTOS PMO PARA EL ACOMPAÑAMIENTO Y MONITOREO ESTRATÉGICO",
-    "buyer": "",
-    "status": "",
-    "amount_clp": null,
-    "published_at": "",
-    "questions_end_at": "",
-    "close_at": "2025-12-18T15:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\bment(or|or[íi]a|ores)\\b|\\bacompa[nñ]amiento\\b|\\bcoaching\\b",
-            "weight": 2.0,
-            "note": "Mentoría / acompañamiento"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=45-80-LR25"
-  },
-  {
-    "source": "licitaciones",
     "id": "4857-82-L125",
     "title": "Capacitacion Liderazgo Escuelas y el DAEM de Tirua",
     "buyer": "",
@@ -4660,7 +4395,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4713,7 +4448,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T16:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4766,7 +4501,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T20:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4819,7 +4554,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T20:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4872,7 +4607,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -4925,7 +4660,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-30T15:00:00",
-    "dias_cierre_licitacion": 13,
+    "dias_cierre_licitacion": 12,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5031,7 +4766,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-19T15:00:00",
-    "dias_cierre_licitacion": 33,
+    "dias_cierre_licitacion": 32,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5084,7 +4819,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-13T15:10:00",
-    "dias_cierre_licitacion": 27,
+    "dias_cierre_licitacion": 26,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5137,7 +4872,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-19T17:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5243,7 +4978,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-29T23:59:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5296,7 +5031,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5349,7 +5084,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:10:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5402,7 +5137,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T17:30:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5720,7 +5455,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-19T16:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5773,7 +5508,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-26T15:01:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5826,7 +5561,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-22T15:30:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5871,59 +5606,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "812261-86-LP25",
-    "title": "SERVICIO DE ASESORÍA JURÍDICA PARA EL HLF",
-    "buyer": "",
-    "status": "",
-    "amount_clp": null,
-    "published_at": "",
-    "questions_end_at": "",
-    "close_at": "2025-12-18T16:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
-            "weight": 2.0,
-            "note": "Asesorías / consultorías"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=812261-86-LP25"
-  },
-  {
-    "source": "licitaciones",
     "id": "966131-78-LE25",
     "title": "Estudio Base de Cartografía Castro",
     "buyer": "",
@@ -5932,7 +5614,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-06T14:28:00",
-    "dias_cierre_licitacion": 20,
+    "dias_cierre_licitacion": 19,
     "reviewed": false,
     "score": 2,
     "score_detail": {
