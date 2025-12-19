@@ -1453,7 +1453,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-08T13:01:00",
-    "dias_cierre_licitacion": 21,
+    "dias_cierre_licitacion": 20,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5279,6 +5279,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "621-1290-LE25",
+    "title": "CANULAS DE ASPIRACION MANUAL ENDOUTERINA POROGRAMA IVE 1000022060",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-02T16:00:00",
+    "dias_cierre_licitacion": 15,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
+            "weight": 2.0,
+            "note": "Sistematización / manuales / guías"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=621-1290-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "633-94-LE25",
     "title": "CONSULTORÍA DESARROLLO PROYECTOS BASE BRIGADA TIPO",
     "buyer": "",
@@ -5557,7 +5611,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T12:24:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5611,7 +5665,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T12:24:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5665,7 +5719,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T12:24:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5719,7 +5773,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T12:24:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -5773,7 +5827,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-23T12:24:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
