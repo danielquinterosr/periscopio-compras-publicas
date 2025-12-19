@@ -3,3 +3,9 @@ __pycache__/
 .DS_Store
 .env
 .cache/
+
+# Datos crudos / temporales
+data/*.xlsx
+data/**/*.xlsx
+docs/data/*.xlsx
+data/~$*.xlsx

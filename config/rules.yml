@@ -1,154 +1,226 @@
-thresholds:
-  show_min_score: 2          # TEMPORAL para calibración (luego lo subimos a 3)
-  display_max_score: 20
-  gate_on_keywords: true
+defaults:
+  thresholds:
+    show_min_score: 2
+    display_max_score: 20
 
-# Ponderaciones: 70% pertinencia / 30% monto
-weights:
-  keywords: 0.70
-  amount: 0.30
+by_source:
 
-# Tramos de monto (CLP) (+1..+7)
-amount_max_points: 7
-amount_bands:
-  - label: "Hasta 5MM"
-    min: 0
-    max: 5000000
-    points: 1
-  - label: "5–10MM"
-    min: 5000000
-    max: 10000000
-    points: 2
-  - label: "10–20MM"
-    min: 10000000
-    max: 20000000
-    points: 3
-  - label: "20–40MM"
-    min: 20000000
-    max: 40000000
-    points: 4
-  - label: "40–70MM"
-    min: 40000000
-    max: 70000000
-    points: 5
-  - label: "70–100MM"
-    min: 70000000
-    max: 100000000
-    points: 6
-  - label: "+100MM"
-    min: 100000000
-    max: null
-    points: 7
+  licitaciones:
+    thresholds:
+      show_min_score: 2
+      display_max_score: 20
+      gate_on_keywords: true
 
-keywords:
-  # subimos un poco el techo para evitar que 2-3 hits saturen en 10/10
-  max_points: 16
+    weights:
+      keywords: 0.70
+      amount: 0.30
 
-  include:
-    # Core Periscopio (mantengo lo que ya tenías)
-    - pattern: '\bencuest(a|as|ar|ado|ados)\b'
-      weight: 4
-      note: 'Encuestas'
-    - pattern: '\bestudio(s)?\b'
-      weight: 2
-      note: 'Estudios (genérico)'
-    - pattern: '\bdiagn[oó]stico(s)?\b'
-      weight: 3
-      note: 'Diagnósticos'
-    - pattern: '\bevaluaci[oó]n(es)?\b'
-      weight: 3
-      note: 'Evaluación'
-    - pattern: '\ban[aá]lisis\s+de\s+datos\b'
-      weight: 3
-      note: 'Análisis de datos'
-    - pattern: '\blevantamiento\s+de\s+informaci[oó]n\b'
-      weight: 3
-      note: 'Levantamiento'
-    - pattern: '\btaller(es)?\b'
-      weight: 2
-      note: 'Talleres'
-    - pattern: '\bcapacitaci[oó]n\b|\bcurso(s)?\b|\bformaci[oó]n\b'
-      weight: 2
-      note: 'Capacitación / cursos'
-    - pattern: '\basesor[ií]a(s)?\b|\bconsultor[ií]a(s)?\b'
-      weight: 2
-      note: 'Asesorías / consultorías'
-    - pattern: '\bclima\s+laboral\b|\bsatisfacci[oó]n\s+usuari(a|o)\b'
-      weight: 3
-      note: 'Clima laboral / satisfacción usuaria'
-    - pattern: '\bfocus\s*group\b|\bgrupo(s)?\s+focal(es)?\b'
-      weight: 3
-      note: 'Cualitativo'
+    amount_max_points: 7
+    amount_bands:
+      - label: "Hasta 5MM"
+        min: 0
+        max: 5000000
+        points: 1
+      - label: "5–10MM"
+        min: 5000000
+        max: 10000000
+        points: 2
+      - label: "10–20MM"
+        min: 10000000
+        max: 20000000
+        points: 3
+      - label: "20–40MM"
+        min: 20000000
+        max: 40000000
+        points: 4
+      - label: "40–70MM"
+        min: 40000000
+        max: 70000000
+        points: 5
+      - label: "70–100MM"
+        min: 70000000
+        max: 100000000
+        points: 6
+      - label: "+100MM"
+        min: 100000000
+        max: null
+        points: 7
 
-    # NUEVO: señales de proyectos/CTCI/política pública (para capturar Ciencia Pública)
-    - pattern: '\bciencia\s+p[uú]blica\b'
-      weight: 6
-      note: 'Ciencia Pública (clave)'
-    - pattern: '\bctci\b|\bconocimiento\s+e\s+innovaci[oó]n\b|\binnovaci[oó]n\b'
-      weight: 4
-      note: 'CTCI / innovación'
-    - pattern: '\bproyecto(s)?\b.*\bcomunitari(a|o|as|os)\b|\bcomunidad(es)?\b'
-      weight: 4
-      note: 'Proyectos comunitarios / comunidad'
-    - pattern: '\btransferenci(a|ar)\b|\bfortalecimiento\s+de\s+capacidades\b|\bdesarrollo\s+de\s+capacidades\b'
-      weight: 3
-      note: 'Transferencia / capacidades'
-    - pattern: '\bsistematizaci[oó]n\b|\bmanual(es)?\b|\bgu[ií]a(s)?\b|\bprotocolo(s)?\b'
-      weight: 2
-      note: 'Sistematización / manuales / guías'
-    - pattern: '\bment(or|or[íi]a|ores)\b|\bacompa[nñ]amiento\b|\bcoaching\b'
-      weight: 2
-      note: 'Mentoría / acompañamiento'
-    - pattern: '\bdise[nñ]o\s+e\s+implementaci[oó]n\b|\bimplementaci[oó]n\b.*\bdise[nñ]o\b'
-      weight: 4
-      note: 'Diseño e implementación (frase típica)'
+    keywords:
+      max_points: 16
+      include:
+        - pattern: '\bencuest(a|as|ar|ado|ados)\b'
+          weight: 4
+          note: 'Encuestas'
+        - pattern: '\bestudio(s)?\b'
+          weight: 2
+          note: 'Estudios (genérico)'
+        - pattern: '\bdiagn[oó]stico(s)?\b'
+          weight: 3
+          note: 'Diagnósticos'
+        - pattern: '\bevaluaci[oó]n(es)?\b'
+          weight: 3
+          note: 'Evaluación'
+        - pattern: '\ban[aá]lisis\s+de\s+datos\b'
+          weight: 3
+          note: 'Análisis de datos'
+        - pattern: '\blevantamiento\s+de\s+informaci[oó]n\b'
+          weight: 3
+          note: 'Levantamiento'
+        - pattern: '\btaller(es)?\b'
+          weight: 2
+          note: 'Talleres'
+        - pattern: '\bcapacitaci[oó]n\b|\bcurso(s)?\b|\bformaci[oó]n\b'
+          weight: 2
+          note: 'Capacitación / cursos'
+        - pattern: '\basesor[ií]a(s)?\b|\bconsultor[ií]a(s)?\b'
+          weight: 2
+          note: 'Asesorías / consultorías'
+        - pattern: '\bclima\s+laboral\b|\bsatisfacci[oó]n\s+usuari(a|o)\b'
+          weight: 3
+          note: 'Clima laboral / satisfacción usuaria'
+        - pattern: '\bfocus\s*group\b|\bgrupo(s)?\s+focal(es)?\b'
+          weight: 3
+          note: 'Cualitativo'
+        - pattern: '\bciencia\s+p[uú]blica\b'
+          weight: 6
+          note: 'Ciencia Pública (clave)'
+        - pattern: '\bctci\b|\bconocimiento\s+e\s+innovaci[oó]n\b|\binnovaci[oó]n\b'
+          weight: 4
+          note: 'CTCI / innovación'
+        - pattern: '\bproyecto(s)?\b.*\bcomunitari(a|o|as|os)\b|\bcomunidad(es)?\b'
+          weight: 4
+          note: 'Proyectos comunitarios / comunidad'
+        - pattern: '\btransferenci(a|ar)\b|\bfortalecimiento\s+de\s+capacidades\b|\bdesarrollo\s+de\s+capacidades\b'
+          weight: 3
+          note: 'Transferencia / capacidades'
+        - pattern: '\bsistematizaci[oó]n\b|\bmanual(es)?\b|\bgu[ií]a(s)?\b|\bprotocolo(s)?\b'
+          weight: 2
+          note: 'Sistematización / manuales / guías'
+        - pattern: '\bment(or|or[íi]a|ores)\b|\bacompa[nñ]amiento\b|\bcoaching\b'
+          weight: 2
+          note: 'Mentoría / acompañamiento'
+        - pattern: '\bdise[nñ]o\s+e\s+implementaci[oó]n\b|\bimplementaci[oó]n\b.*\bdise[nñ]o\b'
+          weight: 4
+          note: 'Diseño e implementación (frase típica)'
+        - pattern: '\blaboratorio\b'
+          weight: 0.5
+          note: 'Laboratorio (ambigua; peso bajo)'
 
-    # NUEVO: “laboratorio” pero con peso bajo (porque es ambiguo)
-    - pattern: '\blaboratorio\b'
-      weight: 0.5
-      note: 'Laboratorio (ambigua; peso bajo)'
+      exclude:
+        - pattern: '\bcirug[ií]a(s)?\b|\bquir[uú]rgic(a|o|as|os)\b|\bcat[aá]rata(s)?\b'
+          weight: 7
+          note: 'Prestaciones clínicas'
+        - pattern: '\bmedicamento(s)?\b|\bf[áa]rmaco(s)?\b|\binsumo(s)?\s+m[eé]dico(s)?\b'
+          weight: 7
+          note: 'Compras clínicas / insumos'
+        - pattern: '\bc[aá]mara(s)?\b|\bmontura(s)?\b|\bequipamiento\b|\bdispositivo(s)?\b|\bmaquinari(a|as)\b'
+          weight: 6
+          note: 'Equipamiento / insumos (especialmente laboratorio físico)'
+        - pattern: '\bampliaci[oó]n\b|\bconstrucci[oó]n\b|\bobra(s)?\b|\bmantenci[oó]n\b|\breparaci[oó]n\b|\bremodelaci[oó]n\b'
+          weight: 6
+          note: 'Obras / ampliación / construcción'
+        - pattern: '\bcampus\b|\buniversidad\b.*\bcampus\b|\bobra\s+civil\b'
+          weight: 4
+          note: 'Infraestructura en campus (proxy)'
+        - pattern: '\baseo\b|\blimpieza\b|\bseguridad\b|\bguardia(s)?\b'
+          weight: 4
+          note: 'Aseo / seguridad'
+        - pattern: '\btransporte\b|\bflete(s)?\b|\blog[ií]stic(a|o)\b'
+          weight: 3
+          note: 'Logística / transporte'
+        - pattern: '\bservidor(es)?\b|\blicencia(s)?\b|\bsoftware\b|\bhardware\b|\bhosting\b'
+          weight: 3
+          note: 'TI dura'
+        - pattern: '\blaboratorio\s+(cl[ií]nico|cl[ií]nica|odontol[oó]gico|dental)\b'
+          weight: 8
+          note: 'Laboratorio clínico / odontológico'
+        - pattern: '\bortodoncia\b|\bodontopediatr[ií]a\b|\bpr[oó]tesis\b|\bdental(es)?\b'
+          weight: 8
+          note: 'Odontología / dental'
+        - pattern: '\bcami[oó]n(es)?\b|\bcompactador(es)?\b|\bveh[ií]culo(s)?\b'
+          weight: 8
+          note: 'Vehículos / maquinaria pesada'
 
-  exclude:
-    # Clínico / prestaciones (mantengo y refuerzo)
-    - pattern: '\bcirug[ií]a(s)?\b|\bquir[uú]rgic(a|o|as|os)\b|\bcat[aá]rata(s)?\b'
-      weight: 7
-      note: 'Prestaciones clínicas'
-    - pattern: '\bmedicamento(s)?\b|\bf[áa]rmaco(s)?\b|\binsumo(s)?\s+m[eé]dico(s)?\b'
-      weight: 7
-      note: 'Compras clínicas / insumos'
+  compra_agil:
+    thresholds:
+      # En compra ágil suele haber mucho “ruido”; yo mantendría gate_on_keywords=true
+      show_min_score: 2
+      display_max_score: 20
+      gate_on_keywords: true
 
-    # NUEVO: infraestructura/equipamiento “de laboratorio” (para cortar tus falsos positivos #5 y #6)
-    - pattern: '\bc[aá]mara(s)?\b|\bmontura(s)?\b|\bequipamiento\b|\bdispositivo(s)?\b|\bmaquinari(a|as)\b|\binsumo(s)?\b'
-      weight: 6
-      note: 'Equipamiento / insumos (especialmente laboratorio físico)'
-    - pattern: '\bampliaci[oó]n\b|\bconstrucci[oó]n\b|\bobra(s)?\b|\bmantenci[oó]n\b|\breparaci[oó]n\b|\bremodelaci[oó]n\b'
-      weight: 6
-      note: 'Obras / ampliación / construcción'
-    - pattern: '\bcampus\b|\buniversidad\b.*\bcampus\b|\bobra\s+civil\b'
-      weight: 4
-      note: 'Infraestructura en campus (proxy)'
+    weights:
+      keywords: 0.70
+      amount: 0.30
 
-    # Servicios no foco
-    - pattern: '\baseo\b|\blimpieza\b|\bseguridad\b|\bguardia(s)?\b'
-      weight: 4
-      note: 'Aseo / seguridad'
-    - pattern: '\btransporte\b|\bflete(s)?\b|\blog[ií]stic(a|o)\b'
-      weight: 3
-      note: 'Logística / transporte'
-    - pattern: '\bservidor(es)?\b|\blicencia(s)?\b|\bsoftware\b|\bhardware\b|\bhosting\b'
-      weight: 3
-      note: 'TI dura'
-    
-    #Laboratorio clinico
-    - pattern: '\blaboratorio\s+(cl[ií]nico|cl[ií]nica|odontol[oó]gico|dental)\b'
-      weight: 8
-      note: 'Laboratorio clínico / odontológico'
-    - pattern: '\bortodoncia\b|\bodontopediatr[ií]a\b|\bpr[oó]tesis\b|\bdental(es)?\b'
-      weight: 8
-      note: 'Odontología / dental'
-    
-    #Vehiculos / maquinaria pesada
-    - pattern: '\bcami[oó]n(es)?\b|\bcompactador(es)?\b|\bveh[ií]culo(s)?\b'
-      weight: 8
-      note: 'Vehículos / maquinaria pesada'
+    amount_max_points: 7
+    amount_bands:
+      - label: "0–1MM"
+        min: 0
+        max: 1000000
+        points: 1
+      - label: "1–2MM"
+        min: 1000000
+        max: 2000000
+        points: 2
+      - label: "2–3MM"
+        min: 2000000
+        max: 3000000
+        points: 3
+      - label: "3–4MM"
+        min: 3000000
+        max: 4000000
+        points: 4
+      - label: "4–5MM"
+        min: 4000000
+        max: 5000000
+        points: 5
+      - label: "5–6MM"
+        min: 5000000
+        max: 6000000
+        points: 6
+      - label: "+6MM"
+        min: 6000000
+        max: null
+        points: 7
+
+    keywords:
+      # Compra ágil es menos “proyecto grande”; conviene un techo algo menor para no saturar
+      max_points: 12
+
+      include:
+        # Ajusta a tu objetivo real: si quieres capturar servicios profesionales “chicos”
+        - pattern: '\bcapacitaci[oó]n\b|\bcurso(s)?\b|\bformaci[oó]n\b|\btaller(es)?\b'
+          weight: 3
+          note: 'Capacitación / talleres'
+        - pattern: '\bencuest(a|as|ar|ado|ados)\b|\blevantamiento\b|\bdiagn[oó]stico(s)?\b|\bevaluaci[oó]n(es)?\b'
+          weight: 4
+          note: 'Medición / diagnóstico / evaluación'
+        - pattern: '\basesor[ií]a(s)?\b|\bconsultor[ií]a(s)?\b'
+          weight: 2
+          note: 'Asesorías / consultorías'
+        - pattern: '\bclima\s+laboral\b|\bsatisfacci[oó]n\s+usuari(a|o)\b'
+          weight: 3
+          note: 'Clima / satisfacción'
+        - pattern: '\bsistematizaci[oó]n\b|\bmanual(es)?\b|\bgu[ií]a(s)?\b|\bprotocolo(s)?\b'
+          weight: 2
+          note: 'Manuales / guías / protocolos'
+
+      exclude:
+        # En compra ágil es muy frecuente: si no es tu foco, conviene filtrarlo fuerte
+        - pattern: '\btoner\b|\btinta\b|\bpapel\b|\bcuaderno(s)?\b|\blibrer[ií]a\b|\bpapeler[ií]a\b'
+          weight: 6
+          note: 'Papelería / suministros'
+        - pattern: '\bcloro\b|\bdetergente\b|\bdesinfectante\b|\baseo\b|\blimpieza\b'
+          weight: 6
+          note: 'Aseo / limpieza'
+        - pattern: '\bmedicamento(s)?\b|\bf[áa]rmaco(s)?\b|\binsumo(s)?\s+m[eé]dico(s)?\b'
+          weight: 8
+          note: 'Insumos clínicos'
+        - pattern: '\bcomputador(es)?\b|\blaptop(s)?\b|\bimpresora(s)?\b|\bsoftware\b|\blicencia(s)?\b'
+          weight: 5
+          note: 'TI / equipamiento'
+        - pattern: '\btransporte\b|\bflete(s)?\b|\blog[ií]stic(a|o)\b'
+          weight: 4
+          note: 'Logística / transporte'
 

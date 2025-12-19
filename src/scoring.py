@@ -8,6 +8,50 @@ def load_rules(path: str = "config/rules.yml") -> dict:
         return yaml.safe_load(f) or {}
 
 
+def _deep_merge(base: dict, override: dict) -> dict:
+    """
+    Merge simple (dicts anidados). override pisa base.
+    """
+    out = dict(base or {})
+    for k, v in (override or {}).items():
+        if isinstance(v, dict) and isinstance(out.get(k), dict):
+            out[k] = _deep_merge(out[k], v)
+        else:
+            out[k] = v
+    return out
+
+
+def get_effective_rules(all_rules: dict, source: Optional[str]) -> dict:
+    """
+    Soporta 2 formatos:
+    A) Reglas antiguas (sin by_source): all_rules = {thresholds, weights, ...}
+    B) Reglas nuevas:
+       all_rules = {
+         defaults: {... opcional ...},
+         by_source: {
+           licitaciones: {...},
+           compra_agil: {...}
+         }
+       }
+    """
+    if not isinstance(all_rules, dict):
+        return {}
+
+    by_source = all_rules.get("by_source")
+    if not isinstance(by_source, dict):
+        # Formato antiguo (backward compatible)
+        return all_rules
+
+    defaults = all_rules.get("defaults") or {}
+    src = (source or "").strip() or "licitaciones"
+    profile = by_source.get(src) or by_source.get("licitaciones") or {}
+
+    # Defaults + profile
+    effective = _deep_merge(defaults, profile)
+    effective["_rules_source"] = src
+    return effective
+
+
 def _compile_patterns(items: List[dict]) -> List[dict]:
     """
     Compila patrones regex de include/exclude definidos como:
@@ -86,7 +130,7 @@ def _score_keywords(text: str, rules: dict) -> Tuple[float, Dict[str, Any]]:
 
 def _amount_band_points(amount_clp: Optional[float], rules: dict) -> Tuple[float, Dict[str, Any]]:
     """
-    Asigna puntos por tramo de monto (+1..+7) y lo transforma a escala 0..10.
+    Asigna puntos por tramo de monto (+1..+N) y lo transforma a escala 0..10.
     """
     bands = (rules.get("amount_bands") or [])
     if amount_clp is None:
@@ -155,21 +199,28 @@ def _blend_scores(
     return total, {"gate": {"enabled": bool(gate_on_keywords), "reason": None}}
 
 
-def total_score(text: str, amount_clp: Optional[float], rules: dict) -> Tuple[int, Dict[str, Any]]:
+def total_score(
+    text: str,
+    amount_clp: Optional[float],
+    rules: dict,
+    source: Optional[str] = None,
+) -> Tuple[int, Dict[str, Any]]:
     """
-    Scoring ponderado:
+    Scoring ponderado por perfil (source):
       score_total_0_10 = w_kw*score_kw + w_amt*score_amt
     Luego se convierte a una escala entera para el dashboard (0..display_max).
     Con gating (por defecto): si keywords=0 → score final = 0.
     """
-    weights = (rules.get("weights") or {})
+    eff = get_effective_rules(rules, source)
+
+    weights = (eff.get("weights") or {})
     w_kw = float(weights.get("keywords", 0.7))
     w_amt = float(weights.get("amount", 0.3))
 
-    score_kw_0_10, det_kw = _score_keywords(text, rules)
-    score_amt_0_10, det_amt = _amount_band_points(amount_clp, rules)
+    score_kw_0_10, det_kw = _score_keywords(text, eff)
+    score_amt_0_10, det_amt = _amount_band_points(amount_clp, eff)
 
-    gate_on_keywords = bool((rules.get("thresholds") or {}).get("gate_on_keywords", True))
+    gate_on_keywords = bool((eff.get("thresholds") or {}).get("gate_on_keywords", True))
 
     score_total_0_10, det_gate = _blend_scores(
         score_kw_0_10=score_kw_0_10,
@@ -180,7 +231,7 @@ def total_score(text: str, amount_clp: Optional[float], rules: dict) -> Tuple[in
     )
 
     # Escala final para mostrar (entero)
-    display_max = int((rules.get("thresholds") or {}).get("display_max_score", 20))
+    display_max = int((eff.get("thresholds") or {}).get("display_max_score", 20))
     if display_max <= 0:
         display_max = 20
 
@@ -196,6 +247,7 @@ def total_score(text: str, amount_clp: Optional[float], rules: dict) -> Tuple[in
         wkw_n, wamt_n = w_kw / s, w_amt / s
 
     detail: Dict[str, Any] = {
+        "rules_source": eff.get("_rules_source", source),
         "weights": {"keywords": wkw_n, "amount": wamt_n},
         "score": {
             "keywords_0_10": score_kw_0_10,
