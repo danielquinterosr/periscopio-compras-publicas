@@ -26,9 +26,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pyyaml openpyxl
 
+      - name: Fetch Compra Ágil Excel
+        run: python src/fetch_compra_agil_excel.py
+        env:
+          MP_COMPRA_AGIL_API_KEY: ${{ secrets.MP_COMPRA_AGIL_API_KEY }}
+
       - name: Run ETL
         env:
           MP_TICKET: ${{ secrets.MP_TICKET }}
+          MP_COMPRA_AGIL_API_KEY: ${{ secrets.MP_COMPRA_AGIL_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # se inyecta automáticamente
           CANDIDATES_TOP: "800"
           MAX_DETAIL: "400"
