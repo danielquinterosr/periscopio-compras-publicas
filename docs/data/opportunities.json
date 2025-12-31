@@ -105,58 +105,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "867990-1601-COT25",
-    "title": "Contratación Diagnóstico Energético",
-    "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-    "status": "Publicada",
-    "amount_clp": 6000000.0,
-    "published_at": "2025-12-24T11:12:00",
-    "close_at": "2025-12-30T15:00:00",
-    "reviewed": false,
-    "score": 11,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 10.0,
-        "total_0_10": 5.333333333333333,
-        "display_max": 20,
-        "display_score": 11
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 6000000.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=867990-1601-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "5139-61-COT25",
     "title": "SERVICIO DE EVALUACIÓN, DIAGNOSTICO, REPARACIÓN Y PUESTA EN MARCHA DE LAVADORA MARCA MILNOR, MODELO 42044DP2, DEL SERVICIO DE LAVANDERÍA",
     "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE LINARES",
@@ -217,7 +165,7 @@
     "published_at": "2025-12-23T08:38:35.71",
     "questions_end_at": "2025-12-27T17:00:00",
     "close_at": "2026-01-06T15:00:00",
-    "dias_cierre_licitacion": 8,
+    "dias_cierre_licitacion": 7,
     "reviewed": false,
     "score": 10,
     "score_detail": {
@@ -265,6 +213,110 @@
       }
     },
     "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057544-439-LP25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "2409-2210-COT25",
+    "title": "ADQUISICION INSUMOS PARA TALLER DE DIBUJO Y PINTURA ESCUELA D-870",
+    "buyer": "I MUNICIPALIDAD DE LOS ANGELES DEPTO DE",
+    "status": "Publicada",
+    "amount_clp": 6500000.0,
+    "published_at": "2025-12-30T16:37:00",
+    "close_at": "2025-12-31T17:00:00",
+    "reviewed": false,
+    "score": 10,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 10.0,
+        "total_0_10": 4.75,
+        "display_max": 20,
+        "display_score": 10
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 6500000.0,
+        "band": "+6MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2409-2210-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1549-5822-COT25",
+    "title": "XPP/EXT/ SE REQUIERE INSUMOS TALLER ORTOPEDICO",
+    "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+    "status": "Publicada",
+    "amount_clp": 6954200.0,
+    "published_at": "2025-12-30T09:52:00",
+    "close_at": "2026-01-07T17:00:00",
+    "reviewed": false,
+    "score": 10,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 10.0,
+        "total_0_10": 4.75,
+        "display_max": 20,
+        "display_score": 10
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 6954200.0,
+        "band": "+6MM",
+        "band_points": 7.0,
+        "score_0_10": 10.0
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1549-5822-COT25"
   },
   {
     "source": "compra_agil",
@@ -317,214 +369,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2745-193-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1016414-102-COT25",
-    "title": "Servicio integral de producción para capacitación a adjudicatarios Fondo CNTV 2025",
-    "buyer": "CONSEJO NACIONAL DE TELEVISION",
-    "status": "Publicada",
-    "amount_clp": 6952000.0,
-    "published_at": "2025-12-29T12:34:00",
-    "close_at": "2025-12-30T13:00:00",
-    "reviewed": false,
-    "score": 10,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.75,
-        "display_max": 20,
-        "display_score": 10
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 6952000.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1016414-102-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1026727-635-COT25",
-    "title": "Adquisición Tablet para carrera TNS en Educación Parvularia del CFT.",
-    "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE TARAPACA",
-    "status": "Publicada",
-    "amount_clp": 6950000.0,
-    "published_at": "2025-12-29T10:38:00",
-    "close_at": "2025-12-30T13:30:00",
-    "reviewed": false,
-    "score": 10,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.75,
-        "display_max": 20,
-        "display_score": 10
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 6950000.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1026727-635-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "588809-1014-COT25",
-    "title": "SERVICIO DE CAPACITACIÓN ORIENTADA AL FORTALECIMIENTO DEL TRABAJO COLABORATIVO Y LA ARTICULACION TECNICA PEDAGOGICA.",
-    "buyer": "CORPORACION MUNIC DE EDUC SALUD ATENCION",
-    "status": "Publicada",
-    "amount_clp": 6000000.0,
-    "published_at": "2025-12-29T09:52:00",
-    "close_at": "2025-12-30T11:00:00",
-    "reviewed": false,
-    "score": 10,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.75,
-        "display_max": 20,
-        "display_score": 10
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 6000000.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=588809-1014-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "662900-340-COT25",
-    "title": "10858 CAPACITACION DE COMPETENCIAS LABORALES FUNCIONARIOS EDUCACIÓN (DÍAS SIMULACIÓN)",
-    "buyer": "CORPORACION MUNICIPAL DE EDUCACION,SALUD,CULTURA Y ATENCION AL MENOR,",
-    "status": "Publicada",
-    "amount_clp": 6900000.0,
-    "published_at": "2025-12-29T08:42:00",
-    "close_at": "2025-12-30T09:00:00",
-    "reviewed": false,
-    "score": 10,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.75,
-        "display_max": 20,
-        "display_score": 10
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 6900000.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=662900-340-COT25"
   },
   {
     "source": "compra_agil",
@@ -684,13 +528,65 @@
   },
   {
     "source": "compra_agil",
-    "id": "1422032-44-COT25",
-    "title": "Contratación de Curso de Capacitación en \"Diseño Estratégico de Proyectos bajo Enfoque de Marco Lógico",
-    "buyer": "CORPORACION REGIONAL DE DESARROLLO PRODUCTIVO DE LA REGION DE LOS RIOS",
+    "id": "5153-3152-COT25",
+    "title": "MFV_SERVICIOS DE LEVANTAMIENTO TECNICO DE CENTRALES DE CLIMA - MM 1119",
+    "buyer": "UNIVERSIDAD DE CHILE",
     "status": "Publicada",
-    "amount_clp": 5250000.0,
-    "published_at": "2025-12-29T09:10:00",
-    "close_at": "2025-12-30T13:30:00",
+    "amount_clp": 4000000.0,
+    "published_at": "2025-12-30T16:43:00",
+    "close_at": "2026-01-08T09:00:00",
+    "reviewed": false,
+    "score": 9,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 3.333333333333333,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 4.476190476190476,
+        "display_max": 20,
+        "display_score": 9
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 4.0,
+        "exclude_points": 0.0,
+        "raw_points": 4.0,
+        "max_points": 12.0,
+        "score_0_10": 3.333333333333333,
+        "include_hits": [
+          {
+            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
+            "weight": 4.0,
+            "note": "Medición / diagnóstico / evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 4000000.0,
+        "band": "4–5MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=5153-3152-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "985737-208-COT25",
+    "title": "Servicio Hosting dedicado para el CFT del Maule.",
+    "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DEL MAULE",
+    "status": "Publicada",
+    "amount_clp": 5197000.0,
+    "published_at": "2025-12-30T13:10:00",
+    "close_at": "2025-12-31T13:30:00",
     "reviewed": false,
     "score": 9,
     "score_detail": {
@@ -726,13 +622,13 @@
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 5250000.0,
+        "amount_clp": 5197000.0,
         "band": "5–6MM",
         "band_points": 6.0,
         "score_0_10": 8.571428571428571
       }
     },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1422032-44-COT25"
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=985737-208-COT25"
   },
   {
     "source": "compra_agil",
@@ -796,7 +692,7 @@
     "published_at": "2025-12-16T10:20:00",
     "questions_end_at": "2025-12-22T10:00:00",
     "close_at": "2026-01-06T09:00:00",
-    "dias_cierre_licitacion": 8,
+    "dias_cierre_licitacion": 7,
     "reviewed": false,
     "score": 8,
     "score_detail": {
@@ -842,13 +738,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "1147293-190-COT25",
-    "title": "CONSULTORÍA MODELO DE COOPERATIVA INTELIGENTE CON IA - PRODUCTORA",
-    "buyer": "Fundación para la Innovación Agraria",
+    "id": "1057503-3751-COT25",
+    "title": "OP:Servicio de analisis de evaluación del riesgo de incendio del Hospital.",
+    "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
     "status": "Publicada",
-    "amount_clp": 6900000.0,
-    "published_at": "2025-12-29T19:06:00",
-    "close_at": "2025-12-30T20:00:00",
+    "amount_clp": 3808000.0,
+    "published_at": "2025-12-30T17:28:00",
+    "close_at": "2025-12-31T17:30:00",
     "reviewed": false,
     "score": 8,
     "score_detail": {
@@ -858,9 +754,9 @@
         "amount": 0.3
       },
       "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.166666666666666,
+        "keywords_0_10": 3.333333333333333,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 4.0476190476190474,
         "display_max": 20,
         "display_score": 8
       },
@@ -869,38 +765,38 @@
         "reason": null
       },
       "keywords": {
-        "include_points": 2.0,
+        "include_points": 4.0,
         "exclude_points": 0.0,
-        "raw_points": 2.0,
+        "raw_points": 4.0,
         "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
+        "score_0_10": 3.333333333333333,
         "include_hits": [
           {
-            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
-            "weight": 2.0,
-            "note": "Asesorías / consultorías"
+            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
+            "weight": 4.0,
+            "note": "Medición / diagnóstico / evaluación"
           }
         ],
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 6900000.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
+        "amount_clp": 3808000.0,
+        "band": "3–4MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
       }
     },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1147293-190-COT25"
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057503-3751-COT25"
   },
   {
     "source": "compra_agil",
-    "id": "800-8566-COT25",
-    "title": "190904 GUIA INNOWI TAVI 0.35X270 CM/ Equivalente a Guía INNOWI SX Código: TSX-035-270-25",
-    "buyer": "UNIVERSIDAD DE CHILE",
+    "id": "1315526-34-COT25",
+    "title": "SERVICIO TALLER DE ROBÓTICA",
+    "buyer": "CORPORACION MUNICIPAL DE FOMENTO AL DESARROLLO ECONOMICO Y PRODUCTIVO",
     "status": "Publicada",
-    "amount_clp": 6954200.0,
-    "published_at": "2025-12-29T13:55:00",
-    "close_at": "2025-12-30T14:00:00",
+    "amount_clp": 4500000.0,
+    "published_at": "2025-12-30T16:49:00",
+    "close_at": "2025-12-31T17:30:00",
     "reviewed": false,
     "score": 8,
     "score_detail": {
@@ -910,9 +806,9 @@
         "amount": 0.3
       },
       "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.166666666666666,
+        "keywords_0_10": 2.5,
+        "amount_0_10": 7.142857142857143,
+        "total_0_10": 3.892857142857143,
         "display_max": 20,
         "display_score": 8
       },
@@ -921,28 +817,80 @@
         "reason": null
       },
       "keywords": {
-        "include_points": 2.0,
+        "include_points": 3.0,
         "exclude_points": 0.0,
-        "raw_points": 2.0,
+        "raw_points": 3.0,
         "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
+        "score_0_10": 2.5,
         "include_hits": [
           {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
           }
         ],
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 6954200.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
+        "amount_clp": 4500000.0,
+        "band": "4–5MM",
+        "band_points": 5.0,
+        "score_0_10": 7.142857142857143
       }
     },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=800-8566-COT25"
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1315526-34-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "2422-1737-COT25",
+    "title": "SOL. ADQ. 944770 TEST DE EVALUACION PSICOLABORAL",
+    "buyer": "I MUNICIPALIDAD DE PUENTE ALTO",
+    "status": "Publicada",
+    "amount_clp": 3027360.0,
+    "published_at": "2025-12-30T12:25:00",
+    "close_at": "2026-01-02T09:00:00",
+    "reviewed": false,
+    "score": 8,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 3.333333333333333,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 4.0476190476190474,
+        "display_max": 20,
+        "display_score": 8
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 4.0,
+        "exclude_points": 0.0,
+        "raw_points": 4.0,
+        "max_points": 12.0,
+        "score_0_10": 3.333333333333333,
+        "include_hits": [
+          {
+            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
+            "weight": 4.0,
+            "note": "Medición / diagnóstico / evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 3027360.0,
+        "band": "3–4MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2422-1737-COT25"
   },
   {
     "source": "compra_agil",
@@ -1050,13 +998,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "5513-43-COT25",
-    "title": "SERVICIOS DE IMPRESIÓN Y ANILLADO DE MANUALES PARA CURSOS DE CAPACITACION DEL CONVENIO GORE TARAPACÁ - SEREMI DE AGRICULTURA - CÓDIGO E1O2RT9",
-    "buyer": "SUBSECRETARIA DEL MINISTERIO DE AGRICULT",
+    "id": "1440531-4-COT25",
+    "title": "COMPRA DE INSUMOS PARA TALLERES",
+    "buyer": "Fundación de las Familias",
     "status": "Publicada",
-    "amount_clp": 675000.0,
-    "published_at": "2025-12-29T17:18:00",
-    "close_at": "2025-12-30T17:20:00",
+    "amount_clp": 3200000.0,
+    "published_at": "2025-12-31T00:18:00",
+    "close_at": "2026-01-05T09:00:00",
     "reviewed": false,
     "score": 7,
     "score_detail": {
@@ -1066,9 +1014,9 @@
         "amount": 0.3
       },
       "score": {
-        "keywords_0_10": 4.166666666666667,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 3.345238095238095,
+        "keywords_0_10": 2.5,
+        "amount_0_10": 5.7142857142857135,
+        "total_0_10": 3.464285714285714,
         "display_max": 20,
         "display_score": 7
       },
@@ -1077,43 +1025,38 @@
         "reason": null
       },
       "keywords": {
-        "include_points": 5.0,
+        "include_points": 3.0,
         "exclude_points": 0.0,
-        "raw_points": 5.0,
+        "raw_points": 3.0,
         "max_points": 12.0,
-        "score_0_10": 4.166666666666667,
+        "score_0_10": 2.5,
         "include_hits": [
           {
             "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
             "weight": 3.0,
             "note": "Capacitación / talleres"
-          },
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
           }
         ],
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 675000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
+        "amount_clp": 3200000.0,
+        "band": "3–4MM",
+        "band_points": 4.0,
+        "score_0_10": 5.7142857142857135
       }
     },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=5513-43-COT25"
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1440531-4-COT25"
   },
   {
     "source": "compra_agil",
-    "id": "1057417-4673-COT25",
-    "title": "MCM 303-2965\tSET INTRODUCTOR RADIAL HIDROFILICO, 10CM DE LARGO, 6 FR CON BRANULA 20G., GUIA CON RECUBRIMIENTO HIDROFILICO DE 45CM DE LARGO. [AM]",
-    "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+    "id": "2585-1871-COT25",
+    "title": "ADQ DE PASAJES AEREOS,DIDECO,ORD N°1585 ,DEPTO DE ASESORIA TECNICA,REC,IMA",
+    "buyer": "I MUNICIPALIDAD DE ARICA",
     "status": "Publicada",
-    "amount_clp": 4650000.0,
-    "published_at": "2025-12-29T17:05:00",
-    "close_at": "2025-12-30T17:10:00",
+    "amount_clp": 5000000.0,
+    "published_at": "2025-12-30T16:37:00",
+    "close_at": "2026-01-05T08:00:00",
     "reviewed": false,
     "score": 7,
     "score_detail": {
@@ -1124,8 +1067,60 @@
       },
       "score": {
         "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 7.142857142857143,
-        "total_0_10": 3.3095238095238093,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 3.7380952380952377,
+        "display_max": 20,
+        "display_score": 7
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 12.0,
+        "score_0_10": 1.6666666666666665,
+        "include_hits": [
+          {
+            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
+            "weight": 2.0,
+            "note": "Asesorías / consultorías"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 5000000.0,
+        "band": "5–6MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2585-1871-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1057417-4680-COT25",
+    "title": "MCM Electrodo Laparoscópico Hook 36 cm, control manual, punta  Redondeada, forma L y  aislada, CON CABLE INCLUIDO",
+    "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+    "status": "Publicada",
+    "amount_clp": 5500000.0,
+    "published_at": "2025-12-30T08:35:00",
+    "close_at": "2025-12-31T09:00:00",
+    "reviewed": false,
+    "score": 7,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.6666666666666665,
+        "amount_0_10": 8.571428571428571,
+        "total_0_10": 3.7380952380952377,
         "display_max": 20,
         "display_score": 7
       },
@@ -1149,13 +1144,13 @@
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 4650000.0,
-        "band": "4–5MM",
-        "band_points": 5.0,
-        "score_0_10": 7.142857142857143
+        "amount_clp": 5500000.0,
+        "band": "5–6MM",
+        "band_points": 6.0,
+        "score_0_10": 8.571428571428571
       }
     },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057417-4673-COT25"
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057417-4680-COT25"
   },
   {
     "source": "compra_agil",
@@ -1166,7 +1161,7 @@
     "amount_clp": 3250000.0,
     "published_at": "2025-12-29T16:18:00",
     "close_at": "2025-12-31T10:00:00",
-    "reviewed": false,
+    "reviewed": true,
     "score": 7,
     "score_detail": {
       "rules_source": null,
@@ -1217,7 +1212,7 @@
     "status": "Publicada",
     "amount_clp": 5000000.0,
     "published_at": "2025-12-29T15:21:00",
-    "close_at": "2025-12-30T15:30:00",
+    "close_at": "2025-12-31T15:38:00",
     "reviewed": false,
     "score": 7,
     "score_detail": {
@@ -1260,214 +1255,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057439-4648-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1221019-87-COT25",
-    "title": "Adquisición de banderas velas y inflables para talleres y eventos de la Corporación Municipal del Deporte de Vitacura",
-    "buyer": "Corporación Municipal de Deporte  de Vitacura",
-    "status": "Publicada",
-    "amount_clp": 3500000.0,
-    "published_at": "2025-12-29T14:35:00",
-    "close_at": "2025-12-30T16:00:00",
-    "reviewed": false,
-    "score": 7,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 5.7142857142857135,
-        "total_0_10": 3.464285714285714,
-        "display_max": 20,
-        "display_score": 7
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 3500000.0,
-        "band": "3–4MM",
-        "band_points": 4.0,
-        "score_0_10": 5.7142857142857135
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1221019-87-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1442808-100-COT25",
-    "title": "Arriendo de camionetas doble cabina tracción manual o automática petrolera",
-    "buyer": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
-    "status": "Publicada",
-    "amount_clp": 4400000.0,
-    "published_at": "2025-12-29T11:15:00",
-    "close_at": "2025-12-30T16:00:00",
-    "reviewed": false,
-    "score": 7,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 7.142857142857143,
-        "total_0_10": 3.3095238095238093,
-        "display_max": 20,
-        "display_score": 7
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 4400000.0,
-        "band": "4–5MM",
-        "band_points": 5.0,
-        "score_0_10": 7.142857142857143
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1442808-100-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1026727-634-COT25",
-    "title": "Adquisición soportes para pantallas interactivas. Coordinación Académica del CFT.",
-    "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE TARAPACA",
-    "status": "Publicada",
-    "amount_clp": 3100000.0,
-    "published_at": "2025-12-29T10:32:00",
-    "close_at": "2025-12-30T13:00:00",
-    "reviewed": false,
-    "score": 7,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 5.7142857142857135,
-        "total_0_10": 3.464285714285714,
-        "display_max": 20,
-        "display_score": 7
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 3100000.0,
-        "band": "3–4MM",
-        "band_points": 4.0,
-        "score_0_10": 5.7142857142857135
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1026727-634-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "3959-117-COT25",
-    "title": "CAPACITACION PAC 2025, NC Nº 894",
-    "buyer": "I MUNICIPALIDAD DE NAVIDAD",
-    "status": "Publicada",
-    "amount_clp": 3652313.0,
-    "published_at": "2025-12-29T09:54:00",
-    "close_at": "2025-12-30T10:00:00",
-    "reviewed": false,
-    "score": 7,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 5.7142857142857135,
-        "total_0_10": 3.464285714285714,
-        "display_max": 20,
-        "display_score": 7
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 3652313.0,
-        "band": "3–4MM",
-        "band_points": 4.0,
-        "score_0_10": 5.7142857142857135
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3959-117-COT25"
   },
   {
     "source": "compra_agil",
@@ -1530,7 +1317,7 @@
     "amount_clp": 5000000.0,
     "published_at": "2025-12-22T16:19:00",
     "close_at": "2026-01-02T09:00:00",
-    "reviewed": false,
+    "reviewed": true,
     "score": 7,
     "score_detail": {
       "rules_source": null,
@@ -1574,58 +1361,6 @@
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=812690-59-COT25"
   },
   {
-    "source": "compra_agil",
-    "id": "1049-2595-COT25",
-    "title": "Curso de identificación de especies indicadoras de Ecosistemas Marinos Vulnerables (EMV) - IFOP PUNTA ARENAS",
-    "buyer": "INSTITUTO DE FOMENTO PESQUERO",
-    "status": "Publicada",
-    "amount_clp": 3300000.0,
-    "published_at": "2025-12-09T09:18:00",
-    "close_at": "2025-12-30T10:00:00",
-    "reviewed": false,
-    "score": 7,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 5.7142857142857135,
-        "total_0_10": 3.464285714285714,
-        "display_max": 20,
-        "display_score": 7
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 3300000.0,
-        "band": "3–4MM",
-        "band_points": 4.0,
-        "score_0_10": 5.7142857142857135
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1049-2595-COT25"
-  },
-  {
     "source": "licitaciones",
     "id": "1002772-160-LE25",
     "title": "MANIPULADOR UTERINO DESECHABLE CON BALÓN OCLUSIÓN",
@@ -1635,7 +1370,7 @@
     "published_at": "2025-12-26T09:09:09.383",
     "questions_end_at": "2025-12-30T12:00:00",
     "close_at": "2026-01-05T15:01:00",
-    "dias_cierre_licitacion": 7,
+    "dias_cierre_licitacion": 6,
     "reviewed": false,
     "score": 6,
     "score_detail": {
@@ -1689,7 +1424,7 @@
     "published_at": "2025-12-15T12:27:11.517",
     "questions_end_at": "2025-12-22T17:00:00",
     "close_at": "2026-01-05T16:00:00",
-    "dias_cierre_licitacion": 7,
+    "dias_cierre_licitacion": 6,
     "reviewed": false,
     "score": 6,
     "score_detail": {
@@ -1735,6 +1470,318 @@
   },
   {
     "source": "compra_agil",
+    "id": "667281-36-COT25",
+    "title": "COMPRA E INSTALACION DE CORTINS ENRROLLABLES ELECTRICAS VISITA OBLIGATORIA",
+    "buyer": "UNIVERSIDAD DE CHILE",
+    "status": "Publicada",
+    "amount_clp": 300000.0,
+    "published_at": "2025-12-30T18:14:00",
+    "close_at": "2026-01-06T12:00:00",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 3.333333333333333,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.7619047619047614,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 4.0,
+        "exclude_points": 0.0,
+        "raw_points": 4.0,
+        "max_points": 12.0,
+        "score_0_10": 3.333333333333333,
+        "include_hits": [
+          {
+            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
+            "weight": 4.0,
+            "note": "Medición / diagnóstico / evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 300000.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=667281-36-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1069417-1866-COT25",
+    "title": "EVALUACIÓN Y DIAGNÓSTICO EQUIPO AUTOCLAVE - CESFAM SAN RAMÓN NONATO",
+    "buyer": "Dirección  de Salud Municipal Chillán",
+    "status": "Publicada",
+    "amount_clp": 420000.0,
+    "published_at": "2025-12-30T16:50:00",
+    "close_at": "2026-01-02T10:00:00",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 3.333333333333333,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.7619047619047614,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 4.0,
+        "exclude_points": 0.0,
+        "raw_points": 4.0,
+        "max_points": 12.0,
+        "score_0_10": 3.333333333333333,
+        "include_hits": [
+          {
+            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
+            "weight": 4.0,
+            "note": "Medición / diagnóstico / evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 420000.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1069417-1866-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "3477-693-COT25",
+    "title": "SERVICIOS DE TRASLADO, PARA EL PROYECTO FNDR DENOMINADO “8VO ENCUENTRO CENTENARIO DE TALLERES LABORALES PARA EL DESAROLLO Y BIENESTAR DE NUESTRAS AGRUPACIONES”",
+    "buyer": "I MUNICIPALIDAD DE VILCUN",
+    "status": "Publicada",
+    "amount_clp": 2500000.0,
+    "published_at": "2025-12-30T15:49:00",
+    "close_at": "2025-12-31T17:00:00",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 3.0357142857142856,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 2500000.0,
+        "band": "2–3MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3477-693-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1372647-44-COT25",
+    "title": "IMPLEMENTACION TALLER DE BEISBOL",
+    "buyer": "ASOCIACION MUNICIPAL DE DEPORTES Y RECREACION DE TOCOPILLA",
+    "status": "Publicada",
+    "amount_clp": 2947550.0,
+    "published_at": "2025-12-30T13:31:00",
+    "close_at": "2026-01-02T10:00:00",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 3.0357142857142856,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 2947550.0,
+        "band": "2–3MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1372647-44-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1389584-153-COT25",
+    "title": "Servicio de hotelería y alimentación para Jornada de Capacitación Centro General de Padres y Apoderados",
+    "buyer": "DIRECCION COMUNAL DE EDUCACION - CORP MARIA PINTO",
+    "status": "Publicada",
+    "amount_clp": 2800000.0,
+    "published_at": "2025-12-30T13:00:00",
+    "close_at": "2025-12-31T18:00:00",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 3.0357142857142856,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 2800000.0,
+        "band": "2–3MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1389584-153-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "2427-2369-COT25",
+    "title": "Adquisición de Microesferas, Taller de Transito-Dirección de Transito",
+    "buyer": "I MUNICIPALIDAD DE VALPARAISO",
+    "status": "Publicada",
+    "amount_clp": 2100000.0,
+    "published_at": "2025-12-30T10:23:00",
+    "close_at": "2025-12-31T11:00:00",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 3.0357142857142856,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 2100000.0,
+        "band": "2–3MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2427-2369-COT25"
+  },
+  {
+    "source": "compra_agil",
     "id": "1447-33-COT25",
     "title": "SERVICIO DE EVALUACIÓN EX ANTE PROGRAMA APOYO A PERSONAS AFECTADAS POR E.VIOLENCIA RURAL",
     "buyer": "FONDO DE SOLIDARIDAD E INVERSION SOCIAL",
@@ -1742,7 +1789,7 @@
     "amount_clp": 135000.0,
     "published_at": "2025-12-29T16:53:00",
     "close_at": "2025-12-31T17:00:00",
-    "reviewed": false,
+    "reviewed": true,
     "score": 6,
     "score_detail": {
       "rules_source": null,
@@ -1787,273 +1834,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "2583-1070-COT25",
-    "title": "S/P545 ADQUISICION DE SERVICIO DE CAPACITACION \" CURSO DE APLICACION SEGURA DE PLAGUICIDAS \" / D.A.F - OF. DE CAPACITACIONES / SBN",
-    "buyer": "I MUNICIPALIDAD DE MAIPU",
-    "status": "Publicada",
-    "amount_clp": 2200000.0,
-    "published_at": "2025-12-29T16:10:00",
-    "close_at": "2025-12-30T16:30:00",
-    "reviewed": false,
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 3.0357142857142856,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2200000.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2583-1070-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1057439-4647-COT25",
-    "title": "Guías de angioplastia 0.014",
-    "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL LA SERENA",
-    "status": "Publicada",
-    "amount_clp": 3500000.0,
-    "published_at": "2025-12-29T15:20:00",
-    "close_at": "2025-12-30T15:30:00",
-    "reviewed": false,
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 5.7142857142857135,
-        "total_0_10": 2.8809523809523805,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 3500000.0,
-        "band": "3–4MM",
-        "band_points": 4.0,
-        "score_0_10": 5.7142857142857135
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057439-4647-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1024-287-COT25",
-    "title": "SE REQUIERE EVALUACIÓN ELECTRICA Y LEVANTAMIENTO DE FALLAS PARA DIRECCIÓN DE VIALIDAD TARAPACÁ",
-    "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-    "status": "Publicada",
-    "amount_clp": 400000.0,
-    "published_at": "2025-12-29T12:55:00",
-    "close_at": "2025-12-30T16:00:00",
-    "reviewed": false,
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.7619047619047614,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 400000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1024-287-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "4555-133-COT25",
-    "title": "Diagnóstico, elaboración de informe y cotización para la reparación de la clínica móvil",
-    "buyer": "I MUNICIPALIDAD DE ZAPALLAR",
-    "status": "Publicada",
-    "amount_clp": 170000.0,
-    "published_at": "2025-12-29T12:09:00",
-    "close_at": "2025-12-30T12:30:00",
-    "reviewed": false,
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.7619047619047614,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 170000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4555-133-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "697058-130-COT25",
-    "title": "EVALUACIONES PSICOLABORALES RRHH PARA LA FRM OCC",
-    "buyer": "MINISTERIO PUBLICO",
-    "status": "Publicada",
-    "amount_clp": 450000.0,
-    "published_at": "2025-12-29T10:45:00",
-    "close_at": "2025-12-30T11:00:00",
-    "reviewed": false,
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.7619047619047614,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 450000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=697058-130-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "4968-1286-COT25",
     "title": "Revision de diagnóstico gabinete bioseguridad Thermo, serie 300399431",
     "buyer": "HOSPITAL DE QUILPUE",
     "status": "Publicada",
     "amount_clp": 320000.0,
     "published_at": "2025-12-29T09:33:00",
-    "close_at": "2025-12-30T11:00:00",
+    "close_at": "2025-12-31T13:04:00",
     "reviewed": false,
     "score": 6,
     "score_detail": {
@@ -2105,7 +1892,7 @@
     "status": "Publicada",
     "amount_clp": 2000000.0,
     "published_at": "2025-12-29T09:30:00",
-    "close_at": "2025-12-30T09:32:00",
+    "close_at": "2025-12-31T12:20:00",
     "reviewed": false,
     "score": 6,
     "score_detail": {
@@ -2419,7 +2206,7 @@
     "published_at": "2025-12-29T11:32:50.307",
     "questions_end_at": "2026-01-05T15:00:00",
     "close_at": "2026-01-08T15:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -2462,6 +2249,214 @@
       }
     },
     "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1035206-20-LE25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1109692-254-COT25",
+    "title": "SERVICIO ANUAL DE CONTROL DE PLAGAS SEDES PORVENIR Y PUNTA ARENAS",
+    "buyer": "CENTRO DE FORMACION TECNICA ESTATAL DE MAGALLANES",
+    "status": "Publicada",
+    "amount_clp": 1428000.0,
+    "published_at": "2025-12-30T17:33:00",
+    "close_at": "2026-01-06T12:00:00",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 2.8571428571428568,
+        "total_0_10": 2.6071428571428568,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 1428000.0,
+        "band": "1–2MM",
+        "band_points": 2.0,
+        "score_0_10": 2.8571428571428568
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1109692-254-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "4134-333-COT25",
+    "title": "MATERIAL DIDACTICO PARA TALLERES ARTETERAPIA PROGRAMA FONAPI",
+    "buyer": "I. Municipalidad Sagrada Familia",
+    "status": "Publicada",
+    "amount_clp": 1600000.0,
+    "published_at": "2025-12-30T16:41:00",
+    "close_at": "2026-01-02T08:30:00",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 2.8571428571428568,
+        "total_0_10": 2.6071428571428568,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 1600000.0,
+        "band": "1–2MM",
+        "band_points": 2.0,
+        "score_0_10": 2.8571428571428568
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4134-333-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "3747-477-COT25",
+    "title": "TINTAS SIMILAR A EPSON ORIGINAL PARA ESTABLECIMIENTOS DE SALUD POR PROGRAMA DE CAPACITACION PAC UNIVERSAL AÑO 2025. REQUISITO FACTUTRACION FECHA 31.12.2025.",
+    "buyer": "I MUNICIPALIDAD DE SAN IGNACIO",
+    "status": "Publicada",
+    "amount_clp": 1358842.0,
+    "published_at": "2025-12-30T10:54:00",
+    "close_at": "2025-12-31T11:00:00",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 2.8571428571428568,
+        "total_0_10": 2.6071428571428568,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 1358842.0,
+        "band": "1–2MM",
+        "band_points": 2.0,
+        "score_0_10": 2.8571428571428568
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3747-477-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "3477-688-COT25",
+    "title": "Compra Mesas Plegables Talleres Laborales proyecto FNDR denominado “8VO ENCUENTRO CENTENARIO DE TALLERES LABORALES PARA EL DESARROLLO Y BIENESTAR DE NUESTRAS AGRUPACIONES”",
+    "buyer": "I MUNICIPALIDAD DE VILCUN",
+    "status": "Publicada",
+    "amount_clp": 1259000.0,
+    "published_at": "2025-12-30T10:46:00",
+    "close_at": "2025-12-31T12:00:00",
+    "reviewed": false,
+    "score": 5,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 2.8571428571428568,
+        "total_0_10": 2.6071428571428568,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 1259000.0,
+        "band": "1–2MM",
+        "band_points": 2.0,
+        "score_0_10": 2.8571428571428568
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3477-688-COT25"
   },
   {
     "source": "compra_agil",
@@ -2621,65 +2616,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "2788-803-COT25",
-    "title": "MATERIALES PARA MEJORAS DE TALLER ELECTRICO",
-    "buyer": "I MUNICIPALIDAD DE PAINE",
-    "status": "Publicada",
-    "amount_clp": 1950120.0,
-    "published_at": "2025-12-29T12:59:00",
-    "close_at": "2025-12-30T15:00:00",
-    "reviewed": false,
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1950120.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2788-803-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "4465-506-COT25",
     "title": "BIOPSIA DE PRÓSTATA POR FUSIÓN",
     "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE CURICO",
     "status": "Publicada",
     "amount_clp": 1000000.0,
     "published_at": "2025-12-29T12:53:00",
-    "close_at": "2025-12-30T13:30:00",
+    "close_at": "2025-12-31T14:06:00",
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -2725,65 +2668,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "1469-4670-COT25",
-    "title": "20-39277 Servicios de Coffes Talleres",
-    "buyer": "UNIVERSIDAD DE TALCA",
-    "status": "Publicada",
-    "amount_clp": 1200000.0,
-    "published_at": "2025-12-29T12:23:00",
-    "close_at": "2025-12-30T12:35:00",
-    "reviewed": false,
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1200000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1469-4670-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "1151549-426-COT25",
     "title": "TRASLADO MOTORES, BOX DE SOLDADURA Y ELEMENTOS PESADOS INCLUYE MACETEROS",
     "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL REGIÓN ARICA Y",
     "status": "Publicada",
     "amount_clp": 1200000.0,
     "published_at": "2025-12-29T11:30:00",
-    "close_at": "2025-12-30T12:00:00",
+    "close_at": "2025-12-31T12:29:00",
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -2829,117 +2720,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "1151549-425-COT25",
-    "title": "DESARME Y TRASLADO DE 8 PERGOLAS METÁLICAS",
-    "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL REGIÓN ARICA Y",
-    "status": "Publicada",
-    "amount_clp": 1000000.0,
-    "published_at": "2025-12-29T11:02:00",
-    "close_at": "2025-12-30T15:00:00",
-    "reviewed": false,
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1000000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1151549-425-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1151549-424-COT25",
-    "title": "DESINTALACIÓN Y TRASLADO PARA ALMACENAMIENTO DE EQUIPOS CLIMATIZACIÓN",
-    "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL REGIÓN ARICA Y",
-    "status": "Publicada",
-    "amount_clp": 1200000.0,
-    "published_at": "2025-12-29T10:42:00",
-    "close_at": "2025-12-30T12:00:00",
-    "reviewed": false,
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1200000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1151549-424-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "2111-1841-COT25",
     "title": "MR 2192190042 TORQUE GUIA (tipo terumo)",
     "buyer": "HOSPITAL DE URGENCIA ASISTENCIA PUBLICA DR ALEJANDRO DEL RIO",
     "status": "Publicada",
     "amount_clp": 2000000.0,
     "published_at": "2025-12-29T10:27:00",
-    "close_at": "2025-12-30T14:00:00",
+    "close_at": "2026-01-02T10:30:00",
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -2982,162 +2769,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2111-1841-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "5420-184-COT25",
-    "title": "Adquisición  coffe actividad de Capacitación Iniciativas de Vinculación con la Comunidad.",
-    "buyer": "GOBIERNO REGIONAL DE ARICA-PARINACOTA",
-    "status": "Publicada",
-    "amount_clp": 1500000.0,
-    "published_at": "2025-12-29T10:23:00",
-    "close_at": "2025-12-30T10:30:00",
-    "reviewed": false,
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1500000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=5420-184-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1300026-49-COT25",
-    "title": "COMPRA INSTRUMENTOS MUSICALES PARA TALLER ORQUESTA ADULTO MAYOR",
-    "buyer": "CORP CULTURAL DE LA COMUNA DE LA GRANJA",
-    "status": "Publicada",
-    "amount_clp": 1134448.0,
-    "published_at": "2025-12-29T10:21:00",
-    "close_at": "2025-12-30T10:30:00",
-    "reviewed": false,
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1134448.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1300026-49-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1151549-423-COT25",
-    "title": "Traslado de Estructura Metálica Campus Lincoyán",
-    "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL REGIÓN ARICA Y",
-    "status": "Publicada",
-    "amount_clp": 1200000.0,
-    "published_at": "2025-12-29T09:51:00",
-    "close_at": "2025-12-30T12:00:00",
-    "reviewed": false,
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1200000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1151549-423-COT25"
   },
   {
     "source": "compra_agil",
@@ -3199,7 +2830,7 @@
     "status": "Publicada",
     "amount_clp": 1113000.0,
     "published_at": "2025-12-26T12:35:00",
-    "close_at": "2025-12-30T10:00:00",
+    "close_at": "2026-01-03T08:31:00",
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -3242,58 +2873,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2328-1578-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "4414-882-COT25",
-    "title": "Insumos veterinarios uso capacitación en control de enfermedades comunes en bovino con usuarios PDTI, Arauco.",
-    "buyer": "I MUNICIPALIDAD DE ARAUCO",
-    "status": "Publicada",
-    "amount_clp": 1567831.0,
-    "published_at": "2025-12-24T10:56:00",
-    "close_at": "2025-12-30T10:00:00",
-    "reviewed": false,
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1567831.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4414-882-COT25"
   },
   {
     "source": "compra_agil",
@@ -3513,7 +3092,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:01:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -3572,7 +3151,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:30:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -3631,7 +3210,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:30:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -3749,7 +3328,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:01:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -3792,6 +3371,266 @@
       }
     },
     "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=3935-134-LE25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "2745-194-COT25",
+    "title": "THO-Adquisición de curso de capacitación en Remuneraciones Educación Municipal  para el DEM Angol, con subvención General",
+    "buyer": "I MUNICIPALIDAD DE ANGOL",
+    "status": "Publicada",
+    "amount_clp": 395000.0,
+    "published_at": "2025-12-30T17:35:00",
+    "close_at": "2026-01-02T09:00:00",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.1785714285714284,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 395000.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2745-194-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1242121-496-COT25",
+    "title": "F N25 ARTICULOS PARA CAPACITACION",
+    "buyer": "Servicio de Salud Coquimbo Hospital de Ovalle",
+    "status": "Publicada",
+    "amount_clp": 390130.0,
+    "published_at": "2025-12-30T15:59:00",
+    "close_at": "2026-01-02T08:00:00",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.1785714285714284,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 390130.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1242121-496-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1208910-392-COT25",
+    "title": "MATERIALES DE CONSTRUCCION ADMISION",
+    "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL DE LA REGIÓN DEL BIOBÍO",
+    "status": "Publicada",
+    "amount_clp": 310000.0,
+    "published_at": "2025-12-30T14:57:00",
+    "close_at": "2026-01-06T10:00:00",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.1785714285714284,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 310000.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1208910-392-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1208910-391-COT25",
+    "title": "40 Agendas con Calendario y 40 Bolsas TNT",
+    "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL DE LA REGIÓN DEL BIOBÍO",
+    "status": "Publicada",
+    "amount_clp": 228000.0,
+    "published_at": "2025-12-30T09:48:00",
+    "close_at": "2025-12-31T10:00:00",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.1785714285714284,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 228000.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1208910-391-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1035685-409-COT25",
+    "title": "INSUMOS ELECTRICOS PAILLACO",
+    "buyer": "CENTRO DE FORMACION TECNICA ESTATAL DE LA REGION DE LOS RIOS",
+    "status": "Publicada",
+    "amount_clp": 691820.0,
+    "published_at": "2025-12-30T08:47:00",
+    "close_at": "2026-01-02T12:00:00",
+    "reviewed": false,
+    "score": 4,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.1785714285714284,
+        "display_max": 20,
+        "display_score": 4
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 691820.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1035685-409-COT25"
   },
   {
     "source": "compra_agil",
@@ -3847,110 +3686,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "4629-95-COT25",
-    "title": "Adquisición de 1 televisor de 98 pulgadas para sala de capacitación y reuniones de la Dirección del Trabajo.",
-    "buyer": "DIRECCION DEL TRABAJO",
-    "status": "Publicada",
-    "amount_clp": 67.83,
-    "published_at": "2025-12-29T18:24:00",
-    "close_at": "2025-12-30T18:25:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 67.83,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4629-95-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "4328-1368-COT25",
-    "title": "Insumos de consumo, perecibles para actividad cierre taller de cueca",
-    "buyer": "I MUNICIPALIDAD DE NIQUEN",
-    "status": "Publicada",
-    "amount_clp": 926200.0,
-    "published_at": "2025-12-29T18:14:00",
-    "close_at": "2025-12-30T18:15:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 926200.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4328-1368-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "3593-564-COT25",
     "title": "UTENSILIOS PARA TALLER DE REPOSTERIA",
     "buyer": "ILUSTRE MINICIPALIDAD DE COMBARBALA",
@@ -4000,58 +3735,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3593-564-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1216060-465-COT25",
-    "title": "ESC - Parlantes talleres de verano",
-    "buyer": "Corporación Municipal de Deportes y Recreación Calama",
-    "status": "Publicada",
-    "amount_clp": 300000.0,
-    "published_at": "2025-12-29T16:42:00",
-    "close_at": "2025-12-30T16:45:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 300000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1216060-465-COT25"
   },
   {
     "source": "compra_agil",
@@ -4159,162 +3842,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1057439-4646-COT25",
-    "title": "Guia hidrofilica 0,35 260 cm",
-    "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL LA SERENA",
-    "status": "Publicada",
-    "amount_clp": 1500000.0,
-    "published_at": "2025-12-29T15:12:00",
-    "close_at": "2025-12-30T15:30:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.0238095238095237,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1500000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057439-4646-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1057439-4645-COT25",
-    "title": "Guía J 0.035 de 260 cm",
-    "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL LA SERENA",
-    "status": "Publicada",
-    "amount_clp": 1600000.0,
-    "published_at": "2025-12-29T15:09:00",
-    "close_at": "2025-12-30T15:30:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.0238095238095237,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1600000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057439-4645-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "2407-916-COT25",
-    "title": "MATERIALES PARA TALLERES DE HIDROGIMNASIA PARA PERSONAS MAYORES - SP 836",
-    "buyer": "I MUNICIPALIDAD DE RENCA",
-    "status": "Publicada",
-    "amount_clp": 989000.0,
-    "published_at": "2025-12-29T13:49:00",
-    "close_at": "2025-12-30T14:00:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 989000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2407-916-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "3593-562-COT25",
     "title": "MATERIALES PAR TALLER DE CONFECCION Y COSTURA",
     "buyer": "ILUSTRE MINICIPALIDAD DE COMBARBALA",
@@ -4364,110 +3891,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3593-562-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1298354-529-COT25",
-    "title": "ADQUISICION DE MATERIALES PARA TALLERES LABORALES DE ESCUELA SAN MIGUEL",
-    "buyer": "DIRECCION DE EDUCACION",
-    "status": "Publicada",
-    "amount_clp": 900000.0,
-    "published_at": "2025-12-29T13:45:00",
-    "close_at": "2025-12-30T15:00:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 900000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1298354-529-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "4596-383-COT25",
-    "title": "CAPACITACIÓN METODO MATTE PARA DOCENTE DEL LICEO TÉCNICO PUENTE ÑUBLE SAN NICOLÁS",
-    "buyer": "I. MUNICIPALIDAD DE SAN NICOLÁS D. EDUCACIÓN",
-    "status": "Publicada",
-    "amount_clp": 250000.0,
-    "published_at": "2025-12-29T12:36:00",
-    "close_at": "2025-12-30T12:40:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 250000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4596-383-COT25"
   },
   {
     "source": "compra_agil",
@@ -4523,117 +3946,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "1057439-4642-COT25",
-    "title": "GUIA HIDROFILICA 150 CM RECTA",
-    "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL LA SERENA",
-    "status": "Publicada",
-    "amount_clp": 1200000.0,
-    "published_at": "2025-12-29T11:52:00",
-    "close_at": "2025-12-30T12:00:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.0238095238095237,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1200000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057439-4642-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1151549-427-COT25",
-    "title": "DESINTALACIÓN Y TRASLADO MESAS EMPOTRADAS SALA ESTUDIO Y ESPACIO EXTERNO",
-    "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL REGIÓN ARICA Y",
-    "status": "Publicada",
-    "amount_clp": 800000.0,
-    "published_at": "2025-12-29T11:43:00",
-    "close_at": "2025-12-30T15:00:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 800000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1151549-427-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "1035206-200-COT25",
     "title": "Bidones agua purificada sede Viña del Mar",
     "buyer": "CENTRO DE FORMACION TECNICA ESTATAL DE LA REGION DE VALPARAISO",
     "status": "Publicada",
     "amount_clp": 500000.0,
     "published_at": "2025-12-29T10:37:00",
-    "close_at": "2025-12-30T11:00:00",
+    "close_at": "2025-12-31T16:04:00",
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -4728,162 +4047,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2950-473-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1182705-293-COT25",
-    "title": "DIPLOMAS PARA CEREMONIA TITULACION 2026 PARA IP LOS LAGOS Y CFT.",
-    "buyer": "CENTRO DE FORMACIÓN TÉCNICA DE LA REGIÓN DE AYSÉN DEL GENERAL CARLOS I",
-    "status": "Publicada",
-    "amount_clp": 750000.0,
-    "published_at": "2025-12-29T10:20:00",
-    "close_at": "2025-12-30T10:30:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 750000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1182705-293-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "3477-684-COT25",
-    "title": "INSUMOS GRAFICOS PARA EL PROYECTO FNDR DENOMINADO “8VO ENCUENTRO CENTENARIO DE TALLERES LABORALES PARA EL DESARROLLO Y BIENESTAR DE NUESTRAS AGRUPACIONES” - TALLERES LABORALES",
-    "buyer": "I MUNICIPALIDAD DE VILCUN",
-    "status": "Publicada",
-    "amount_clp": 250000.0,
-    "published_at": "2025-12-29T10:20:00",
-    "close_at": "2025-12-30T10:30:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 250000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3477-684-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "5662-35-COT25",
-    "title": "Adquisición de productos de alimentación para personas, según requerimientos de actividades de capacitación de la Dirección regional del Trabajo de Arica y Parinacota.",
-    "buyer": "DIRECCION DEL TRABAJO",
-    "status": "Publicada",
-    "amount_clp": 350000.0,
-    "published_at": "2025-12-26T18:43:00",
-    "close_at": "2025-12-30T11:00:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 350000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=5662-35-COT25"
   },
   {
     "source": "compra_agil",
@@ -4991,58 +4154,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "509143-33-COT25",
-    "title": "CURSO: ACTUALIZACIÓN EN ATENCIÓN Y CUIDADOS DE ENFERMERÍA EN PACIENTES TRAUMATOLÓGICOS",
-    "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE LINARES",
-    "status": "Publicada",
-    "amount_clp": 900000.0,
-    "published_at": "2025-12-22T10:08:00",
-    "close_at": "2025-12-30T15:44:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 900000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=509143-33-COT25"
-  },
-  {
-    "source": "compra_agil",
     "id": "5598-73-COT25",
     "title": "Herramientas Taller Mecánico",
     "buyer": "UNIVERSIDAD DE CHILE",
@@ -5147,6 +4258,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "1057543-56-LE25",
+    "title": "Mantenimiento Preventivo y Correctivo de Calderas",
+    "buyer": "SERVICIO DE SALUD TALCAHUANO HOSPITAL DE",
+    "status": "Publicada",
+    "amount_clp": null,
+    "published_at": "2025-12-30T15:06:52",
+    "questions_end_at": "2026-01-06T20:00:00",
+    "close_at": "2026-01-09T18:00:00",
+    "dias_cierre_licitacion": 10,
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.875,
+        "amount_0_10": 0.0,
+        "total_0_10": 1.3125,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 16.0,
+        "score_0_10": 1.875,
+        "include_hits": [
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057543-56-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "1070620-177-LR25",
     "title": "SSC SUMINISTRO DE REACTIVOS E INSUMOS PARA EL DIAGNÓSTICO POR BIOLOGÍA MOLECULAR DE AGENTES ETIOLÓGICOS DE INFECCIONES DE TRANSMISIÓN SEXUAL Y OTROS MICROORGANISMOS",
     "buyer": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
@@ -5155,7 +4320,7 @@
     "published_at": "2025-12-24T15:10:13.577",
     "questions_end_at": "2026-01-07T16:00:00",
     "close_at": "2026-01-26T15:00:00",
-    "dias_cierre_licitacion": 28,
+    "dias_cierre_licitacion": 27,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5209,7 +4374,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-05T15:00:00",
-    "dias_cierre_licitacion": 7,
+    "dias_cierre_licitacion": 6,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5263,7 +4428,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-31T11:59:59",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5309,6 +4474,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "1514-179-LR25",
+    "title": "Convenio de procesamiento y diagnóstico de Biopsias y Papanicolaou Procesamiento de Biopsias Rápidas y Confección de Láminas Histológicas para el normal funcionamiento del Hospital de Castro",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-29T14:24:00",
+    "dias_cierre_licitacion": 30,
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.875,
+        "amount_0_10": 0.0,
+        "total_0_10": 1.3125,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 16.0,
+        "score_0_10": 1.875,
+        "include_hits": [
+          {
+            "pattern": "\\bdiagn[oó]stico(s)?\\b",
+            "weight": 3.0,
+            "note": "Diagnósticos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1514-179-LR25"
+  },
+  {
+    "source": "licitaciones",
     "id": "1782-20-LR25",
     "title": "TRANSFERENCIA ASISTENCIA TÉCNICA MUNICI. TOCOPILLA",
     "buyer": "",
@@ -5317,7 +4536,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-08T13:01:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5371,7 +4590,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-09T09:00:00",
-    "dias_cierre_licitacion": 11,
+    "dias_cierre_licitacion": 10,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5425,7 +4644,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T16:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5479,7 +4698,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-07T15:07:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5533,7 +4752,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-16T12:00:00",
-    "dias_cierre_licitacion": 18,
+    "dias_cierre_licitacion": 17,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5587,7 +4806,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-19T16:00:00",
-    "dias_cierre_licitacion": 21,
+    "dias_cierre_licitacion": 20,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5646,8 +4865,8 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-04T11:30:00",
-    "dias_cierre_licitacion": 65,
-    "reviewed": false,
+    "dias_cierre_licitacion": 64,
+    "reviewed": true,
     "score": 3,
     "score_detail": {
       "rules_source": null,
@@ -5692,6 +4911,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "618923-19-L125",
+    "title": "Servicio de evaluación curricular y psicolaboral",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-05T15:00:00",
+    "dias_cierre_licitacion": 6,
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.875,
+        "amount_0_10": 0.0,
+        "total_0_10": 1.3125,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 16.0,
+        "score_0_10": 1.875,
+        "include_hits": [
+          {
+            "pattern": "\\bevaluaci[oó]n(es)?\\b",
+            "weight": 3.0,
+            "note": "Evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=618923-19-L125"
+  },
+  {
+    "source": "licitaciones",
     "id": "619-25-LE25",
     "title": "Servicio de Evaluaciones Psicolaborales",
     "buyer": "",
@@ -5700,7 +4973,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-12T15:00:00",
-    "dias_cierre_licitacion": 14,
+    "dias_cierre_licitacion": 13,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5754,7 +5027,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T16:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5808,7 +5081,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:01:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5854,13 +5127,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "1002772-3070-COT25",
-    "title": "BRAZALETE IDENTIFICACION ADULTO MANUAL ROJO ( PACIENTE ALERG)",
-    "buyer": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
+    "id": "1704-4966-COT25",
+    "title": "*COMPRA DE RESUCITADOR MANUAL NEONATAL DESECHABLE (AMBU)",
+    "buyer": "SERVICIO DE SALUD VINA DEL MAR QUILLOTA",
     "status": "Publicada",
-    "amount_clp": 150000.0,
-    "published_at": "2025-12-29T16:41:00",
-    "close_at": "2025-12-30T16:50:00",
+    "amount_clp": 200000.0,
+    "published_at": "2025-12-30T15:24:00",
+    "close_at": "2025-12-31T15:30:00",
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5896,23 +5169,23 @@
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 150000.0,
+        "amount_clp": 200000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
       }
     },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1002772-3070-COT25"
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1704-4966-COT25"
   },
   {
     "source": "compra_agil",
-    "id": "1058086-257-COT25",
-    "title": "RESUCITADOR MANUAL DESECHABLE ADULTO, ESTERIL. LIBRE DE LATEX",
-    "buyer": "Instituto Nacional de Neurocirugía",
+    "id": "2048-905-COT25",
+    "title": "MASCARILLA DE SILICONA  PARA RESUCITADOR MANUAL Y AUTOMATICO",
+    "buyer": "Hospital de Ancud",
     "status": "Publicada",
-    "amount_clp": 450000.0,
-    "published_at": "2025-12-29T16:13:00",
-    "close_at": "2025-12-30T16:30:00",
+    "amount_clp": 200000.0,
+    "published_at": "2025-12-30T15:20:00",
+    "close_at": "2026-01-02T09:00:00",
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -5948,75 +5221,23 @@
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 450000.0,
+        "amount_clp": 200000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
       }
     },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1058086-257-COT25"
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2048-905-COT25"
   },
   {
     "source": "compra_agil",
-    "id": "608-7760-COT25",
-    "title": "(DAC) GUIA ZEBRA BICOLOR HASTA 0.35\"X150CM HIDROFILICA PUNTA RECTA",
-    "buyer": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR",
+    "id": "4032-42-COT25",
+    "title": "contratación servicio de consultoría ambiental - PGS Ruta del agua (PLL)",
+    "buyer": "I MUNICIPALIDAD DE CANETE",
     "status": "Publicada",
-    "amount_clp": 1.0,
-    "published_at": "2025-12-29T14:54:00",
-    "close_at": "2025-12-30T15:00:00",
-    "reviewed": false,
-    "score": 3,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 1.595238095238095,
-        "display_max": 20,
-        "display_score": 3
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=608-7760-COT25"
-  },
-  {
-    "source": "compra_agil",
-    "id": "2291-1630-COT25",
-    "title": "NP Nº14 ASESORIA JURIDICA, ADQUICION DE MATERIALES DE OFICINA",
-    "buyer": "I MUNICIPALIDAD DE TALCA",
-    "status": "Publicada",
-    "amount_clp": 179000.0,
-    "published_at": "2025-12-29T13:54:00",
-    "close_at": "2025-12-30T14:00:00",
+    "amount_clp": 700000.0,
+    "published_at": "2025-12-24T11:31:00",
+    "close_at": "2026-01-01T08:12:00",
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -6052,13 +5273,65 @@
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 179000.0,
+        "amount_clp": 700000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
       }
     },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2291-1630-COT25"
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4032-42-COT25"
+  },
+  {
+    "source": "compra_agil",
+    "id": "1057491-1941-COT25",
+    "title": "212-0001\tINTRODUCTOR VASCULAR 4 A 5 FR. CON GUIA METALICA 0,021\"",
+    "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+    "status": "Publicada",
+    "amount_clp": 546924.0,
+    "published_at": "2025-12-23T10:23:00",
+    "close_at": "2025-12-31T16:22:00",
+    "reviewed": false,
+    "score": 3,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.6666666666666665,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 1.595238095238095,
+        "display_max": 20,
+        "display_score": 3
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 12.0,
+        "score_0_10": 1.6666666666666665,
+        "include_hits": [
+          {
+            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
+            "weight": 2.0,
+            "note": "Manuales / guías / protocolos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 546924.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1057491-1941-COT25"
   },
   {
     "source": "compra_agil",
@@ -6171,10 +5444,10 @@
     "buyer": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
     "status": "Publicada",
     "amount_clp": null,
-    "published_at": "2025-12-16T14:37:48.73",
+    "published_at": "2025-12-16T14:37:00",
     "questions_end_at": "2025-12-22T12:30:00",
-    "close_at": "2025-12-30T15:00:00",
-    "dias_cierre_licitacion": 1,
+    "close_at": "2026-01-05T15:00:00",
+    "dias_cierre_licitacion": 6,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6228,7 +5501,7 @@
     "published_at": "2025-12-18T10:07:28.55",
     "questions_end_at": "2025-12-24T16:00:00",
     "close_at": "2026-01-02T16:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6282,7 +5555,7 @@
     "published_at": "2025-12-24T09:35:29.537",
     "questions_end_at": "2026-01-02T15:30:00",
     "close_at": "2026-01-23T16:00:00",
-    "dias_cierre_licitacion": 25,
+    "dias_cierre_licitacion": 24,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6336,7 +5609,7 @@
     "published_at": "2025-12-23T14:54:03.87",
     "questions_end_at": "2025-12-30T15:30:00",
     "close_at": "2026-01-06T16:00:00",
-    "dias_cierre_licitacion": 8,
+    "dias_cierre_licitacion": 7,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6390,7 +5663,7 @@
     "published_at": "2025-12-23T15:18:53.8",
     "questions_end_at": "2025-12-30T12:30:00",
     "close_at": "2026-01-06T15:30:00",
-    "dias_cierre_licitacion": 8,
+    "dias_cierre_licitacion": 7,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6444,7 +5717,7 @@
     "published_at": "2025-12-23T12:52:28.82",
     "questions_end_at": "2025-12-29T10:00:00",
     "close_at": "2026-01-02T17:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6498,7 +5771,7 @@
     "published_at": "2025-12-22T22:04:00",
     "questions_end_at": "2026-01-06T15:00:00",
     "close_at": "2026-01-12T15:30:00",
-    "dias_cierre_licitacion": 14,
+    "dias_cierre_licitacion": 13,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6544,60 +5817,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "1035685-30-LE25",
-    "title": "EQUIPOS SISTEMA VIDEO CONFERENCIAS",
-    "buyer": "CENTRO DE FORMACION TECNICA ESTATAL DE LA REGION DE LOS RIOS",
-    "status": "Publicada",
-    "amount_clp": null,
-    "published_at": "2025-12-22T17:46:00.94",
-    "questions_end_at": "2025-12-24T17:00:00",
-    "close_at": "2025-12-30T17:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b",
-            "weight": 2.0,
-            "note": "Capacitación / cursos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1035685-30-LE25"
-  },
-  {
-    "source": "licitaciones",
     "id": "1057049-369-LP25",
     "title": "JCD ADQ. SUTURAS MANUALES PARA PABELLON CENTRAL",
     "buyer": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
@@ -6606,7 +5825,7 @@
     "published_at": "2025-12-16T09:23:00",
     "questions_end_at": "2025-12-22T12:00:00",
     "close_at": "2026-01-05T15:30:00",
-    "dias_cierre_licitacion": 7,
+    "dias_cierre_licitacion": 6,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6652,6 +5871,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "1057385-33-LE25",
+    "title": "CONVENIO DE ARRIENDO DE MONITORES DE HEMODIALISIS",
+    "buyer": "SERVICIO DE SALUD ANTOFAGASTA HOSPITAL 21 DE MAYO TALTAL",
+    "status": "Publicada",
+    "amount_clp": null,
+    "published_at": "2025-12-30T15:30:01.68",
+    "questions_end_at": "2026-01-12T18:47:00",
+    "close_at": "2026-01-22T13:23:00",
+    "dias_cierre_licitacion": 23,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b",
+            "weight": 2.0,
+            "note": "Capacitación / cursos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057385-33-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "1057429-51-LP25",
     "title": "PANELES IDENTIFICACION Y ESTUDIOS DE MICROBIOLOGIA",
     "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
@@ -6660,7 +5933,7 @@
     "published_at": "2025-12-29T16:21:06.693",
     "questions_end_at": "2026-01-07T19:38:00",
     "close_at": "2026-01-19T17:32:00",
-    "dias_cierre_licitacion": 21,
+    "dias_cierre_licitacion": 20,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6719,7 +5992,7 @@
     "published_at": "2025-12-17T17:11:28.203",
     "questions_end_at": "2025-12-22T10:00:00",
     "close_at": "2026-01-07T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6765,60 +6038,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "1057536-196-LP25",
-    "title": "TALLER DE REHABILITACIÓN TIPO II",
-    "buyer": "SERVICIO SALUD DEL RELONCAVI",
-    "status": "Publicada",
-    "amount_clp": null,
-    "published_at": "2025-12-15T15:59:32.47",
-    "questions_end_at": "2025-12-22T16:00:00",
-    "close_at": "2025-12-30T17:00:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\btaller(es)?\\b",
-            "weight": 2.0,
-            "note": "Talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057536-196-LP25"
-  },
-  {
-    "source": "licitaciones",
     "id": "1177296-27-LE25",
     "title": "REVISIÓN ACTUALIZACIÓN Y MEJORA DE 13 CURSOS EN LÍNEA EXISTENTES EN  LA  ACADEMIA  DE  FORMACIÓN ESPECIALIZADA CONECTANDO SABERES DEL SERVICIO  NACIONAL  DE  PROTECCIÓN ESPECIALIZADA",
     "buyer": "",
@@ -6827,8 +6046,8 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:01:00",
-    "dias_cierre_licitacion": 4,
-    "reviewed": false,
+    "dias_cierre_licitacion": 3,
+    "reviewed": true,
     "score": 2,
     "score_detail": {
       "rules_source": null,
@@ -6881,7 +6100,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-21T15:00:00",
-    "dias_cierre_licitacion": 23,
+    "dias_cierre_licitacion": 22,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6935,7 +6154,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-28T15:00:00",
-    "dias_cierre_licitacion": 30,
+    "dias_cierre_licitacion": 29,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -6981,6 +6200,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "1261-40-LE25",
+    "title": "CAPACITACION A  PROFESIONALES MUNICIPALES EN G.I.I",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-09T15:30:00",
+    "dias_cierre_licitacion": 10,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b",
+            "weight": 2.0,
+            "note": "Capacitación / cursos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1261-40-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "1467744-1-LP25",
     "title": "ASESORÍA Y CONSULTORÍA EN GESTIÓN DEL CAMBIO",
     "buyer": "",
@@ -6989,7 +6262,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-12T15:00:00",
-    "dias_cierre_licitacion": 14,
+    "dias_cierre_licitacion": 13,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7035,60 +6308,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "1469-293-LE25",
-    "title": "ADQUISICIÓN DE SERVICIO DE CONSULTORÍA Y DESARROLLO EN LOS MÓDULOS DE FINANZAS INTEGRACIONES ERP SAP PARA LA UNIVERSIDAD DE TALCA",
-    "buyer": "",
-    "status": "",
-    "amount_clp": null,
-    "published_at": "",
-    "questions_end_at": "",
-    "close_at": "2025-12-30T18:30:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
-            "weight": 2.0,
-            "note": "Asesorías / consultorías"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1469-293-LE25"
-  },
-  {
-    "source": "licitaciones",
     "id": "1507-89-O125",
     "title": "AIF NRO. 4 - REV. VARIOS ESTUDIOS SSR. R. BIOBÍO",
     "buyer": "",
@@ -7097,7 +6316,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-16T15:01:00",
-    "dias_cierre_licitacion": 18,
+    "dias_cierre_licitacion": 17,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7151,7 +6370,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:30:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7205,7 +6424,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-05T15:01:00",
-    "dias_cierre_licitacion": 7,
+    "dias_cierre_licitacion": 6,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7251,6 +6470,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "1743-73-LE25",
+    "title": "CONSULTORIA Y RELATORIA",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-07T15:00:00",
+    "dias_cierre_licitacion": 8,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
+            "weight": 2.0,
+            "note": "Asesorías / consultorías"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1743-73-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "1896-16-O125",
     "title": "ESTUDIO DE PREFACTIBILIDAD RUTA 5 - RUTA 225 CH",
     "buyer": "",
@@ -7259,7 +6532,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-15T08:00:00",
-    "dias_cierre_licitacion": 17,
+    "dias_cierre_licitacion": 16,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7313,7 +6586,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-02-06T08:00:00",
-    "dias_cierre_licitacion": 39,
+    "dias_cierre_licitacion": 38,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7367,7 +6640,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-02-04T09:00:00",
-    "dias_cierre_licitacion": 37,
+    "dias_cierre_licitacion": 36,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7421,7 +6694,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-20T16:00:00",
-    "dias_cierre_licitacion": 22,
+    "dias_cierre_licitacion": 21,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7475,7 +6748,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-06T12:00:00",
-    "dias_cierre_licitacion": 8,
+    "dias_cierre_licitacion": 7,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7529,7 +6802,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-21T09:00:00",
-    "dias_cierre_licitacion": 23,
+    "dias_cierre_licitacion": 22,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7583,7 +6856,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-08T16:45:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7637,7 +6910,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-15T15:30:00",
-    "dias_cierre_licitacion": 17,
+    "dias_cierre_licitacion": 16,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7691,7 +6964,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-19T15:30:00",
-    "dias_cierre_licitacion": 21,
+    "dias_cierre_licitacion": 20,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7737,6 +7010,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "2785-116-LE25",
+    "title": "“Reposición Cuartel 1era Compañía de Bomberos San Pedro de la Paz - Consultoría”",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-23T15:00:00",
+    "dias_cierre_licitacion": 24,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
+            "weight": 2.0,
+            "note": "Asesorías / consultorías"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=2785-116-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "3073-57-LE25",
     "title": "SERVICIO DE ASESORÍA PROFESIONAL Y ACADÉMICA EN HIDROGRAFÍA Y OCEANOGRAFÍA PARA EL SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA",
     "buyer": "",
@@ -7745,7 +7072,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-07T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7799,7 +7126,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-02-17T09:30:00",
-    "dias_cierre_licitacion": 50,
+    "dias_cierre_licitacion": 49,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7853,7 +7180,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-02-18T09:30:00",
-    "dias_cierre_licitacion": 51,
+    "dias_cierre_licitacion": 50,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7907,7 +7234,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-02-19T09:30:00",
-    "dias_cierre_licitacion": 52,
+    "dias_cierre_licitacion": 51,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -7961,7 +7288,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-06T09:30:00",
-    "dias_cierre_licitacion": 8,
+    "dias_cierre_licitacion": 7,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8015,7 +7342,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-09T15:30:00",
-    "dias_cierre_licitacion": 11,
+    "dias_cierre_licitacion": 10,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8061,6 +7388,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "3625-27-LE25",
+    "title": "CONSULTORIA MODELO DESARROLLO COMUNITARIO PPL SJM",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-12T15:00:00",
+    "dias_cierre_licitacion": 13,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
+            "weight": 2.0,
+            "note": "Asesorías / consultorías"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=3625-27-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "3704-51-LE25",
     "title": "Contratación Servicio de Asesoría Informática",
     "buyer": "",
@@ -8069,7 +7450,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:01:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8123,7 +7504,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-06T10:05:00",
-    "dias_cierre_licitacion": 8,
+    "dias_cierre_licitacion": 7,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8169,6 +7550,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "3929-97-LE25",
+    "title": "Consultoría diseños de ingeniería sistemas de AALL",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-12T15:01:00",
+    "dias_cierre_licitacion": 13,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
+            "weight": 2.0,
+            "note": "Asesorías / consultorías"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=3929-97-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "4127-139-LE25",
     "title": "[DGP] CURSO SALUD PÚBLICA BASADA EN DATOS",
     "buyer": "",
@@ -8177,7 +7612,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-08T16:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8231,7 +7666,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-12T15:01:00",
-    "dias_cierre_licitacion": 14,
+    "dias_cierre_licitacion": 13,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8285,7 +7720,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T15:35:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8339,7 +7774,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-09T12:00:00",
-    "dias_cierre_licitacion": 11,
+    "dias_cierre_licitacion": 10,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8393,7 +7828,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2025-12-31T11:59:59",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8439,60 +7874,6 @@
   },
   {
     "source": "licitaciones",
-    "id": "4589-43-LE25",
-    "title": "ASESORIA PARA ACTUALIZACION SELLO SISTEMA CERTIFIC",
-    "buyer": "",
-    "status": "",
-    "amount_clp": null,
-    "published_at": "",
-    "questions_end_at": "",
-    "close_at": "2025-12-30T10:03:00",
-    "dias_cierre_licitacion": 1,
-    "reviewed": false,
-    "score": 2,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.25,
-        "amount_0_10": 0.0,
-        "total_0_10": 0.875,
-        "display_max": 20,
-        "display_score": 2
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 16.0,
-        "score_0_10": 1.25,
-        "include_hits": [
-          {
-            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
-            "weight": 2.0,
-            "note": "Asesorías / consultorías"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": null,
-        "band": null,
-        "band_points": 0,
-        "score_0_10": 0.0
-      }
-    },
-    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=4589-43-LE25"
-  },
-  {
-    "source": "licitaciones",
     "id": "4594-88-LE25",
     "title": "SUMINISTRO TALLER MECANICO NEUMATICOS Y BATERIAS ",
     "buyer": "",
@@ -8501,7 +7882,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-09T16:00:00",
-    "dias_cierre_licitacion": 11,
+    "dias_cierre_licitacion": 10,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8555,7 +7936,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-05T15:00:00",
-    "dias_cierre_licitacion": 7,
+    "dias_cierre_licitacion": 6,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8609,7 +7990,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-13T15:00:00",
-    "dias_cierre_licitacion": 15,
+    "dias_cierre_licitacion": 14,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8663,7 +8044,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-21T15:30:00",
-    "dias_cierre_licitacion": 23,
+    "dias_cierre_licitacion": 22,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8721,8 +8102,8 @@
     "amount_clp": null,
     "published_at": "",
     "questions_end_at": "",
-    "close_at": "2025-12-30T15:00:00",
-    "dias_cierre_licitacion": 1,
+    "close_at": "2026-01-02T15:01:00",
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8822,6 +8203,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "5661-54-O125",
+    "title": "ASESORÍA A LA INSPECCIÓN FISCAL REPOSICION SSR EL YECO, MARIQUINA",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-02-03T09:59:00",
+    "dias_cierre_licitacion": 35,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
+            "weight": 2.0,
+            "note": "Asesorías / consultorías"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=5661-54-O125"
+  },
+  {
+    "source": "licitaciones",
     "id": "5663-27-O125",
     "title": "ESTUDIO HIDROGEOLÓGICO LAONZANA, 2DO LLAMADO, HUARA",
     "buyer": "",
@@ -8830,7 +8265,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-19T15:00:00",
-    "dias_cierre_licitacion": 21,
+    "dias_cierre_licitacion": 20,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8884,7 +8319,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-05T15:00:00",
-    "dias_cierre_licitacion": 7,
+    "dias_cierre_licitacion": 6,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8938,7 +8373,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-13T15:10:00",
-    "dias_cierre_licitacion": 15,
+    "dias_cierre_licitacion": 14,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -8992,7 +8427,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-02T16:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -9046,7 +8481,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-12T16:00:00",
-    "dias_cierre_licitacion": 14,
+    "dias_cierre_licitacion": 13,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -9100,7 +8535,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-08T11:07:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -9146,6 +8581,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "717503-25-LE25",
+    "title": "MOCHILAS PARA ESCUELA DE CAPACITACION VERANO 2026.",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-01-05T18:50:00",
+    "dias_cierre_licitacion": 6,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b",
+            "weight": 2.0,
+            "note": "Capacitación / cursos"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=717503-25-LE25"
+  },
+  {
+    "source": "licitaciones",
     "id": "966131-78-LE25",
     "title": "Estudio Base de Cartografía Castro",
     "buyer": "",
@@ -9154,7 +8643,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-01-19T16:00:00",
-    "dias_cierre_licitacion": 21,
+    "dias_cierre_licitacion": 20,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -9200,6 +8689,60 @@
   },
   {
     "source": "licitaciones",
+    "id": "975-92-O125",
+    "title": "Estudio de Análisis Ambiental Embalse Bollenar",
+    "buyer": "",
+    "status": "",
+    "amount_clp": null,
+    "published_at": "",
+    "questions_end_at": "",
+    "close_at": "2026-02-10T10:55:00",
+    "dias_cierre_licitacion": 42,
+    "reviewed": false,
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=975-92-O125"
+  },
+  {
+    "source": "licitaciones",
     "id": "976-39-O125",
     "title": "ASESORIA A LA INSPECCIÓN FISCAL CONSERVACION MAYOR AEROPUERTO ARTURO MERINO",
     "buyer": "",
@@ -9208,7 +8751,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-02-03T09:00:00",
-    "dias_cierre_licitacion": 36,
+    "dias_cierre_licitacion": 35,
     "reviewed": false,
     "score": 2,
     "score_detail": {
