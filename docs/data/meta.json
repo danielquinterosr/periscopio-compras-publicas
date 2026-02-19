@@ -1,16 +1,16 @@
 {
-  "last_update_iso": "2026-02-18T06:15:49.805245Z",
+  "last_update_iso": "2026-02-19T06:15:24.342212Z",
   "repo": "danielquinterosr/periscopio-compras-publicas",
   "paths": {
     "compra_agil_xlsx": "data/compra_agil.xlsx",
-    "compra_agil_history_last": "data/history/compra_agil/compra_agil_20260218.xlsx",
+    "compra_agil_history_last": "data/history/compra_agil/compra_agil_20260219.xlsx",
     "registry": "docs/data/opportunities_registry.json"
   },
   "counts": {
-    "total_current": 11729,
-    "shown": 400,
-    "licitaciones_total": 4649,
-    "compra_agil_total": 7080,
+    "total_current": 11941,
+    "shown": 415,
+    "licitaciones_total": 4737,
+    "compra_agil_total": 7204,
     "reviewed_ids_from_issues": 10,
     "detalle_ok": 400,
     "detalle_fail": 0,
