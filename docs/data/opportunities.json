@@ -113,7 +113,7 @@
     "published_at": "2026-02-05T09:42:59.657",
     "questions_end_at": "2026-02-16T18:00:00",
     "close_at": "2026-03-09T15:30:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 10,
     "score_detail": {
@@ -167,7 +167,7 @@
     "published_at": "2026-02-18T11:22:13.91",
     "questions_end_at": "2026-02-25T12:00:00",
     "close_at": "2026-03-10T16:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 10,
     "score_detail": {
@@ -380,7 +380,7 @@
     "status": "Publicada",
     "amount_clp": 5658000.0,
     "published_at": "2026-03-06T12:18:00",
-    "close_at": "2026-03-08T13:00:00",
+    "close_at": "2026-03-10T13:41:00",
     "reviewed": false,
     "score": 10,
     "score_detail": {
@@ -855,7 +855,7 @@
     "published_at": "2026-02-19T13:08:03.583",
     "questions_end_at": "2026-03-01T13:30:00",
     "close_at": "2026-03-11T17:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 9,
     "score_detail": {
@@ -1327,63 +1327,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1035206-37-COT26",
-    "title": "Equipamiento Hidráulico y Diagnóstico (Flexible 1/4 R16 Conexiones Bsp 4-4)",
-    "buyer": "CENTRO DE FORMACION TECNICA ESTATAL DE LA REGION DE VALPARAISO",
-    "status": "Publicada",
-    "amount_clp": 306000.0,
-    "published_at": "2026-02-26T10:33:00",
-    "close_at": "2026-03-08T09:26:00",
-    "reviewed": false,
-    "score": 9,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 5.833333333333334,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 4.511904761904763,
-        "display_max": 20,
-        "display_score": 9
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 7.0,
-        "exclude_points": 0.0,
-        "raw_points": 7.0,
-        "max_points": 12.0,
-        "score_0_10": 5.833333333333334,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          },
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 306000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1035206-37-COT26"
-  },
-  {
-    "source": "compra_agil",
     "id": "2735-158-COT26",
     "title": "ADQUISICIÓN DE:  MATERIALES ESCOLARES PARA LA REALIZACIÓN DE TALLERES Y ACTIVIDADES COMUNITARIAS",
     "buyer": "I MUNICIPALIDAD LO BARNECHEA",
@@ -1444,7 +1387,7 @@
     "published_at": "2026-02-27T16:27:12.137",
     "questions_end_at": "2026-03-04T20:01:00",
     "close_at": "2026-03-19T15:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 8,
     "score_detail": {
@@ -1498,7 +1441,7 @@
     "published_at": "2026-02-06T11:10:40.717",
     "questions_end_at": "2026-02-16T13:30:00",
     "close_at": "2026-03-09T17:32:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 8,
     "score_detail": {
@@ -1552,7 +1495,7 @@
     "published_at": "2026-03-05T16:17:53.813",
     "questions_end_at": "2026-03-12T16:00:00",
     "close_at": "2026-03-25T16:00:00",
-    "dias_cierre_licitacion": 18,
+    "dias_cierre_licitacion": 17,
     "reviewed": false,
     "score": 8,
     "score_detail": {
@@ -1606,7 +1549,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T15:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 8,
     "score_detail": {
@@ -1818,58 +1761,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1003473-1152-COT26",
-    "title": "PROG. HEMODINAMIA MARZO 2026/GUIA ANGIOGRAFICA EN J DE 0.35 X 260 CMS",
-    "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE CURICO",
-    "status": "Publicada",
-    "amount_clp": 6000000.0,
-    "published_at": "2026-03-06T08:48:00",
-    "close_at": "2026-03-08T12:00:00",
-    "reviewed": false,
-    "score": 8,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.166666666666666,
-        "display_max": 20,
-        "display_score": 8
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 6000000.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1003473-1152-COT26"
-  },
-  {
-    "source": "compra_agil",
     "id": "696704-18-COT26",
     "title": "Evaluaciones Psicológicas Fiscalías Región del Maule",
     "buyer": "MINISTERIO PUBLICO",
@@ -1919,58 +1810,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=696704-18-COT26"
-  },
-  {
-    "source": "compra_agil",
-    "id": "5441-90-COT26",
-    "title": "CMC - Compra de Kits de Diagnóstico",
-    "buyer": "UNIVERSIDAD DE CHILE",
-    "status": "Publicada",
-    "amount_clp": 3800000.0,
-    "published_at": "2026-03-04T16:21:00",
-    "close_at": "2026-03-08T12:38:00",
-    "reviewed": false,
-    "score": 8,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 5.7142857142857135,
-        "total_0_10": 4.0476190476190474,
-        "display_max": 20,
-        "display_score": 8
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 3800000.0,
-        "band": "3–4MM",
-        "band_points": 4.0,
-        "score_0_10": 5.7142857142857135
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=5441-90-COT26"
   },
   {
     "source": "compra_agil",
@@ -2190,7 +2029,7 @@
     "published_at": "2026-02-25T15:45:25.06",
     "questions_end_at": "2026-03-05T17:00:00",
     "close_at": "2026-03-17T17:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 7,
     "score_detail": {
@@ -2244,7 +2083,7 @@
     "published_at": "2026-03-06T15:59:38.273",
     "questions_end_at": "2026-03-10T10:00:00",
     "close_at": "2026-03-16T15:30:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 7,
     "score_detail": {
@@ -2303,7 +2142,7 @@
     "published_at": "2026-03-06T16:11:45.2",
     "questions_end_at": "2026-03-10T10:00:00",
     "close_at": "2026-03-16T15:30:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 7,
     "score_detail": {
@@ -2362,7 +2201,7 @@
     "published_at": "2026-02-26T17:31:33.057",
     "questions_end_at": "2026-03-05T16:00:00",
     "close_at": "2026-03-18T16:00:00",
-    "dias_cierre_licitacion": 11,
+    "dias_cierre_licitacion": 10,
     "reviewed": false,
     "score": 7,
     "score_detail": {
@@ -3409,7 +3248,7 @@
     "published_at": "2026-03-03T13:11:38.017",
     "questions_end_at": "2026-03-06T14:00:00",
     "close_at": "2026-03-13T17:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 6,
     "score_detail": {
@@ -3452,6 +3291,58 @@
       }
     },
     "url": "https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion=1057489-69-LE26"
+  },
+  {
+    "source": "compra_agil",
+    "id": "4077-19-COT26",
+    "title": "Pijamas de verano unisex.",
+    "buyer": "V ZONA CARABINEROS VALPARAISO",
+    "status": "Publicada",
+    "amount_clp": 2070000.0,
+    "published_at": "2026-03-08T11:43:00",
+    "close_at": "2026-03-10T12:00:00",
+    "reviewed": false,
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 4.285714285714286,
+        "total_0_10": 3.0357142857142856,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 2070000.0,
+        "band": "2–3MM",
+        "band_points": 3.0,
+        "score_0_10": 4.285714285714286
+      }
+    },
+    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4077-19-COT26"
   },
   {
     "source": "compra_agil",
@@ -5431,58 +5322,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "2733-68-COT26",
-    "title": "SC 29572 - L.P - SERVICIO DE DIAGNÓSTICO Y REPARACIÓN DE PROYECTOR DE LICEO PEÑAFLOR.",
-    "buyer": "I MUNICIPALIDAD DE PENAFLOR",
-    "status": "Publicada",
-    "amount_clp": 100000.0,
-    "published_at": "2026-02-26T13:21:00",
-    "close_at": "2026-03-08T06:38:00",
-    "reviewed": false,
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.7619047619047614,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 100000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2733-68-COT26"
-  },
-  {
-    "source": "compra_agil",
     "id": "1422051-71-COT26",
     "title": "Curso OS-10 P1",
     "buyer": "JUNTA DE ALCALDES PROVIDENCIA LAS CONDES LA REINA",
@@ -5638,58 +5477,6 @@
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4116-6-COT26"
   },
   {
-    "source": "compra_agil",
-    "id": "507428-58-COT26",
-    "title": "Relatoría Capacitación: “Neurodivergencias en el ciclo vital”",
-    "buyer": "SERVICIO DE SALUD CHILOE",
-    "status": "Publicada",
-    "amount_clp": 2000000.0,
-    "published_at": "2026-02-17T15:38:00",
-    "close_at": "2026-03-08T09:44:00",
-    "reviewed": false,
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 3.0357142857142856,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2000000.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=507428-58-COT26"
-  },
-  {
     "source": "licitaciones",
     "id": "1057404-18-LE26",
     "title": "SERVICIOS DE TENS DE ENFERMERIA - HOSPITAL ARAUCO",
@@ -5699,7 +5486,7 @@
     "published_at": "2026-02-24T09:42:25.067",
     "questions_end_at": "2026-02-26T16:00:00",
     "close_at": "2026-03-09T15:30:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -5753,7 +5540,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-26T14:00:00",
-    "dias_cierre_licitacion": 19,
+    "dias_cierre_licitacion": 18,
     "reviewed": false,
     "score": 5,
     "score_detail": {
@@ -8256,7 +8043,7 @@
     "published_at": "2026-03-03T16:57:16.993",
     "questions_end_at": "2026-03-07T17:00:00",
     "close_at": "2026-03-13T16:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8310,7 +8097,7 @@
     "published_at": "2026-03-02T08:53:01.783",
     "questions_end_at": "2026-03-09T17:00:00",
     "close_at": "2026-03-23T17:00:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8364,7 +8151,7 @@
     "published_at": "2026-02-24T15:00:00",
     "questions_end_at": "2026-03-04T16:00:00",
     "close_at": "2026-03-16T18:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8423,7 +8210,7 @@
     "published_at": "2026-03-06T16:07:06.84",
     "questions_end_at": "2026-03-10T09:00:00",
     "close_at": "2026-03-16T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8477,7 +8264,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-23T15:00:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8536,7 +8323,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-23T16:00:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8590,7 +8377,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-19T10:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8644,7 +8431,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T10:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8698,7 +8485,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T09:30:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8757,7 +8544,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T15:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8811,7 +8598,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:01:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8924,7 +8711,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T15:30:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -8978,7 +8765,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-19T13:30:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9032,7 +8819,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-18T15:00:00",
-    "dias_cierre_licitacion": 11,
+    "dias_cierre_licitacion": 10,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9086,7 +8873,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-27T14:00:00",
-    "dias_cierre_licitacion": 20,
+    "dias_cierre_licitacion": 19,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9140,7 +8927,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-27T15:00:00",
-    "dias_cierre_licitacion": 20,
+    "dias_cierre_licitacion": 19,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9194,7 +8981,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T18:38:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9253,7 +9040,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T16:05:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9307,7 +9094,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T18:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9366,7 +9153,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T09:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9425,7 +9212,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T15:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9484,7 +9271,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T19:57:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9543,7 +9330,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T15:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9602,7 +9389,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T15:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9661,7 +9448,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-30T15:30:00",
-    "dias_cierre_licitacion": 23,
+    "dias_cierre_licitacion": 22,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -9715,7 +9502,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T18:50:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 4,
     "score_detail": {
@@ -10855,58 +10642,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=218-147-COT26"
-  },
-  {
-    "source": "compra_agil",
-    "id": "3884-143-COT26",
-    "title": "ADQUISICIÓN DE PRESENTES Y GALVANOS PARA JORNADA DE CAPACITACIÓN DENOMINADA MUJERES ELQUINAS",
-    "buyer": "I MUNICIPALIDAD PAIHUANO",
-    "status": "Publicada",
-    "amount_clp": 300000.0,
-    "published_at": "2026-03-06T12:52:00",
-    "close_at": "2026-03-08T12:57:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 300000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3884-143-COT26"
   },
   {
     "source": "compra_agil",
@@ -12155,58 +11890,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1035685-47-COT26"
-  },
-  {
-    "source": "compra_agil",
-    "id": "1003473-1150-COT26",
-    "title": "PROG. HEMODINAMIA MARZO 2026/ GUIA ANGIOGRAFICA DE NUCLEO FIJO",
-    "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE CURICO",
-    "status": "Publicada",
-    "amount_clp": 1000000.0,
-    "published_at": "2026-03-06T08:39:00",
-    "close_at": "2026-03-08T12:00:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.0238095238095237,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1000000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1003473-1150-COT26"
   },
   {
     "source": "compra_agil",
@@ -13978,58 +13661,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "2296-120-COT26",
-    "title": "Adquisición de Enfriador de Aire, Guía de Pedido N°25270 Administración Municipal",
-    "buyer": "I MUNICIPALIDAD DE CONCHALI",
-    "status": "Publicada",
-    "amount_clp": 1800000.0,
-    "published_at": "2026-03-03T16:33:00",
-    "close_at": "2026-03-08T07:54:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.0238095238095237,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1800000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2296-120-COT26"
-  },
-  {
-    "source": "compra_agil",
     "id": "2785-151-COT26",
     "title": "SDA 5636/ ALIMENTOS E INSUMOS PARA EJECUCIÓN DE CURSOS Y TALLERES PROGRAMA MUNICIPAL DESARROLLO ECONÓMICO LOCAL.",
     "buyer": "I MUNICIPALIDAD DE SAN PEDRO DE LA PAZ",
@@ -14446,110 +14077,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "5056-10-COT26",
-    "title": "CURSO FORMACIÓN DE FISCALES Y ACTUARIOS",
-    "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TALCA",
-    "status": "Publicada",
-    "amount_clp": 800000.0,
-    "published_at": "2026-02-26T15:48:00",
-    "close_at": "2026-03-08T07:43:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 800000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=5056-10-COT26"
-  },
-  {
-    "source": "compra_agil",
-    "id": "4314-58-COT26",
-    "title": "COMPRA DE ALIMENTACION PARA CURSO PROGRAMA AFI",
-    "buyer": "ILUSTRE MUNICIPALIDAD DE CUREPTO",
-    "status": "Publicada",
-    "amount_clp": 300000.0,
-    "published_at": "2026-02-25T12:56:00",
-    "close_at": "2026-03-08T08:38:00",
-    "reviewed": false,
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 300000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=4314-58-COT26"
-  },
-  {
-    "source": "compra_agil",
     "id": "688-7-COT26",
     "title": "Curso Gobernanza de datos",
     "buyer": "OFICINA DE ESTUDIOS Y POLITICAS AGRARIAS",
@@ -14610,7 +14137,7 @@
     "published_at": "2026-03-02T11:15:59.573",
     "questions_end_at": "2026-03-04T17:00:00",
     "close_at": "2026-03-10T17:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -14664,7 +14191,7 @@
     "published_at": "2026-03-02T11:16:50.397",
     "questions_end_at": "2026-03-05T17:00:00",
     "close_at": "2026-03-11T17:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -14718,7 +14245,7 @@
     "published_at": "2026-03-03T17:38:00",
     "questions_end_at": "2026-03-06T20:49:00",
     "close_at": "2026-03-13T10:05:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -14772,7 +14299,7 @@
     "published_at": "2026-03-02T17:00:00",
     "questions_end_at": "2026-03-04T19:50:00",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -14826,7 +14353,7 @@
     "published_at": "2026-03-05T10:13:32.92",
     "questions_end_at": "2026-03-09T14:00:00",
     "close_at": "2026-03-13T14:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -14880,7 +14407,7 @@
     "published_at": "2026-02-24T15:51:09.5",
     "questions_end_at": "2026-03-06T12:00:00",
     "close_at": "2026-03-16T16:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -14934,7 +14461,7 @@
     "published_at": "2026-02-25T10:50:56.66",
     "questions_end_at": "2026-03-07T12:00:00",
     "close_at": "2026-03-17T16:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -14988,7 +14515,7 @@
     "published_at": "2026-03-04T15:54:59.923",
     "questions_end_at": "2026-03-06T15:00:00",
     "close_at": "2026-03-12T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15042,7 +14569,7 @@
     "published_at": "2026-03-03T17:07:31.89",
     "questions_end_at": "2026-03-06T12:00:00",
     "close_at": "2026-03-13T15:30:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15096,7 +14623,7 @@
     "published_at": "2026-03-03T17:03:21.813",
     "questions_end_at": "2026-03-06T12:00:00",
     "close_at": "2026-03-13T15:30:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15150,7 +14677,7 @@
     "published_at": "2026-03-05T16:54:36.31",
     "questions_end_at": "2026-03-09T09:00:00",
     "close_at": "2026-03-13T09:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15204,7 +14731,7 @@
     "published_at": "2026-03-04T15:56:15.343",
     "questions_end_at": "2026-03-08T17:00:00",
     "close_at": "2026-03-16T15:30:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15263,7 +14790,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-19T15:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15317,7 +14844,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T17:01:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15371,7 +14898,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T16:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15425,7 +14952,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T15:01:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15479,7 +15006,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T10:30:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15533,7 +15060,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T15:35:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15587,7 +15114,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:10:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15641,7 +15168,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-24T12:00:00",
-    "dias_cierre_licitacion": 17,
+    "dias_cierre_licitacion": 16,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15695,7 +15222,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:05:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15749,7 +15276,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T18:43:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15803,7 +15330,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T12:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15857,7 +15384,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T16:17:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15911,7 +15438,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T15:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -15965,7 +15492,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:02:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -16019,7 +15546,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-19T11:10:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -16073,7 +15600,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-04-13T20:00:00",
-    "dias_cierre_licitacion": 37,
+    "dias_cierre_licitacion": 36,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -16127,7 +15654,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:30:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -16181,7 +15708,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T15:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -16235,7 +15762,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T12:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 3,
     "score_detail": {
@@ -16333,58 +15860,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1704-867-COT26",
-    "title": "ASESORIA GENETICA",
-    "buyer": "SERVICIO DE SALUD VINA DEL MAR QUILLOTA",
-    "status": "Publicada",
-    "amount_clp": 550000.0,
-    "published_at": "2026-03-06T15:22:00",
-    "close_at": "2026-03-08T11:00:00",
-    "reviewed": false,
-    "score": 3,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 1.595238095238095,
-        "display_max": 20,
-        "display_score": 3
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
-            "weight": 2.0,
-            "note": "Asesorías / consultorías"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 550000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=1704-867-COT26"
-  },
-  {
-    "source": "compra_agil",
     "id": "2196-85-COT26",
     "title": "transpaleta manual 2000 kilos  para bodega central",
     "buyer": "Hospital Psiquiátrico El Peral",
@@ -16434,58 +15909,6 @@
       }
     },
     "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=2196-85-COT26"
-  },
-  {
-    "source": "compra_agil",
-    "id": "3518-37-COT26",
-    "title": "PROTOCOLOS Y CORRECCIONES WISC Y WAIS PARA LICEO LGA-SEP",
-    "buyer": "I MUNICIPALIDAD DE TRAIGUEN",
-    "status": "Publicada",
-    "amount_clp": 800000.0,
-    "published_at": "2026-03-06T08:36:00",
-    "close_at": "2026-03-08T18:00:00",
-    "reviewed": false,
-    "score": 3,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 1.595238095238095,
-        "display_max": 20,
-        "display_score": 3
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 800000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "url": "https://buscador.mercadopublico.cl/compra-agil?palabraClave=3518-37-COT26"
   },
   {
     "source": "compra_agil",
@@ -16549,7 +15972,7 @@
     "published_at": "2026-02-25T11:02:27.847",
     "questions_end_at": "2026-02-27T12:30:00",
     "close_at": "2026-03-09T15:30:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -16603,7 +16026,7 @@
     "published_at": "2026-02-17T14:39:05.6",
     "questions_end_at": "2026-02-24T12:00:00",
     "close_at": "2026-03-09T15:30:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -16657,7 +16080,7 @@
     "published_at": "2026-03-05T21:03:05.307",
     "questions_end_at": "2026-03-10T18:00:00",
     "close_at": "2026-03-16T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -16711,7 +16134,7 @@
     "published_at": "2026-02-27T16:14:13.683",
     "questions_end_at": "2026-03-06T19:26:00",
     "close_at": "2026-03-19T16:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -16765,7 +16188,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T17:30:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -16819,7 +16242,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T17:30:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -16873,7 +16296,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T13:20:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -16927,7 +16350,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-24T12:00:00",
-    "dias_cierre_licitacion": 17,
+    "dias_cierre_licitacion": 16,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -16981,7 +16404,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T15:30:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17035,7 +16458,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17089,7 +16512,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17143,7 +16566,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-18T15:30:00",
-    "dias_cierre_licitacion": 11,
+    "dias_cierre_licitacion": 10,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17197,7 +16620,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-30T15:00:00",
-    "dias_cierre_licitacion": 23,
+    "dias_cierre_licitacion": 22,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17251,7 +16674,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-20T12:00:00",
-    "dias_cierre_licitacion": 13,
+    "dias_cierre_licitacion": 12,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17305,7 +16728,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17359,7 +16782,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T18:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17413,7 +16836,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T16:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17467,7 +16890,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T18:30:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17521,7 +16944,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17575,7 +16998,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T14:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17629,7 +17052,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17683,7 +17106,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T17:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17737,7 +17160,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-23T16:00:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17791,7 +17214,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-04-15T08:00:00",
-    "dias_cierre_licitacion": 39,
+    "dias_cierre_licitacion": 38,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17845,7 +17268,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T15:01:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17899,7 +17322,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T16:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -17953,7 +17376,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T16:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18007,7 +17430,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T16:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18061,7 +17484,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-04-13T15:30:00",
-    "dias_cierre_licitacion": 37,
+    "dias_cierre_licitacion": 36,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18115,7 +17538,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-27T09:05:00",
-    "dias_cierre_licitacion": 20,
+    "dias_cierre_licitacion": 19,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18169,7 +17592,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T09:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18223,7 +17646,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T09:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18277,7 +17700,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T09:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18331,7 +17754,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:30:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18385,7 +17808,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-31T15:00:00",
-    "dias_cierre_licitacion": 24,
+    "dias_cierre_licitacion": 23,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18439,7 +17862,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-19T12:00:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18493,7 +17916,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18547,7 +17970,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T14:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18601,7 +18024,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-23T15:01:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18655,7 +18078,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18709,7 +18132,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18763,7 +18186,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-23T15:10:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18817,7 +18240,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-19T17:45:00",
-    "dias_cierre_licitacion": 12,
+    "dias_cierre_licitacion": 11,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18871,7 +18294,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-04-13T15:01:00",
-    "dias_cierre_licitacion": 37,
+    "dias_cierre_licitacion": 36,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18925,7 +18348,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-04-14T09:30:00",
-    "dias_cierre_licitacion": 38,
+    "dias_cierre_licitacion": 37,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -18979,7 +18402,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-04-15T09:30:00",
-    "dias_cierre_licitacion": 39,
+    "dias_cierre_licitacion": 38,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19141,7 +18564,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19195,7 +18618,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19249,7 +18672,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T10:10:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19303,7 +18726,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T12:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19357,7 +18780,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-24T09:00:00",
-    "dias_cierre_licitacion": 17,
+    "dias_cierre_licitacion": 16,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19411,7 +18834,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T20:15:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19465,7 +18888,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T16:06:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19518,8 +18941,8 @@
     "amount_clp": null,
     "published_at": "",
     "questions_end_at": "",
-    "close_at": "2026-03-09T15:01:00",
-    "dias_cierre_licitacion": 2,
+    "close_at": "2026-03-11T15:01:00",
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19573,7 +18996,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T10:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19627,7 +19050,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T16:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19681,7 +19104,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-04-08T15:00:00",
-    "dias_cierre_licitacion": 32,
+    "dias_cierre_licitacion": 31,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19735,7 +19158,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T16:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19789,7 +19212,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19843,7 +19266,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:00:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19897,7 +19320,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -19951,7 +19374,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T16:38:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20005,7 +19428,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-30T15:01:00",
-    "dias_cierre_licitacion": 23,
+    "dias_cierre_licitacion": 22,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20059,7 +19482,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-30T15:01:00",
-    "dias_cierre_licitacion": 23,
+    "dias_cierre_licitacion": 22,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20113,7 +19536,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20167,7 +19590,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T15:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20221,7 +19644,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T16:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20275,7 +19698,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20329,7 +19752,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20383,7 +19806,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T12:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20437,7 +19860,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T12:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20491,7 +19914,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T12:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20545,7 +19968,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T15:05:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20599,7 +20022,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-26T15:10:00",
-    "dias_cierre_licitacion": 19,
+    "dias_cierre_licitacion": 18,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20653,7 +20076,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T15:30:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20707,7 +20130,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T15:30:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20761,7 +20184,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-13T10:00:00",
-    "dias_cierre_licitacion": 6,
+    "dias_cierre_licitacion": 5,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20815,7 +20238,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T15:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20869,7 +20292,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T16:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20923,7 +20346,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T14:01:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -20977,7 +20400,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21031,7 +20454,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T11:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21085,7 +20508,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21139,7 +20562,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21193,7 +20616,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T15:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21247,7 +20670,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-16T18:30:00",
-    "dias_cierre_licitacion": 9,
+    "dias_cierre_licitacion": 8,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21301,7 +20724,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-23T15:00:00",
-    "dias_cierre_licitacion": 16,
+    "dias_cierre_licitacion": 15,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21355,7 +20778,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T17:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21409,7 +20832,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-11T17:00:00",
-    "dias_cierre_licitacion": 4,
+    "dias_cierre_licitacion": 3,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21463,7 +20886,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T15:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21517,7 +20940,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21571,7 +20994,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-17T13:00:00",
-    "dias_cierre_licitacion": 10,
+    "dias_cierre_licitacion": 9,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21625,7 +21048,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:00:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21679,7 +21102,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-12T15:00:00",
-    "dias_cierre_licitacion": 5,
+    "dias_cierre_licitacion": 4,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21733,7 +21156,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-09T15:15:00",
-    "dias_cierre_licitacion": 2,
+    "dias_cierre_licitacion": 1,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21787,7 +21210,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T09:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 2,
     "score_detail": {
@@ -21841,7 +21264,7 @@
     "published_at": "",
     "questions_end_at": "",
     "close_at": "2026-03-10T11:00:00",
-    "dias_cierre_licitacion": 3,
+    "dias_cierre_licitacion": 2,
     "reviewed": false,
     "score": 2,
     "score_detail": {
