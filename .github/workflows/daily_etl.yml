@@ -44,24 +44,23 @@ jobs:
           MAX_DETAIL: "400"
           DETAIL_SLEEP: "0.12"
         run: |
-          python src/etl.py
-
-      - name: Debug sources
-        run: |
-          python - <<'PY'
-          import json
-          from collections import Counter
-          data=json.load(open("docs/data/opportunities.json","r",encoding="utf-8"))
-          c=Counter([o.get("source","(none)") for o in data])
-          print("Total:", len(data))
-          print("Por fuente:", dict(c))
-          PY
+          python -m src.etl
 
       - name: Commit and push data
         run: |
           git config user.name "periscopio-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data/meta.json docs/data/opportunities.json docs/data/opportunities_registry.json
-          git diff --cached --quiet || git commit -m "Daily update: data"
+
+          git add docs/data/meta.json docs/data/opportunities.json
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Daily update: data"
+          fi
+
+          git restore docs/data/opportunities_registry.json || true
+          rm -f docs/data/opportunities_registry.json
+
           git pull --rebase origin main
           git push
