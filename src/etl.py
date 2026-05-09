@@ -1,635 +1,594 @@
+# src/etl.py
 import os
+import re
 import json
 import time
-import re
 import math
-import shutil
+import glob
+import hashlib
+from dataclasses import dataclass
 from datetime import datetime, timezone
-from pathlib import Path
-from zoneinfo import ZoneInfo
 from typing import Any, Dict, List, Optional, Tuple
 
+import requests
+from openpyxl import load_workbook
+
+from src.scoring import load_rules, total_score
+
+import random
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-from openpyxl import load_workbook
-
-from scoring import load_rules, total_score
+# sesión global con retries
+_SESSION = None
 
 # -----------------------------
 # Config general
 # -----------------------------
-MP_TICKET = os.environ.get("MP_TICKET")
+MP_BASE = "https://api.mercadopublico.cl/servicios/v1/publico"
+LICITACIONES_LIST_URL = f"{MP_BASE}/licitaciones.json"
+# Nota: el detalle también se obtiene vía licitaciones.json, pero con ?codigo=... (no id)
+# Fuente: documentación oficial del servicio público de licitaciones. :contentReference[oaicite:1]{index=1}
 
-# GitHub repo para lectura de issues "reviewed"
-GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "danielquinterosr/periscopio-compras-publicas")
+DOCS_DATA_DIR = "docs/data"
+DATA_DIR = "data"
 
-# En GitHub Actions el token estándar es GITHUB_TOKEN (si le diste permisos).
-# En local, puedes exportarlo manualmente si quieres que "reviewed" funcione.
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+OUT_OPPS = os.path.join(DOCS_DATA_DIR, "opportunities.json")
+OUT_META = os.path.join(DOCS_DATA_DIR, "meta.json")
+OUT_REGISTRY = os.path.join(DOCS_DATA_DIR, "opportunities_registry.json")
 
-# Paths salida
-OUT_OPPS = "docs/data/opportunities.json"
-OUT_META = "docs/data/meta.json"
-OUT_REGISTRY = "docs/data/opportunities_registry.json"
+DEFAULT_ONU_XLSX = os.getenv("ONU_RUBROS_XLSX", "config/Listado_rubros_ONU.xlsx")
 
-# Compra Ágil: path del XLSX descargado automáticamente
-COMPRA_AGIL_XLSX_PATH = os.environ.get("COMPRA_AGIL_XLSX_PATH", "data/compra_agil.xlsx")
+# Filtrado inicial (MVP) por "Nivel1" ONU (ajustable)
+DEFAULT_DENY_NIVEL1 = {
+    "Equipamiento y suministros médicos",
+    "Medicamentos y productos farmacéuticos",
+    # opcional (descomenta si te está metiendo ultrasonidos/equipos)
+    "Equipamiento para laboratorios",
+}
 
-# Archivo histórico diario (snapshot) del XLSX
-HIST_DIR = Path("data/history/compra_agil")
-HIST_DIR.mkdir(parents=True, exist_ok=True)
+# Compra Ágil: link directo a ficha
+def compra_agil_url(code: str) -> str:
+    return f"https://buscador.mercadopublico.cl/ficha?code={code}"
 
-# Cache de detalle licitaciones (en disco)
-CACHE_DIR = Path(".cache/mp_detail")
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
-# Regex IDs revisadas en issues: soporta licitaciones (1057489-550-LP25) y compra ágil (5178-6577-COT25)
-ID_RE = re.compile(r"\b\d{3,7}-\d{1,6}-[A-Z0-9]{3,10}\b", re.UNICODE)
-
-# -----------------------------
-# HTTP session robusta
-# -----------------------------
-def make_session() -> requests.Session:
-    s = requests.Session()
-    retry = Retry(
-        total=5,
-        connect=5,
-        read=5,
-        backoff_factor=0.8,
-        status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["GET"],
-        raise_on_status=False,
-    )
-    adapter = HTTPAdapter(max_retries=retry, pool_connections=30, pool_maxsize=30)
-    s.mount("https://", adapter)
-    s.mount("http://", adapter)
-    return s
-
-SESSION = make_session()
-
-# -----------------------------
-# Utils parsing
-# -----------------------------
-def safe_float(x):
+def safe_int(x: Any, default: int = 0) -> int:
     try:
-        if x is None or x == "":
+        return int(float(x))
+    except Exception:
+        return default
+
+def safe_float(x: Any) -> Optional[float]:
+    try:
+        if x is None:
             return None
-        if isinstance(x, str):
-            x = x.replace(" ", "")
-            if x.count(".") >= 1 and x.count(",") == 0:
-                x = x.replace(".", "")
-            if x.count(",") == 1 and x.count(".") == 0:
-                x = x.replace(",", ".")
-            if x.count(",") > 1:
-                x = x.replace(",", "")
         return float(x)
     except Exception:
         return None
 
-def parse_dt(s: Any) -> Optional[datetime]:
-    """
-    Parsea fechas típicas de MP y del Excel de Compra Ágil.
-    """
-    if s is None or s == "":
-        return None
-
-    # Si openpyxl ya entrega datetime
-    if isinstance(s, datetime):
-        return s
-
-    s = str(s).strip()
-
-    for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"):
-        try:
-            return datetime.strptime(s, fmt)
-        except ValueError:
-            pass
-
-    try:
-        return datetime.fromisoformat(s.replace("Z", "+00:00"))
-    except Exception:
-        return None
-
-def iso_or_empty(dt: Optional[datetime]) -> str:
-    if not dt:
-        return ""
-    # Mantengo string ISO sin forzar zona; el dashboard ya lo maneja como texto
-    return dt.isoformat()
+def ensure_dirs() -> None:
+    os.makedirs(DOCS_DATA_DIR, exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
 
 # -----------------------------
-# Rules por fuente (defaults + by_source)
+# GitHub reviewed ids (issues label reviewed)
 # -----------------------------
-def deep_merge(a: dict, b: dict) -> dict:
+def fetch_reviewed_ids_from_github(repo: str, token: str) -> List[str]:
     """
-    merge b sobre a (b tiene precedencia).
+    Busca issues con label 'reviewed' y extrae IDs desde:
+      - título: "Reviewed: <id>"
+      - body: línea "- ID: <id>"
     """
-    out = dict(a or {})
-    for k, v in (b or {}).items():
-        if isinstance(v, dict) and isinstance(out.get(k), dict):
-            out[k] = deep_merge(out[k], v)
-        else:
-            out[k] = v
-    return out
-
-def rules_for_source(rules_all: dict, source: str) -> dict:
-    defaults = rules_all.get("defaults") or {}
-    by_source = rules_all.get("by_source") or {}
-    src_rules = by_source.get(source) or {}
-    return deep_merge(defaults, src_rules)
-
-# -----------------------------
-# Licitaciones (API MercadoPublico)
-# -----------------------------
-def cache_path_for_codigo(codigo: str) -> Path:
-    safe = codigo.replace("/", "_")
-    return CACHE_DIR / f"{safe}.json"
-
-def fetch_licitaciones_activas(ticket: str) -> List[dict]:
-    url = "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json"
-    r = SESSION.get(url, params={"estado": "activas", "ticket": ticket}, timeout=180)
-    r.raise_for_status()
-    data = r.json()
-    return (
-        data.get("Listado", [])
-        or data.get("licitaciones", [])
-        or data.get("ListadoLicitaciones", [])
-        or []
-    )
-
-def fetch_licitacion_detalle(ticket: str, codigo_externo: str, use_cache: bool = True) -> dict:
-    p = cache_path_for_codigo(codigo_externo)
-
-    if use_cache and p.exists():
-        try:
-            with open(p, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            pass
-
-    url = "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json"
-    r = SESSION.get(url, params={"codigo": codigo_externo, "ticket": ticket}, timeout=180)
-    r.raise_for_status()
-    data = r.json()
-
-    if use_cache:
-        try:
-            with open(p, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass
-
-    return data
-
-def parse_detalle(det_json: dict) -> dict:
-    listado = det_json.get("Listado") or det_json.get("licitaciones") or []
-    item0 = listado[0] if isinstance(listado, list) and len(listado) > 0 else {}
-
-    comprador = item0.get("Comprador") or {}
-    fechas = item0.get("Fechas") or {}
-
-    buyer = comprador.get("NombreOrganismo") or comprador.get("Nombre") or item0.get("NombreOrganismo") or ""
-    published_at = fechas.get("FechaPublicacion") or item0.get("FechaPublicacion") or item0.get("FechaCreacion") or ""
-    close_at = fechas.get("FechaCierre") or item0.get("FechaCierre") or item0.get("FechaCierreLicitacion") or ""
-    questions_end_at = fechas.get("FechaFinal") or item0.get("FechaFinal") or item0.get("FechaFinPreguntas") or ""
-    status = item0.get("Estado") or item0.get("EstadoLicitacion") or item0.get("estado") or ""
-
-    amount_raw = (
-        item0.get("MontoEstimado")
-        or item0.get("Monto")
-        or item0.get("PresupuestoEstimado")
-        or item0.get("Presupuesto")
-        or None
-    )
-
-    description = item0.get("Descripcion") or item0.get("DescripcionLicitacion") or ""
-
-    return {
-        "buyer": buyer,
-        "published_at": published_at,
-        "close_at": close_at,
-        "questions_end_at": questions_end_at,
-        "status": status,
-        "amount_raw": amount_raw,
-        "description": description,
-    }
-
-# -----------------------------
-# Reviewed (GitHub Issues)
-# -----------------------------
-def fetch_reviewed_ids(repo: str, token: Optional[str]) -> set[str]:
-    reviewed = set()
-    if not repo:
-        return reviewed
-
-    headers = {"Accept": "application/vnd.github+json"}
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-
-    def pull(params: dict):
-        page = 1
-        while True:
-            url = f"https://api.github.com/repos/{repo}/issues"
-            p = dict(params)
-            p.update({"state": "all", "per_page": 100, "page": page})
-            r = SESSION.get(url, headers=headers, params=p, timeout=60)
-            if r.status_code >= 400:
-                break
-
-            items = r.json()
-            if not items:
-                break
-
-            for it in items:
-                if isinstance(it, dict) and it.get("pull_request"):
-                    continue
-                title = (it.get("title") or "").strip()
-                m = ID_RE.search(title)
-                if m:
-                    reviewed.add(m.group(0))
-
-            page += 1
-
-    pull({"labels": "reviewed"})
-    pull({})
-
-    return reviewed
-
-# -----------------------------
-# Compra Ágil (Excel)
-# -----------------------------
-def archive_compra_agil_xlsx(src_path: str) -> Optional[str]:
-    """
-    Copia el XLSX a un histórico diario para no perder trazabilidad.
-    Retorna path destino o None si no existía.
-    """
-    p = Path(src_path)
-    if not p.exists():
-        return None
-    stamp = datetime.now(ZoneInfo("America/Santiago")).strftime("%Y%m%d")
-    dst = HIST_DIR / f"compra_agil_{stamp}.xlsx"
-    try:
-        shutil.copyfile(p, dst)
-        return str(dst)
-    except Exception:
-        return None
-
-def load_compra_agil_rows(xlsx_path: str) -> List[dict]:
-    """
-    Lee el XLSX (primera hoja) y normaliza a filas dict con claves:
-    id, title, published_at, close_at, buyer, unit, amount_clp, currency, status
-    """
-    p = Path(xlsx_path)
-    if not p.exists():
+    if not repo or not token:
         return []
 
-    wb = load_workbook(filename=str(p), read_only=True, data_only=True)
+    reviewed_ids: List[str] = []
+    s = requests.Session()
+    s.headers.update({
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "periscopio-bot",
+    })
+
+    page = 1
+    while True:
+        url = f"https://api.github.com/repos/{repo}/issues"
+        params = {"state": "all", "labels": "reviewed", "per_page": 100, "page": page}
+        r = s.get(url, params=params, timeout=30)
+        if r.status_code != 200:
+            break
+
+        items = r.json() or []
+        if not items:
+            break
+
+        for it in items:
+            title = (it.get("title") or "").strip()
+            body = (it.get("body") or "")
+
+            m = re.match(r"^Reviewed:\s*(.+)$", title, flags=re.IGNORECASE)
+            if m:
+                reviewed_ids.append(m.group(1).strip())
+                continue
+
+            m2 = re.search(r"^-?\s*ID:\s*(.+)$", body, flags=re.IGNORECASE | re.MULTILINE)
+            if m2:
+                reviewed_ids.append(m2.group(1).strip())
+
+        page += 1
+
+    # únicos preservando orden
+    seen = set()
+    out = []
+    for x in reviewed_ids:
+        if x and x not in seen:
+            seen.add(x)
+            out.append(x)
+    return out
+
+# -----------------------------
+# ONU Rubros mapping
+# -----------------------------
+def load_onu_mapping(path_xlsx: str) -> Dict[str, Dict[str, str]]:
+    """
+    Devuelve dict:
+      IDCategoria(str) -> {"Nivel1":..., "Nivel2":..., "Nivel3":..., "Nivel4":..., "Categoria":...}
+    Si el archivo no existe, retorna {}.
+    """
+    if not os.path.exists(path_xlsx):
+        return {}
+
+    wb = load_workbook(path_xlsx, data_only=True)
+    ws = wb.active
+    headers = [str(c.value).strip() if c.value is not None else "" for c in ws[1]]
+    idx = {h: i for i, h in enumerate(headers)}
+
+    required = ["IDCategoria", "Nivel1", "Nivel2", "Nivel3", "Nivel4", "Categoria"]
+    if not all(r in idx for r in required):
+        return {}
+
+    mapping: Dict[str, Dict[str, str]] = {}
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        cat = row[idx["IDCategoria"]]
+        if cat is None:
+            continue
+        cat_s = str(cat).strip()
+        mapping[cat_s] = {
+            "Nivel1": str(row[idx["Nivel1"]] or "").strip(),
+            "Nivel2": str(row[idx["Nivel2"]] or "").strip(),
+            "Nivel3": str(row[idx["Nivel3"]] or "").strip(),
+            "Nivel4": str(row[idx["Nivel4"]] or "").strip(),
+            "Categoria": str(row[idx["Categoria"]] or "").strip(),
+        }
+    return mapping
+
+# -----------------------------
+# Licitaciones: listado + detalle
+# -----------------------------
+def _get_session():
+    global _SESSION
+    if _SESSION is not None:
+        return _SESSION
+
+    s = requests.Session()
+    retries = Retry(
+        total=6,                 # total reintentos
+        connect=6,
+        read=6,
+        backoff_factor=1.2,      # 1.2s, 2.4s, 4.8s...
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=("GET",),
+        raise_on_status=False,
+        respect_retry_after_header=True,
+    )
+    adapter = HTTPAdapter(max_retries=retries, pool_connections=10, pool_maxsize=10)
+    s.mount("https://", adapter)
+    s.mount("http://", adapter)
+    _SESSION = s
+    return _SESSION
+
+
+def mp_get(url: str, params: dict, timeout=(15, 90)) -> dict:
+    """
+    timeout = (connect_timeout, read_timeout)
+    """
+    s = _get_session()
+
+    # jitter pequeño para no golpear siempre igual (reduce 429 y micro-bloqueos)
+    time.sleep(0.15 + random.random() * 0.25)
+
+    r = s.get(url, params=params, timeout=timeout)
+
+    # Si el servidor devuelve HTML/otro, lo tratamos como error auditable
+    ct = (r.headers.get("content-type") or "").lower()
+    if r.status_code >= 400:
+        raise RuntimeError(f"MP GET {url} -> {r.status_code}: {r.text[:200]}")
+
+    if "application/json" not in ct:
+        # MercadoPublico a veces devuelve cosas raras cuando está caído
+        raise RuntimeError(f"MP GET {url} content-type inesperado={ct}. preview={r.text[:200]}")
+
+    return r.json()
+
+def fetch_licitaciones_list(ticket: str, page: int) -> Dict[str, Any]:
+    # Este endpoint acepta varios parámetros; mantenemos solo los que ya venías usando.
+    # Si más adelante quieres filtrar por estado, fecha, región, etc., lo agregamos.
+    params = {"ticket": ticket, "pagina": page}
+    return mp_get(LICITACIONES_LIST_URL, params=params)
+
+def fetch_licitacion_detail(ticket: str, codigo: str) -> Optional[Dict[str, Any]]:
+    """
+    Detalle por código: ?codigo=<...>&ticket=<...>
+    Importante: NO usar id=... (eso da 400 "Nombre de parametro no válido"). :contentReference[oaicite:2]{index=2}
+    """
+    params = {"ticket": ticket, "codigo": codigo}
+    try:
+        return mp_get(LICITACIONES_LIST_URL, params=params)
+    except Exception:
+        return None
+
+def extract_category_codes_from_detail(detail_json: Dict[str, Any]) -> List[str]:
+    """
+    Intenta sacar:
+      Listado[0].Items.Listado[*].CodigoCategoria
+    y devuelve lista única (strings).
+    """
+    out: List[str] = []
+    try:
+        listado = (detail_json or {}).get("Listado") or []
+        if not listado:
+            return []
+        first = listado[0] or {}
+        items = (first.get("Items") or {}).get("Listado") or []
+        for it in items:
+            if not isinstance(it, dict):
+                continue
+            code = it.get("CodigoCategoria")
+            if code is None:
+                continue
+            code_s = str(code).strip()
+            if code_s:
+                out.append(code_s)
+    except Exception:
+        return []
+
+    seen = set()
+    uniq = []
+    for x in out:
+        if x not in seen:
+            seen.add(x)
+            uniq.append(x)
+    return uniq
+
+# -----------------------------
+# Compra Ágil: parse excel
+# -----------------------------
+def read_compra_agil_excel(path_xlsx: str) -> List[Dict[str, Any]]:
+    """
+    Espera headers (como ya validaste):
+      ['ID','Nombre','Fecha de Publicación','Fecha de cierre','Organismo','Unidad','Monto Disponible','Moneda','Estado']
+    """
+    if not os.path.exists(path_xlsx):
+        return []
+
+    wb = load_workbook(path_xlsx, data_only=True)
     ws = wb.active
 
-    rows = list(ws.iter_rows(values_only=True))
-    if not rows:
+    headers = [str(c.value).strip() if c.value is not None else "" for c in ws[1]]
+    h = {name: i for i, name in enumerate(headers)}
+
+    required = ["ID", "Nombre", "Fecha de Publicación", "Fecha de cierre", "Organismo", "Monto Disponible", "Estado"]
+    if not all(k in h for k in required):
         return []
 
-    headers = [str(h).strip() if h is not None else "" for h in rows[0]]
-    data_rows = rows[1:]
+    rows: List[Dict[str, Any]] = []
+    for r in ws.iter_rows(min_row=2, values_only=True):
+        code = r[h["ID"]]
+        title = r[h["Nombre"]]
+        pub = r[h["Fecha de Publicación"]]
+        close = r[h["Fecha de cierre"]]
+        org = r[h["Organismo"]]
+        amt = r[h["Monto Disponible"]]
+        status = r[h["Estado"]]
 
-    def idx(name: str) -> int:
-        # match flexible por header
-        name_l = name.lower()
-        for i, h in enumerate(headers):
-            if h and h.strip().lower() == name_l:
-                return i
-        return -1
-
-    i_id = idx("ID")
-    i_nombre = idx("Nombre")
-    i_pub = idx("Fecha de Publicación")
-    i_cierre = idx("Fecha de cierre")
-    i_org = idx("Organismo")
-    i_unidad = idx("Unidad")
-    i_monto = idx("Monto Disponible")
-    i_moneda = idx("Moneda")
-    i_estado = idx("Estado")
-
-    out = []
-    for r in data_rows:
-        if not r or all(v is None or v == "" for v in r):
+        if not code or not title:
             continue
 
-        get = lambda j: r[j] if (j is not None and j >= 0 and j < len(r)) else None
+        def dt_to_iso(x: Any) -> Optional[str]:
+            if x is None:
+                return None
+            if isinstance(x, datetime):
+                # Excel suele traer naive; asumimos hora local ya “como viene”
+                return x.replace(tzinfo=None).isoformat()
+            # algunos excels vienen como string
+            try:
+                return str(x)
+            except Exception:
+                return None
 
-        _id = (str(get(i_id)).strip() if get(i_id) is not None else "")
-        if not _id:
-            continue
-
-        title = str(get(i_nombre) or "").strip()
-        buyer = str(get(i_org) or "").strip()
-        unit = str(get(i_unidad) or "").strip()
-        currency = str(get(i_moneda) or "").strip()
-        status = str(get(i_estado) or "").strip()
-
-        pub_dt = parse_dt(get(i_pub))
-        close_dt = parse_dt(get(i_cierre))
-
-        amt = safe_float(get(i_monto))
-        # En el XLSX vienen enteros sin separadores; safe_float lo deja OK.
-
-        out.append({
-            "id": _id,
-            "title": title,
-            "buyer": buyer,
-            "unit": unit,
-            "amount_clp": amt,
-            "currency": currency,
-            "status": status,
-            "published_at": iso_or_empty(pub_dt),
-            "close_at": iso_or_empty(close_dt),
+        rows.append({
+            "source": "compra_agil",
+            "id": str(code).strip(),
+            "title": str(title).strip(),
+            "buyer": str(org).strip() if org else None,
+            "status": str(status).strip() if status else None,
+            "amount_clp": safe_float(amt),
+            "published_at": dt_to_iso(pub),
+            "close_at": dt_to_iso(close),
+            "url": compra_agil_url(str(code).strip()),
         })
-
-    return out
-
-# -----------------------------
-# Registry histórico
-# -----------------------------
-def load_registry(path: str) -> dict:
-    p = Path(path)
-    if not p.exists():
-        return {}
-    try:
-        return json.loads(p.read_text(encoding="utf-8")) or {}
-    except Exception:
-        return {}
-
-def save_registry(path: str, reg: dict) -> None:
-    os.makedirs(str(Path(path).parent), exist_ok=True)
-    Path(path).write_text(json.dumps(reg, ensure_ascii=False, indent=2), encoding="utf-8")
-
-def key_for(source: str, _id: str) -> str:
-    return f"{source}:{_id}"
+    return rows
 
 # -----------------------------
-# Main
+# Registry (histórico + reviewed)
 # -----------------------------
-def main():
-    if not MP_TICKET:
-        raise RuntimeError("MP_TICKET no está definido (Secret/Env).")
+def load_json_file(path: str, default: Any) -> Any:
+    if not os.path.exists(path):
+        return default
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-    tz_cl = ZoneInfo("America/Santiago")
-    now_cl = datetime.now(tz_cl)
-    now_utc_iso = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+def save_json_file(path: str, obj: Any) -> None:
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
 
-    rules_all = load_rules()
+def upsert_registry(reg: Dict[str, Any], opp: Dict[str, Any], reviewed: bool) -> None:
+    oid = opp.get("id")
+    if not oid:
+        return
+    k = str(oid)
 
-    # Parámetros licitaciones
-    CANDIDATES_TOP = int(os.environ.get("CANDIDATES_TOP", "800"))
-    MAX_DETAIL = int(os.environ.get("MAX_DETAIL", "400"))
-    DETAIL_SLEEP = float(os.environ.get("DETAIL_SLEEP", "0.12"))
+    cur = reg.get(k) or {}
+    if not cur:
+        cur["first_seen_iso"] = now_iso()
+        cur["source"] = opp.get("source")
+    cur["last_seen_iso"] = now_iso()
+    cur["title"] = opp.get("title")
+    cur["buyer"] = opp.get("buyer")
+    cur["url"] = opp.get("url")
+    cur["reviewed"] = bool(reviewed)
 
-    # Revisadas (persistente vía issues)
-    reviewed_ids = fetch_reviewed_ids(GITHUB_REPOSITORY, GITHUB_TOKEN)
+    reg[k] = cur
 
-    # -------------------------
-    # 0) Registry previo
-    # -------------------------
-    registry = load_registry(OUT_REGISTRY)
+# -----------------------------
+# Main ETL
+# -----------------------------
+def main() -> None:
+    ensure_dirs()
 
-    # -------------------------
-    # 1) LICITACIONES
-    # -------------------------
-    rules_lic = rules_for_source(rules_all, "licitaciones")
-    raw_list = fetch_licitaciones_activas(MP_TICKET)
+    # env
+    mp_ticket = os.getenv("MP_TICKET", "").strip()
+    gh_token = os.getenv("GITHUB_TOKEN", "").strip()
+    repo = os.getenv("GITHUB_REPOSITORY", "danielquinterosr/periscopio-compras-publicas").strip()
 
-    # Pre-score para priorizar detalle
-    candidates: List[Tuple[int, dict]] = []
-    for it in raw_list:
-        codigo = it.get("CodigoExterno") or it.get("Codigo") or it.get("codigo")
-        nombre = it.get("Nombre") or it.get("NombreLicitacion") or it.get("nombre") or (str(codigo) if codigo else "")
-        buyer0 = it.get("NombreOrganismo") or ""
-        pre_text = f"{nombre} {buyer0}"
-        pre_score, _ = total_score(text=pre_text, amount_clp=None, rules=rules_lic)
-        candidates.append((pre_score, it))
+    candidates_top = safe_int(os.getenv("CANDIDATES_TOP", "800"), 800)
+    max_detail = safe_int(os.getenv("MAX_DETAIL", "400"), 400)
+    detail_sleep = float(os.getenv("DETAIL_SLEEP", "0.12"))
 
-    candidates.sort(key=lambda x: x[0], reverse=True)
-    detail_set = set()
-    for _, it in candidates[:CANDIDATES_TOP]:
-        codigo = it.get("CodigoExterno") or it.get("Codigo") or it.get("codigo")
-        if codigo:
-            detail_set.add(str(codigo))
+    # rules
+    rules_all = load_rules("config/rules.yml") or {}
+    defaults = rules_all.get("defaults") or {}
+    by_source = rules_all.get("by_source") or {}
 
-    opps_current: List[dict] = []
-    detail_ok = 0
-    detail_fail = 0
-    detail_count = 0
+    # onu mapping
+    onu_map = load_onu_mapping(DEFAULT_ONU_XLSX)
+    deny_n1 = set(DEFAULT_DENY_NIVEL1)
 
-    for it in raw_list:
-        codigo = it.get("CodigoExterno") or it.get("Codigo") or it.get("codigo")
-        codigo = str(codigo) if codigo else ""
+    # reviewed ids
+    reviewed_ids = fetch_reviewed_ids_from_github(repo=repo, token=gh_token) if gh_token else []
+    reviewed_set = set(reviewed_ids)
+
+    # registry
+    registry = load_json_file(OUT_REGISTRY, {})
+    if not isinstance(registry, dict):
+        registry = {}
+
+    # -----------------------------
+    # 1) Cargar Compra Ágil desde XLSX
+    # -----------------------------
+    compra_xlsx = os.path.join(DATA_DIR, "compra_agil.xlsx")
+    compra_rows = read_compra_agil_excel(compra_xlsx)
+
+    # -----------------------------
+    # 2) Cargar Licitaciones (listado)
+    # -----------------------------
+    lic_rows: List[Dict[str, Any]] = []
+    lic_total = 0
+    detalle_ok = 0
+    detalle_fail = 0
+
+    if mp_ticket:
+        # paginación: recorremos hasta que venga vacío o hasta un límite defensivo
+        page = 1
+        empty_pages = 0
+        while True:
+            data = fetch_licitaciones_list(mp_ticket, page)
+            listado = (data or {}).get("Listado") or []
+            if not listado:
+                empty_pages += 1
+                if empty_pages >= 2:
+                    break
+                page += 1
+                continue
+
+            empty_pages = 0
+            for it in listado:
+                if not isinstance(it, dict):
+                    continue
+
+                codigo = (it.get("CodigoExterno") or it.get("Codigo") or "").strip()
+                if not codigo:
+                    continue
+
+                lic_total += 1
+
+                # normalización básica (puedes expandir según lo que ya tenías)
+                lic_rows.append({
+                    "source": "licitaciones",
+                    "id": codigo,
+                    "title": (it.get("Nombre") or it.get("NombreLicitacion") or "").strip(),
+                    "buyer": (it.get("Comprador") or it.get("NombreOrganismo") or "").strip() or None,
+                    "status": (it.get("Estado") or "").strip() or None,
+                    "amount_clp": safe_float(it.get("MontoEstimado") or it.get("Monto") or it.get("MontoPresupuesto")),
+                    "published_at": it.get("FechaPublicacion") or it.get("FechaCreacion") or None,
+                    "questions_end_at": it.get("FechaCierrePreguntas") or None,
+                    "close_at": it.get("FechaCierre") or None,
+                    "url": f"https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs={codigo}",
+                })
+
+            # stop condition defensiva: evita loops eternos
+            if page >= 200:
+                break
+            page += 1
+    else:
+        # sin ticket: no procesamos licitaciones
+        lic_rows = []
+
+    # -----------------------------
+    # 3) Scoring + gating + show_min_score por fuente
+    # -----------------------------
+    all_rows = compra_rows + lic_rows
+
+    scored: List[Dict[str, Any]] = []
+    for o in all_rows:
+        src = o.get("source") or "licitaciones"
+        rules_src = (by_source.get(src) or {})
+        # aplica defaults (thresholds) si faltan
+        merged = {}
+        merged.update(defaults)
+        merged.update(rules_src)
+
+        score, detail = total_score(
+            text=f"{o.get('title','')} {o.get('buyer','')}",
+            amount_clp=o.get("amount_clp"),
+            rules=merged
+        )
+        o2 = dict(o)
+        o2["score"] = int(score)
+        o2["score_detail"] = detail
+        scored.append(o2)
+
+    # -----------------------------
+    # 4) Detalle licitaciones (solo top candidates) para sacar CodigoCategoria
+    #     y filtrar por Nivel1 ONU (anti-salud/equipos/eco/ultrasonido)
+    # -----------------------------
+    lic_scored = [x for x in scored if x.get("source") == "licitaciones"]
+    lic_scored.sort(key=lambda x: x.get("score", 0), reverse=True)
+
+    lic_candidates = lic_scored[:candidates_top]
+    lic_kept: List[Dict[str, Any]] = []
+    for idx, o in enumerate(lic_candidates):
+        codigo = o.get("id")
         if not codigo:
             continue
 
-        nombre = it.get("Nombre") or it.get("NombreLicitacion") or it.get("nombre") or codigo
+        detail_json = fetch_licitacion_detail(mp_ticket, codigo) if mp_ticket else None
+        if not detail_json:
+            detalle_fail += 1
+            # si no hay detalle, lo dejamos pasar (por ahora) sin categorías
+            lic_kept.append(o)
+            continue
 
-        # Defaults desde listado
-        buyer = it.get("NombreOrganismo") or ""
-        fecha_pub = it.get("FechaPublicacion") or it.get("FechaCreacion") or ""
-        fecha_cierre = it.get("FechaCierre") or it.get("FechaCierreLicitacion") or ""
-        monto = safe_float(it.get("MontoEstimado") or it.get("Monto") or it.get("monto"))
-        descripcion = ""
-        preguntas_hasta = it.get("FechaFinal") or ""
-        status = it.get("Estado") or it.get("estado") or ""
+        detalle_ok += 1
+        cat_codes = extract_category_codes_from_detail(detail_json)
+        if cat_codes:
+            o["category_codes"] = cat_codes
+            # map a nivel1
+            nivel1s = []
+            for c in cat_codes:
+                info = onu_map.get(str(c))
+                if info and info.get("Nivel1"):
+                    nivel1s.append(info["Nivel1"])
+            o["category_nivel1"] = sorted(set([x for x in nivel1s if x]))
 
-        # Detalle solo para top y hasta MAX_DETAIL
-        if codigo in detail_set and detail_count < MAX_DETAIL:
-            detail_count += 1
-            try:
-                det_json = fetch_licitacion_detalle(MP_TICKET, codigo, use_cache=True)
-                det = parse_detalle(det_json)
+            # filtro: si cualquier nivel1 cae en denylist, lo sacamos
+            if set(o.get("category_nivel1", [])) & deny_n1:
+                # descartado por rubro salud/lab
+                pass
+            else:
+                lic_kept.append(o)
+        else:
+            # sin categorías: lo dejamos (y luego lo ajustamos cuando confirmemos estructura)
+            lic_kept.append(o)
 
-                buyer = det.get("buyer") or buyer
-                fecha_pub = det.get("published_at") or fecha_pub
-                fecha_cierre = det.get("close_at") or fecha_cierre
-                preguntas_hasta = det.get("questions_end_at") or preguntas_hasta
-                status = det.get("status") or status
-                descripcion = det.get("description") or ""
+        if detail_sleep > 0:
+            time.sleep(detail_sleep)
 
-                if det.get("amount_raw") is not None:
-                    monto = safe_float(det.get("amount_raw"))
+        if detalle_ok >= max_detail:
+            # completamos el resto sin detalle
+            lic_kept.extend(lic_candidates[idx+1:])
+            break
 
-                detail_ok += 1
-            except Exception:
-                detail_fail += 1
+    # reemplazamos licitaciones por la versión “kept”
+    compra_scored = [x for x in scored if x.get("source") == "compra_agil"]
+    scored = compra_scored + lic_kept
 
-            time.sleep(DETAIL_SLEEP)
+    # -----------------------------
+    # 5) show_min_score + reviewed + registry
+    # -----------------------------
+    shown: List[Dict[str, Any]] = []
+    for o in scored:
+        src = o.get("source") or "licitaciones"
+        rules_src = (by_source.get(src) or {})
+        merged = {}
+        merged.update(defaults)
+        merged.update(rules_src)
 
-        # Score final
-        text_for_scoring = f"{nombre} {buyer} {descripcion}"
-        score, score_detail = total_score(text=text_for_scoring, amount_clp=monto, rules=rules_lic)
+        show_min = safe_int(((merged.get("thresholds") or {}).get("show_min_score", 2)), 2)
+        if o.get("score", 0) < show_min:
+            continue
 
-        # Días al cierre licitación
-        dias_cierre = None
-        close_dt = parse_dt(fecha_cierre)
-        if close_dt:
-            if close_dt.tzinfo is None:
-                close_dt = close_dt.replace(tzinfo=tz_cl)
-            delta = close_dt - now_cl
-            dias_cierre = max(0, int(math.ceil(delta.total_seconds() / 86400.0)))
+        oid = str(o.get("id") or "")
+        is_reviewed = oid in reviewed_set
+        o["reviewed"] = bool(is_reviewed)
 
-        url = f"https://www.mercadopublico.cl/fichaLicitacion.html?idLicitacion={codigo}"
+        upsert_registry(registry, o, reviewed=is_reviewed)
+        shown.append(o)
 
-        reviewed = (codigo in reviewed_ids)
+    # sort final
+    shown.sort(key=lambda x: (x.get("score", 0), x.get("published_at") or ""), reverse=True)
 
-        opp = {
-            "source": "licitaciones",
-            "id": codigo,
-            "title": nombre,
-            "buyer": buyer,
-            "status": status,
-            "amount_clp": monto,
-            "published_at": fecha_pub,
-            "questions_end_at": preguntas_hasta,
-            "close_at": fecha_cierre,
-            "dias_cierre_licitacion": dias_cierre,
-            "reviewed": reviewed,
-            "score": score,
-            "score_detail": score_detail,
-            "url": url,
-        }
-        opps_current.append(opp)
+    # counts
+    def count_src(xs: List[Dict[str, Any]], src: str) -> int:
+        return sum(1 for x in xs if x.get("source") == src)
 
-        # Actualizar registry
-        k = key_for("licitaciones", codigo)
-        prev = registry.get(k, {})
-        first_seen = prev.get("first_seen_at") or now_utc_iso
-        times_seen = int(prev.get("times_seen") or 0) + 1
-        registry[k] = {
-            **prev,
-            "source": "licitaciones",
-            "id": codigo,
-            "title": nombre,
-            "buyer": buyer,
-            "url": url,
-            "first_seen_at": first_seen,
-            "last_seen_at": now_utc_iso,
-            "times_seen": times_seen,
-            "reviewed": bool(prev.get("reviewed") or reviewed),
-            "last_score": score,
-        }
-
-    # -------------------------
-    # 2) COMPRA ÁGIL (Excel)
-    # -------------------------
-    rules_ca = rules_for_source(rules_all, "compra_agil")
-
-    hist_path = archive_compra_agil_xlsx(COMPRA_AGIL_XLSX_PATH)
-    compra_rows = load_compra_agil_rows(COMPRA_AGIL_XLSX_PATH)
-
-    compra_opps = []
-    for r in compra_rows:
-        _id = r["id"]
-        title = r["title"]
-        buyer = r["buyer"]
-        unit = r.get("unit") or ""
-        status = r.get("status") or ""
-        amount = r.get("amount_clp")
-        published_at = r.get("published_at") or ""
-        close_at = r.get("close_at") or ""
-        url = f"https://buscador.mercadopublico.cl/compra-agil?palabraClave={_id}"  # fallback útil; no hay ficha tipo licitación
-
-        # Para scoring: compra ágil no tiene descripción; usamos título + comprador + unidad
-        text_for_scoring = f"{title} {buyer} {unit}"
-        score, score_detail = total_score(text=text_for_scoring, amount_clp=amount, rules=rules_ca)
-
-        reviewed = (_id in reviewed_ids)
-
-        opp = {
-            "source": "compra_agil",
-            "id": _id,
-            "title": title,
-            "buyer": buyer,
-            "status": status,
-            "amount_clp": amount,
-            "published_at": published_at,
-            "close_at": close_at,
-            "reviewed": reviewed,
-            "score": score,
-            "score_detail": score_detail,
-            "url": url,
-        }
-        compra_opps.append(opp)
-
-        # Actualizar registry
-        k = key_for("compra_agil", _id)
-        prev = registry.get(k, {})
-        first_seen = prev.get("first_seen_at") or now_utc_iso
-        times_seen = int(prev.get("times_seen") or 0) + 1
-        registry[k] = {
-            **prev,
-            "source": "compra_agil",
-            "id": _id,
-            "title": title,
-            "buyer": buyer,
-            "url": url,
-            "first_seen_at": first_seen,
-            "last_seen_at": now_utc_iso,
-            "times_seen": times_seen,
-            "reviewed": bool(prev.get("reviewed") or reviewed),
-            "last_score": score,
-        }
-
-    opps_current.extend(compra_opps)
-
-    # -------------------------
-    # 3) Filtrado “mostrar en dashboard”
-    #    (umbral por fuente)
-    # -------------------------
-    show_min_lic = int((rules_lic.get("thresholds") or {}).get("show_min_score", 3))
-    show_min_ca = int((rules_ca.get("thresholds") or {}).get("show_min_score", 3))
-
-    opps_show = []
-    for o in opps_current:
-        src = o.get("source")
-        s = o.get("score") or 0
-        if src == "licitaciones" and s >= show_min_lic:
-            opps_show.append(o)
-        elif src == "compra_agil" and s >= show_min_ca:
-            opps_show.append(o)
-
-    opps_show.sort(key=lambda x: x.get("score") or 0, reverse=True)
-
-    # Persistir registry
-    save_registry(OUT_REGISTRY, registry)
-
-    # Guardar outputs principales
-    os.makedirs("docs/data", exist_ok=True)
-    with open(OUT_OPPS, "w", encoding="utf-8") as f:
-        json.dump(opps_show, f, ensure_ascii=False, indent=2)
+    def count_reviewed_src(xs: List[Dict[str, Any]], src: str) -> int:
+        return sum(1 for x in xs if x.get("source") == src and bool(x.get("reviewed")))
 
     meta = {
-        "last_update_iso": now_utc_iso,
-        "repo": GITHUB_REPOSITORY,
+        "last_update_iso": now_iso(),
+        "repo": repo,
         "paths": {
-            "compra_agil_xlsx": COMPRA_AGIL_XLSX_PATH,
-            "compra_agil_history_last": hist_path,
-            "registry": OUT_REGISTRY,
+            "compra_agil_xlsx": "data/compra_agil.xlsx",
+            "registry": OUT_REGISTRY.replace(DOCS_DATA_DIR + "/", ""),
         },
         "counts": {
-            "total_current": len(opps_current),
-            "shown": len(opps_show),
-            "licitaciones_total": len([o for o in opps_current if o["source"] == "licitaciones"]),
-            "compra_agil_total": len([o for o in opps_current if o["source"] == "compra_agil"]),
+            "total_current": len(scored),
+            "shown": len(shown),
+            "licitaciones_total": lic_total,
+            "compra_agil_total": len(compra_rows),
             "reviewed_ids_from_issues": len(reviewed_ids),
-            "detalle_ok": detail_ok,
-            "detalle_fail": detail_fail,
-            "candidates_top": CANDIDATES_TOP,
-            "max_detail": MAX_DETAIL,
+            "reviewed_licitaciones_shown": count_reviewed_src(shown, "licitaciones"),
+            "reviewed_compra_agil_shown": count_reviewed_src(shown, "compra_agil"),
+            "shown_licitaciones": count_src(shown, "licitaciones"),
+            "shown_compra_agil": count_src(shown, "compra_agil"),
+            "detalle_ok": detalle_ok,
+            "detalle_fail": detalle_fail,
+            "candidates_top": candidates_top,
+            "max_detail": max_detail,
+            "onu_rubros_loaded": bool(onu_map),
+            "deny_nivel1": sorted(list(deny_n1)),
         },
-        "version": "v0.7",
+        "version": "v0.8",
     }
 
-    with open(OUT_META, "w", encoding="utf-8") as f:
-        json.dump(meta, f, ensure_ascii=False, indent=2)
-
+    save_json_file(OUT_OPPS, shown)
+    save_json_file(OUT_META, meta)
+    save_json_file(OUT_REGISTRY, registry)
 
 if __name__ == "__main__":
     main()
