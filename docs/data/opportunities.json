@@ -952,58 +952,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "3810-200-COT26",
-    "title": "SERVICIO DE CAPACITACION PARA LA FORMACION Y CERTIFICACION OS-10 DE GUARDIAS DE SEGURIDAD, PROGRAMA SERVICIO DE VIGILANCIA DE RECINTOS MUNICIPALES 2026, SOLICITUD 721/26, OPERACIONES",
-    "buyer": "ILUSTRE MUNICIPALIDAD DE PICHILEMU",
-    "status": "Publicada",
-    "amount_clp": 6000000.0,
-    "published_at": "2026-06-24 11:30",
-    "close_at": "2026-06-29 15:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3810-200-COT26",
-    "score": 10,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 10.0,
-        "total_0_10": 4.75,
-        "display_max": 20,
-        "display_score": 10
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 6000000.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "3038-34-COT26",
     "title": "CAPACITACION PARA FUNCIONARIOS DE EDUCACION DE LA COMUNA DE LOLOL",
     "buyer": "I MUNICIPALIDAD DE LOLOL",
@@ -1582,7 +1530,7 @@
     "status": "Publicada",
     "amount_clp": 6000000.0,
     "published_at": "2026-06-27 10:24",
-    "close_at": "2026-06-29 12:00",
+    "close_at": "2026-06-30 12:00",
     "url": "https://buscador.mercadopublico.cl/ficha?code=1549-2745-COT26",
     "score": 8,
     "score_detail": {
@@ -1778,58 +1726,6 @@
         "band": "3–4MM",
         "band_points": 4.0,
         "score_0_10": 5.7142857142857135
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "501-113-COT26",
-    "title": "RECURSOS TALLER DE ROBÓTICA, ESCUELA BÁSICA ÑIPAS",
-    "buyer": "Ilustre Municipalidad de Ranquil",
-    "status": "Publicada",
-    "amount_clp": 4500000.0,
-    "published_at": "2026-06-26 12:08",
-    "close_at": "2026-06-29 08:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=501-113-COT26",
-    "score": 8,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 7.142857142857143,
-        "total_0_10": 3.892857142857143,
-        "display_max": 20,
-        "display_score": 8
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 4500000.0,
-        "band": "4–5MM",
-        "band_points": 5.0,
-        "score_0_10": 7.142857142857143
       }
     },
     "reviewed": false
@@ -2300,58 +2196,6 @@
       },
       "amount": {
         "amount_clp": 4560000.0,
-        "band": "4–5MM",
-        "band_points": 5.0,
-        "score_0_10": 7.142857142857143
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1153-5-COT26",
-    "title": "Talleres Prácticos Copilot",
-    "buyer": "CORPORACION DE FOMENTO DE LA PRODUCCION",
-    "status": "Publicada",
-    "amount_clp": 4500000.0,
-    "published_at": "2026-06-19 14:47",
-    "close_at": "2026-06-29 16:36",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1153-5-COT26",
-    "score": 8,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 7.142857142857143,
-        "total_0_10": 3.892857142857143,
-        "display_max": 20,
-        "display_score": 8
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 4500000.0,
         "band": "4–5MM",
         "band_points": 5.0,
         "score_0_10": 7.142857142857143
@@ -3453,117 +3297,13 @@
   },
   {
     "source": "compra_agil",
-    "id": "3947-409-COT26",
-    "title": "CURSO DE FORMACION DE BRIGADA DE EMERGENCIA PARA PROGRAMA QUIERO MI BARRIO",
-    "buyer": "I MUNICIPALIDAD DE SANTA JUANA",
-    "status": "Publicada",
-    "amount_clp": 3765000.0,
-    "published_at": "2026-06-24 16:41",
-    "close_at": "2026-06-29 08:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3947-409-COT26",
-    "score": 7,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 5.7142857142857135,
-        "total_0_10": 3.464285714285714,
-        "display_max": 20,
-        "display_score": 7
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 3765000.0,
-        "band": "3–4MM",
-        "band_points": 4.0,
-        "score_0_10": 5.7142857142857135
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1514-348-COT26",
-    "title": "CURSO DE USO Y MANEJO SEGURO DE REDES DE GASES CLINICOS",
-    "buyer": "Hospital de Castro",
-    "status": "Publicada",
-    "amount_clp": 3400000.0,
-    "published_at": "2026-06-24 16:32",
-    "close_at": "2026-06-29 12:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1514-348-COT26",
-    "score": 7,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 5.7142857142857135,
-        "total_0_10": 3.464285714285714,
-        "display_max": 20,
-        "display_score": 7
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 3400000.0,
-        "band": "3–4MM",
-        "band_points": 4.0,
-        "score_0_10": 5.7142857142857135
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1549-2692-COT26",
     "title": "ADQUISICION DE GUIA METALICA DE BIOPSIA 224-9969",
     "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
     "status": "Publicada",
     "amount_clp": 5000000.0,
     "published_at": "2026-06-24 14:03",
-    "close_at": "2026-06-29 12:00",
+    "close_at": "2026-06-30 12:00",
     "url": "https://buscador.mercadopublico.cl/ficha?code=1549-2692-COT26",
     "score": 7,
     "score_detail": {
@@ -3868,6 +3608,110 @@
         "band": "3–4MM",
         "band_points": 4.0,
         "score_0_10": 5.7142857142857135
+      }
+    },
+    "reviewed": false
+  },
+  {
+    "source": "compra_agil",
+    "id": "3507-409-COT26",
+    "title": "DIAGNOSTICO  BLOQUEO DE FURGON DS.JC.59",
+    "buyer": "Departamento de Salud",
+    "status": "Publicada",
+    "amount_clp": 200000.0,
+    "published_at": "2026-06-29 22:02",
+    "close_at": "2026-07-01 14:00",
+    "url": "https://buscador.mercadopublico.cl/ficha?code=3507-409-COT26",
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 3.333333333333333,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.7619047619047614,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 4.0,
+        "exclude_points": 0.0,
+        "raw_points": 4.0,
+        "max_points": 12.0,
+        "score_0_10": 3.333333333333333,
+        "include_hits": [
+          {
+            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
+            "weight": 4.0,
+            "note": "Medición / diagnóstico / evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 200000.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
+      }
+    },
+    "reviewed": false
+  },
+  {
+    "source": "compra_agil",
+    "id": "4355-700-COT26",
+    "title": "servicio de diagnostico mecanico",
+    "buyer": "I MUNICIPALIDAD DE FREIRINA",
+    "status": "Publicada",
+    "amount_clp": 500000.0,
+    "published_at": "2026-06-29 12:46",
+    "close_at": "2026-06-30 15:00",
+    "url": "https://buscador.mercadopublico.cl/ficha?code=4355-700-COT26",
+    "score": 6,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 3.333333333333333,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.7619047619047614,
+        "display_max": 20,
+        "display_score": 6
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 4.0,
+        "exclude_points": 0.0,
+        "raw_points": 4.0,
+        "max_points": 12.0,
+        "score_0_10": 3.333333333333333,
+        "include_hits": [
+          {
+            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
+            "weight": 4.0,
+            "note": "Medición / diagnóstico / evaluación"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 500000.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
       }
     },
     "reviewed": false
@@ -4296,7 +4140,7 @@
     "status": "Publicada",
     "amount_clp": 650000.0,
     "published_at": "2026-06-26 15:19",
-    "close_at": "2026-06-30 09:00",
+    "close_at": "2026-06-30 16:00",
     "url": "https://buscador.mercadopublico.cl/ficha?code=2255-13-COT26",
     "score": 6,
     "score_detail": {
@@ -5278,110 +5122,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "2854-510-COT26",
-    "title": "COTIZACION CARGADOR DE NOTEBOOK CENTRO DE DIAGNOSTICO PTO VARAS",
-    "buyer": "I MUNICIPALIDAD DE PUERTO VARAS",
-    "status": "Publicada",
-    "amount_clp": 45000.0,
-    "published_at": "2026-06-25 15:20",
-    "close_at": "2026-06-29 08:30",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2854-510-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.7619047619047614,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 45000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2021-159-COT26",
-    "title": "CECOPAC N°10000/519 ADQ. DE ALIMENTOS PARA COFFE BREAK PARA CURSOS",
-    "buyer": "ESTADO MAYOR CONJUNTO",
-    "status": "Publicada",
-    "amount_clp": 2305802.0,
-    "published_at": "2026-06-25 15:03",
-    "close_at": "2026-06-29 10:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2021-159-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 3.0357142857142856,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2305802.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "858-97-COT26",
     "title": "Adquisición de pedales compatibles con distintos sistemas de calas para la realización de evaluaciones fisiológicas en bicicleta ergométrica Excalibur.",
     "buyer": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
@@ -5584,58 +5324,6 @@
         "band": "2–3MM",
         "band_points": 3.0,
         "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "931-69-COT26",
-    "title": "INSTRUMENTOS PARA EVALUACIONES FÍSICAS DEPORTISTAS PCH KIT SENSOR DE FUERZA",
-    "buyer": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
-    "status": "Publicada",
-    "amount_clp": 1250000.0,
-    "published_at": "2026-06-25 11:34",
-    "close_at": "2026-06-29 12:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=931-69-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 3.19047619047619,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1250000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
       }
     },
     "reviewed": false
@@ -5902,58 +5590,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1335444-20-COT26",
-    "title": "Servicio de evaluación y mantención del mini montacarga para Archivo Regional del Maule.",
-    "buyer": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-    "status": "Publicada",
-    "amount_clp": 1300000.0,
-    "published_at": "2026-06-23 09:55",
-    "close_at": "2026-06-29 10:04",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1335444-20-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 3.19047619047619,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1300000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1057417-2715-COT26",
     "title": "Servicio de evaluación y diagnóstico para equipo dermatomo marca Aygun modelo M10-100.",
     "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
@@ -6052,58 +5688,6 @@
         "band": "1–2MM",
         "band_points": 2.0,
         "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1853-11-COT26",
-    "title": "SEA II - ADQUISION DE 01 EXTINTOR PSQ Y OTROS REQUERIMIENTOS",
-    "buyer": "SERVICIO DE EVALUACION AMBIENTAL",
-    "status": "Publicada",
-    "amount_clp": 800000.0,
-    "published_at": "2026-06-23 09:07",
-    "close_at": "2026-06-29 11:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1853-11-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.7619047619047614,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 800000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
       }
     },
     "reviewed": false
@@ -6214,58 +5798,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "3641-36-COT26",
-    "title": "DIAGNOSTICO PARTICIPATIVO",
-    "buyer": "ILUSTRE MUNICIPALIDAD DE SAN GREGORIO",
-    "status": "Publicada",
-    "amount_clp": 600000.0,
-    "published_at": "2026-06-19 09:28",
-    "close_at": "2026-06-29 21:31",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3641-36-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.7619047619047614,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 600000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1891-5-COT26",
     "title": "Se solicita Presupuesto Diagnóstico de reparación para el Vehículo Fiscal marca Mitsubishi Modelo Outlander Año 2019. Deberá ser realizado por Servicio Técnico Autorizado por el fabricante.",
     "buyer": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GENERO",
@@ -6312,6 +5844,58 @@
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
+      }
+    },
+    "reviewed": false
+  },
+  {
+    "source": "compra_agil",
+    "id": "3904-590-COT26",
+    "title": "OP26-799 Curso de capacitación cajero bancario con mención en moneda extranjera, usuarios omil 2026",
+    "buyer": "I MUNICIPALIDAD DE BULNES",
+    "status": "Publicada",
+    "amount_clp": 1500000.0,
+    "published_at": "2026-06-29 22:33",
+    "close_at": "2026-06-30 23:30",
+    "url": "https://buscador.mercadopublico.cl/ficha?code=3904-590-COT26",
+    "score": 5,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 2.5,
+        "amount_0_10": 2.8571428571428568,
+        "total_0_10": 2.6071428571428568,
+        "display_max": 20,
+        "display_score": 5
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 3.0,
+        "exclude_points": 0.0,
+        "raw_points": 3.0,
+        "max_points": 12.0,
+        "score_0_10": 2.5,
+        "include_hits": [
+          {
+            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
+            "weight": 3.0,
+            "note": "Capacitación / talleres"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": 1500000.0,
+        "band": "1–2MM",
+        "band_points": 2.0,
+        "score_0_10": 2.8571428571428568
       }
     },
     "reviewed": false
@@ -6734,58 +6318,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "3678-334-COT26",
-    "title": "ADQUISICIÓN DE MATERIAL DIDÁCTICO PARA TALLERES",
-    "buyer": "I MUNICIPALIDAD DE PETORCA",
-    "status": "Publicada",
-    "amount_clp": 1476280.0,
-    "published_at": "2026-06-26 15:14",
-    "close_at": "2026-06-29 08:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3678-334-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1476280.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1191164-2-COT26",
     "title": "PROYECTO SOCIAL \"TALLER DE BAILE FOLCLORE NORTINO\"",
     "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE MOLINA",
@@ -6829,58 +6361,6 @@
       },
       "amount": {
         "amount_clp": 1062000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1208910-188-COT26",
-    "title": "Arreglo de Techo Sede San Pedro de la Paz",
-    "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL DE LA REGIÓN DEL BIOBÍO",
-    "status": "Publicada",
-    "amount_clp": 1250000.0,
-    "published_at": "2026-06-26 13:47",
-    "close_at": "2026-06-29 10:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1208910-188-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1250000.0,
         "band": "1–2MM",
         "band_points": 2.0,
         "score_0_10": 2.8571428571428568
@@ -6988,58 +6468,6 @@
         "band": "2–3MM",
         "band_points": 3.0,
         "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "4329-139-COT26",
-    "title": "COMPRA DE DIPLOMADO; \"ABORDAJE INTEGRAL EN CONDICION DEL ESPECTRO AUTISTA A LO LARGO DEL CURSO DE VIDA\"Sol 3880",
-    "buyer": "I MUNICIPALIDAD DE NIQUEN",
-    "status": "Publicada",
-    "amount_clp": 1420000.0,
-    "published_at": "2026-06-26 12:22",
-    "close_at": "2026-06-29 08:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=4329-139-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1420000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
       }
     },
     "reviewed": false
@@ -7774,58 +7202,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1079639-688-COT26",
-    "title": "ADQUISICION DE VESTUARIO, ACCESORIOS Y PRENDAS DIVERSAS Y OTROS PARA EL TALLER DE MANTENIMIENTO LOS LAGOS",
-    "buyer": "SECCIÓN COMPRAS X ZONA",
-    "status": "Publicada",
-    "amount_clp": 1671194.0,
-    "published_at": "2026-06-25 16:05",
-    "close_at": "2026-06-29 09:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1079639-688-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1671194.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "4157-458-COT26",
     "title": "Material Taller Manicure Liceo BEP Juvenal Hernández Jaque Req 960201-102(483)",
     "buyer": "I.Municipalidad de El Carmen",
@@ -8138,58 +7514,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1755-216-COT26",
-    "title": "Artículos para taller de Oficio Sanitario. SOL86_EDUC26_JMC",
-    "buyer": "SECRETARIA REGIONAL MINISTERIAL DE EDUCACION VII REGION",
-    "status": "Publicada",
-    "amount_clp": 1000000.0,
-    "published_at": "2026-06-25 10:31",
-    "close_at": "2026-06-29 09:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1755-216-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1000000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1058339-351-COT26",
     "title": "Taller de agronegocios usuarios programa PDTI",
     "buyer": "ILUSTRE MUNICIPALIDAD DE HUARA",
@@ -8346,58 +7670,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "658-33-COT26",
-    "title": "Curso Manejo del Estrés, Comunicación Asertiva y Resolución de Conflictos: Fortaleciendo la Resiliencia en Equipos de Trabajo",
-    "buyer": "Ministerio de Vivienda y Urbanismo",
-    "status": "Publicada",
-    "amount_clp": 1000000.0,
-    "published_at": "2026-06-24 15:32",
-    "close_at": "2026-06-29 17:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=658-33-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1000000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1018-25-COT26",
     "title": "CONTRATACION DE CURSO POWER BI PARA LA DARQ",
     "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
@@ -8406,162 +7678,6 @@
     "published_at": "2026-06-24 15:28",
     "close_at": "2026-07-01 12:00",
     "url": "https://buscador.mercadopublico.cl/ficha?code=1018-25-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1700000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "627025-24-COT26",
-    "title": "CURSO DE CAPACITACIÓN INSTALACIONES ELÉCTRICAS CLASE D, S.E.C.",
-    "buyer": "DIRECCION DE EDUCACION DE LA ARMADA",
-    "status": "Publicada",
-    "amount_clp": 1080000.0,
-    "published_at": "2026-06-24 15:21",
-    "close_at": "2026-06-29 15:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=627025-24-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1080000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2042-229-COT26",
-    "title": "Curso online de Glaciología",
-    "buyer": "I MUNICIPALIDAD DE TORTEL",
-    "status": "Publicada",
-    "amount_clp": 1410000.0,
-    "published_at": "2026-06-24 12:04",
-    "close_at": "2026-06-29 12:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2042-229-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1410000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "688-56-COT26",
-    "title": "Taller gestión estratégica de grupos de interés.",
-    "buyer": "OFICINA DE ESTUDIOS Y POLITICAS AGRARIAS",
-    "status": "Publicada",
-    "amount_clp": 1700000.0,
-    "published_at": "2026-06-24 11:13",
-    "close_at": "2026-06-29 11:10",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=688-56-COT26",
     "score": 5,
     "score_detail": {
       "rules_source": null,
@@ -8762,110 +7878,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "2703-136-COT26",
-    "title": "SC 12522 Capacitación Curso Intervención Psicosocial Grupal, Cap y Form 2026",
-    "buyer": "I MUNICIPALIDAD DE TALAGANTE",
-    "status": "Publicada",
-    "amount_clp": 1200000.0,
-    "published_at": "2026-06-23 17:06",
-    "close_at": "2026-06-29 12:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2703-136-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1200000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3536-108-COT26",
-    "title": "Adquisición de materiales para mantenimiento y reparación del Taller de telecomunicaciones de la Escuela de Ingenieros.",
-    "buyer": "Ejercito de Chile",
-    "status": "Publicada",
-    "amount_clp": 1480000.0,
-    "published_at": "2026-06-23 15:55",
-    "close_at": "2026-06-29 12:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3536-108-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1480000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1057430-709-COT26",
     "title": "Curso Concilacion de la Vida Laboral, Familiar y Personal",
     "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
@@ -8970,58 +7982,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "607-108-COT26",
-    "title": "Curso Reanimación Cardiopulmonar Básica y Uso de Desfibrilador en caso de Emergencia",
-    "buyer": "PARQUE METROPOLITANO DE SANTIAGO",
-    "status": "Publicada",
-    "amount_clp": 1300000.0,
-    "published_at": "2026-06-19 17:31",
-    "close_at": "2026-06-29 10:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=607-108-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1300000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "2216-96-COT26",
     "title": "TALLER: INTERVENIR PARA TRANSFORMAR: CLAVES ESTRATÉGICAS PARA LA GESTIÓN DE LAS RELACIONES LABORALES",
     "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
@@ -9074,15 +8034,15 @@
   },
   {
     "source": "compra_agil",
-    "id": "2294-1118-COT26",
-    "title": "MATERIALES TALLER HUERTO ESCUELA CARLOS SPANO // SEP",
-    "buyer": "I MUNICIPALIDAD DE TALCA",
+    "id": "3904-589-COT26",
+    "title": "OP26-791 Curso de capacitación Guardia de seguridad OS-10, usuarios Omil 2026",
+    "buyer": "I MUNICIPALIDAD DE BULNES",
     "status": "Publicada",
-    "amount_clp": 1868470.0,
-    "published_at": "2026-06-12 10:35",
-    "close_at": "2026-06-29 11:29",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2294-1118-COT26",
-    "score": 5,
+    "amount_clp": 700000.0,
+    "published_at": "2026-06-29 22:29",
+    "close_at": "2026-06-30 23:30",
+    "url": "https://buscador.mercadopublico.cl/ficha?code=3904-589-COT26",
+    "score": 4,
     "score_detail": {
       "rules_source": null,
       "weights": {
@@ -9091,10 +8051,10 @@
       },
       "score": {
         "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
+        "amount_0_10": 1.4285714285714284,
+        "total_0_10": 2.1785714285714284,
         "display_max": 20,
-        "display_score": 5
+        "display_score": 4
       },
       "gate": {
         "enabled": true,
@@ -9116,62 +8076,10 @@
         "exclude_hits": []
       },
       "amount": {
-        "amount_clp": 1868470.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1062448-169-COT26",
-    "title": "Taller de Capacitación \"MAIS-ECICEP\"",
-    "buyer": "CONSULTORIO GENERAL URBANO VIOLETA PARRA",
-    "status": "Publicada",
-    "amount_clp": 1300000.0,
-    "published_at": "2026-06-10 08:43",
-    "close_at": "2026-06-29 09:13",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1062448-169-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1300000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
+        "amount_clp": 700000.0,
+        "band": "0–1MM",
+        "band_points": 1.0,
+        "score_0_10": 1.4285714285714284
       }
     },
     "reviewed": false
@@ -9325,58 +8233,6 @@
       },
       "amount": {
         "amount_clp": 750000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1485930-24-COT26",
-    "title": "Compra y entrega de materiales para talleres de fotografía",
-    "buyer": "BAJ Antofagasta",
-    "status": "Publicada",
-    "amount_clp": 238000.0,
-    "published_at": "2026-06-26 21:40",
-    "close_at": "2026-06-29 11:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1485930-24-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 238000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -10010,58 +8866,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1026727-226-COT26",
-    "title": "Adquisición kit componente electrónico para arduino. TNS en Electricidad Industrial del CFT.",
-    "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE TARAPACA",
-    "status": "Publicada",
-    "amount_clp": 600000.0,
-    "published_at": "2026-06-26 14:20",
-    "close_at": "2026-06-29 11:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1026727-226-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 600000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "3335-784-COT26",
     "title": "ADQUISICIÓN DE MATERIALES PARA TALLER DE COCINA DE LA ESCUELA N°2 LA UNION ORD. 214 LEY SEP",
     "buyer": "I MUNICIPALIDAD DE LA UNION",
@@ -10426,110 +9230,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "2129-48-COT26",
-    "title": "SERVICIOS DE CAPACITACION PARA EQUIPO BASE DEL PROGRAMA RED LOCAL DE APOYOS Y CUIDADOS Y ENCARGADA COMUNAL",
-    "buyer": "Ilustre Municipalidad de Ranquil",
-    "status": "Publicada",
-    "amount_clp": 600000.0,
-    "published_at": "2026-06-26 12:34",
-    "close_at": "2026-06-29 18:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2129-48-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 600000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1026727-225-COT26",
-    "title": "Adquisición materiales de oficina para Unidad de Programación y Registro Académico del CFT.",
-    "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE TARAPACA",
-    "status": "Publicada",
-    "amount_clp": 900000.0,
-    "published_at": "2026-06-26 12:07",
-    "close_at": "2026-06-29 11:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1026727-225-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 900000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "3507-402-COT26",
     "title": "INSUMOS TALLERES NEP",
     "buyer": "Departamento de Salud",
@@ -10686,110 +9386,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "2129-47-COT26",
-    "title": "SERVICIOS DE CAPACITACION PARA ASISTENTES DE CUIDADO DEL SERVICIO DE ATENCION DOMICILIARIA (SAD)",
-    "buyer": "Ilustre Municipalidad de Ranquil",
-    "status": "Publicada",
-    "amount_clp": 400000.0,
-    "published_at": "2026-06-26 11:37",
-    "close_at": "2026-06-29 18:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2129-47-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 400000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3927-219-COT26",
-    "title": "SERVICIO CONTRATACION DE TALLER/ CAPACITACION “Apoyo a la Inclusión” PARA EDUCADORAS Y TECNICOS EN PARVULOS, ESTABLECIMIENTOS EDUCACIONALES DAEM SAN JUAN DE LA COSTA. FONDOS FAEP 2024.",
-    "buyer": "Ilustre Municipalidad de San Juan de la Costa",
-    "status": "Publicada",
-    "amount_clp": 500000.0,
-    "published_at": "2026-06-26 11:28",
-    "close_at": "2026-06-29 08:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3927-219-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 500000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "4858-361-COT26",
     "title": "COMPRA IMPLEMENTOS PARA EJECUCIÓN DE TALLERES  DEL PROGRAMA.",
     "buyer": "I MUNICIPALIDAD DE TIRUA",
@@ -10885,58 +9481,6 @@
       },
       "amount": {
         "amount_clp": 500000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1182705-108-COT26",
-    "title": "MATERIALES TNS EN ELECTRICIDAD",
-    "buyer": "CENTRO DE FORMACIÓN TÉCNICA DE LA REGIÓN DE AYSÉN DEL GENERAL CARLOS I",
-    "status": "Publicada",
-    "amount_clp": 400000.0,
-    "published_at": "2026-06-26 11:00",
-    "close_at": "2026-06-29 07:30",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1182705-108-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 400000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -11206,58 +9750,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1026727-224-COT26",
-    "title": "Adquisición materiales de construcción. Coordinación de Gestión del Campus del CFT.",
-    "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE TARAPACA",
-    "status": "Publicada",
-    "amount_clp": 900000.0,
-    "published_at": "2026-06-26 10:05",
-    "close_at": "2026-06-29 10:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1026727-224-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 900000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "5783-7-COT26",
     "title": "CONSULTORÍA DE INGENIERÍA PARA PROYECTO DE AMPLIACIÓN EMR BUENAVUENTURA",
     "buyer": "I MUNICIPALIDAD DE RIO NEGRO",
@@ -11304,58 +9796,6 @@
         "band": "1–2MM",
         "band_points": 2.0,
         "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "4922-190-COT26",
-    "title": "MATERIALES PARA TALLERES SENDA",
-    "buyer": "I MUNICIPALIDAD DE FUTRONO",
-    "status": "Publicada",
-    "amount_clp": 160000.0,
-    "published_at": "2026-06-26 09:25",
-    "close_at": "2026-06-29 09:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=4922-190-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 160000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
       }
     },
     "reviewed": false
@@ -11925,162 +10365,6 @@
       },
       "amount": {
         "amount_clp": 540000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3013-438-COT26",
-    "title": "Servicio de capacitacion mixta \"IMIV BASICO\"",
-    "buyer": "ILUSTRE MUNICIPALIDAD DE RETIRO",
-    "status": "Publicada",
-    "amount_clp": 650000.0,
-    "published_at": "2026-06-25 16:32",
-    "close_at": "2026-06-29 10:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3013-438-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 650000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2297-893-COT26",
-    "title": "ADQUISICION DE MATERIALES PARA TALLERES",
-    "buyer": "I MUNICIPALIDAD DE OSORNO",
-    "status": "Publicada",
-    "amount_clp": 200000.0,
-    "published_at": "2026-06-25 16:19",
-    "close_at": "2026-06-29 10:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2297-893-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 200000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "564953-428-COT26",
-    "title": "MATERIAL DIDACTICO PARA TALLER INFANTO-JUVENIL 2026",
-    "buyer": "CORP DE EDUCACION Y SALUD DE LAS CONDES",
-    "status": "Publicada",
-    "amount_clp": 150000.0,
-    "published_at": "2026-06-25 16:10",
-    "close_at": "2026-06-29 10:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=564953-428-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 150000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -12974,58 +11258,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1057498-1696-COT26",
-    "title": "RESUCITADORES MANUALES PEDIÁTRICOS Y NEONATALES REUTILIZABLES",
-    "buyer": "SERVICIO DE SALUD SUR HOSPITAL SANATORIO EL PINO",
-    "status": "Publicada",
-    "amount_clp": 1265173.0,
-    "published_at": "2026-06-25 09:49",
-    "close_at": "2026-06-29 08:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1057498-1696-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.0238095238095237,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1265173.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "2440-912-COT26",
     "title": "Materiales para talleres de Escuela El Maitén de Curicó",
     "buyer": "I MUNICIPALIDAD DE CURICO",
@@ -13173,110 +11405,6 @@
       },
       "amount": {
         "amount_clp": 600000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3447-294-COT26",
-    "title": "Curso para Acreditación de Examinadores prácticos",
-    "buyer": "MUNICIPALIDAD DE ALTO HOSPICIO",
-    "status": "Publicada",
-    "amount_clp": 500000.0,
-    "published_at": "2026-06-24 17:29",
-    "close_at": "2026-06-29 15:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3447-294-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 500000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "4357-162-COT26",
-    "title": "MEMO N° 289- ADQUISICION DE ELEMENTOS DE PROTECCION PARA TALLERES PROGRAMA MAS AMA",
-    "buyer": "I MUNICIPALIDAD DE FREIRINA",
-    "status": "Publicada",
-    "amount_clp": 45000.0,
-    "published_at": "2026-06-24 16:54",
-    "close_at": "2026-06-29 08:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=4357-162-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 45000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -13537,58 +11665,6 @@
       },
       "amount": {
         "amount_clp": 340000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1340-42-COT26",
-    "title": "CURSO TRABAJO EN EQUIPO",
-    "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-    "status": "Publicada",
-    "amount_clp": 160000.0,
-    "published_at": "2026-06-24 12:59",
-    "close_at": "2026-06-29 12:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1340-42-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 160000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -14014,58 +12090,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "4357-161-COT26",
-    "title": "MEMO N° 296 - ADQUISICION DE UTENSILIOS Y ACCESORIOS DE REPOSTERIA PARA TALLER PROGRAMA MAS AMA CESFAM FREIRINA",
-    "buyer": "I MUNICIPALIDAD DE FREIRINA",
-    "status": "Publicada",
-    "amount_clp": 85000.0,
-    "published_at": "2026-06-24 08:28",
-    "close_at": "2026-06-29 08:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=4357-161-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 85000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "2127-25-COT26",
     "title": "SE REQUIERE TALLAER DE CAPACITACION para el 21 de Agosto de 2026",
     "buyer": "DEPARTAMENTO PROVINCIAL DE CAUQUENES",
@@ -14265,58 +12289,6 @@
       },
       "amount": {
         "amount_clp": 350000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3438-113-COT26",
-    "title": "ADQUISICIÓN DE LÁMPARA DE PIE PARA SER EMPLEADA EN EL CURSO BÁSICO DE SUBOFICIALES DEL INSTITUTO",
-    "buyer": "Ejercito de Chile",
-    "status": "Publicada",
-    "amount_clp": 600000.0,
-    "published_at": "2026-06-19 19:17",
-    "close_at": "2026-06-29 06:22",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3438-113-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 600000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -14629,110 +12601,6 @@
       },
       "amount": {
         "amount_clp": 100000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1393495-495-COT26",
-    "title": "SC-50174/12255-6/SEP/ADQ. INSUMOS TALLER DE TEATRO/DMG",
-    "buyer": "Educación",
-    "status": "Publicada",
-    "amount_clp": 300987.0,
-    "published_at": "2026-06-16 17:17",
-    "close_at": "2026-06-29 11:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1393495-495-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 300987.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "688-53-COT26",
-    "title": "Curso Descentralización y Articulación Territorial: marco conceptual y herramientas de gestión",
-    "buyer": "OFICINA DE ESTUDIOS Y POLITICAS AGRARIAS",
-    "status": "Publicada",
-    "amount_clp": 500000.0,
-    "published_at": "2026-06-12 07:54",
-    "close_at": "2026-06-29 17:28",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=688-53-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 500000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -15149,58 +13017,6 @@
       },
       "amount": {
         "amount_clp": 600000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3658-288-COT26",
-    "title": "SERVICIO DE ASESORIA DE HOTRICULTURA , SE ADJUNTA ARCHIVO CON LO SOLICITADO",
-    "buyer": "I MUNICIPALIDAD DE CALERA DE TANGO",
-    "status": "Publicada",
-    "amount_clp": 500000.0,
-    "published_at": "2026-06-25 10:55",
-    "close_at": "2026-06-29 08:30",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3658-288-COT26",
-    "score": 3,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 1.595238095238095,
-        "display_max": 20,
-        "display_score": 3
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
-            "weight": 2.0,
-            "note": "Asesorías / consultorías"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 500000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
