@@ -1,63 +1,6 @@
 [
   {
     "source": "compra_agil",
-    "id": "3834-176-COT26",
-    "title": "CONSULTORIA TECNICA DE DIAGNOSTICO ( ACTUALIZACION  PLAN  COMUNAL DE SEGURIDAD PUBLICA). SS N°  20, D.DE SEG. PUBLICA.",
-    "buyer": "I MUNICIPALIDAD DE MEJILLONES",
-    "status": "Publicada",
-    "amount_clp": 5000000.0,
-    "published_at": "2026-09-07 12:39",
-    "close_at": "2026-09-13 08:55",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3834-176-COT26",
-    "score": 12,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 5.0,
-        "amount_0_10": 8.571428571428571,
-        "total_0_10": 6.071428571428571,
-        "display_max": 20,
-        "display_score": 12
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 6.0,
-        "exclude_points": 0.0,
-        "raw_points": 6.0,
-        "max_points": 12.0,
-        "score_0_10": 5.0,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          },
-          {
-            "pattern": "\\basesor[ií]a(s)?\\b|\\bconsultor[ií]a(s)?\\b",
-            "weight": 2.0,
-            "note": "Asesorías / consultorías"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 5000000.0,
-        "band": "5–6MM",
-        "band_points": 6.0,
-        "score_0_10": 8.571428571428571
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1057417-3756-COT26",
     "title": "msp COMPRA DE DISCO SSD, TIPO KINGSTON, CAPACIDAD DE 480 O 512GB, ADJUNTAR FICHA CON IMAGEN PARA EVALUACIÓN",
     "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
@@ -153,58 +96,6 @@
       },
       "amount": {
         "amount_clp": 7164900.0,
-        "band": "+6MM",
-        "band_points": 7.0,
-        "score_0_10": 10.0
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1057539-4125-COT26",
-    "title": "DETERMINACIONES MOLECULARES PARA EL DIAGNóSTICO DE COMPLEJO MYCOBACTERIUM TUBERCULOSIS Y RESISTENCIA A RIFAMPICINA",
-    "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
-    "status": "Publicada",
-    "amount_clp": 6900000.0,
-    "published_at": "2026-09-11 12:26",
-    "close_at": "2026-09-13 09:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1057539-4125-COT26",
-    "score": 11,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 10.0,
-        "total_0_10": 5.333333333333333,
-        "display_max": 20,
-        "display_score": 11
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 6900000.0,
         "band": "+6MM",
         "band_points": 7.0,
         "score_0_10": 10.0
@@ -2106,63 +1997,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "509143-21-COT26",
-    "title": "CURSO MANEJO DE INDICADORES Y EVALUACION DE RESULTADOS EN GESTION DE CASOS ONCOLOGICO MM N° 30",
-    "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE LINARES",
-    "status": "Publicada",
-    "amount_clp": 600000.0,
-    "published_at": "2026-08-27 13:22",
-    "close_at": "2026-09-13 12:18",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=509143-21-COT26",
-    "score": 9,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 5.833333333333334,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 4.511904761904763,
-        "display_max": 20,
-        "display_score": 9
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 7.0,
-        "exclude_points": 0.0,
-        "raw_points": 7.0,
-        "max_points": 12.0,
-        "score_0_10": 5.833333333333334,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          },
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 600000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "2289-347-COT26",
     "title": "SERVICIOS DE TALLERES",
     "buyer": "I MUNICIPALIDAD DE FRUTILLAR",
@@ -3728,58 +3562,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1209403-36-COT26",
-    "title": "EVALUACIÓN CLÍNICA ESPECIALIZADA EN TRAUMA COMPLEJO Y PERTINENCIA DE INTERVENCIÓN MEDIANTE TERAPIA EMDR PARA ADOLESCENTE EN CONTEXTO DE ALTA COMPLEJIDAD EN SALUD MENTAL Y EN EL ÁMBITO PROTECCIONAL",
-    "buyer": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCI",
-    "status": "Publicada",
-    "amount_clp": 2600000.0,
-    "published_at": "2026-09-02 10:18",
-    "close_at": "2026-09-13 15:56",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1209403-36-COT26",
-    "score": 7,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 3.6190476190476186,
-        "display_max": 20,
-        "display_score": 7
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2600000.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "976-58-COT26",
     "title": "Curso de Transformación Digital",
     "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
@@ -4872,58 +4654,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1108660-38-COT26",
-    "title": "SERVICIO DE MONITOREO DE MEDIOS DE COMUNICACIÓN",
-    "buyer": "FUND DE COMUNICACIONES CAPACITACION Y CULTURA DEL AGRO",
-    "status": "Publicada",
-    "amount_clp": 2380000.0,
-    "published_at": "2026-09-11 11:19",
-    "close_at": "2026-09-13 10:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1108660-38-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 3.0357142857142856,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2380000.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "4733-354-COT26",
     "title": "CAPACITACIÓN",
     "buyer": "I MUNICIPALIDAD DE LAS GUAITECAS",
@@ -4970,58 +4700,6 @@
         "band": "2–3MM",
         "band_points": 3.0,
         "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3196-211-COT26",
-    "title": "Inspección y Diagnostico Motor Fuera de Borda de Unidad Marítima Defender PM-2521",
-    "buyer": "- - -",
-    "status": "Publicada",
-    "amount_clp": 415000.0,
-    "published_at": "2026-09-11 10:51",
-    "close_at": "2026-09-13 12:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3196-211-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 3.333333333333333,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.7619047619047614,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 4.0,
-        "exclude_points": 0.0,
-        "raw_points": 4.0,
-        "max_points": 12.0,
-        "score_0_10": 3.333333333333333,
-        "include_hits": [
-          {
-            "pattern": "\\bencuest(a|as|ar|ado|ados)\\b|\\blevantamiento\\b|\\bdiagn[oó]stico(s)?\\b|\\bevaluaci[oó]n(es)?\\b",
-            "weight": 4.0,
-            "note": "Medición / diagnóstico / evaluación"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 415000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
       }
     },
     "reviewed": false
@@ -7888,58 +7566,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "979-93-COT26",
-    "title": "CONTRATACIÓN DE LA ACTIVIDAD DE CAPACITACIÓN “ESTIMACIÓN Y CÁLCULO DE INCERTIDUMBRE DE LA MEDICIÓN” DIRECCIÓN DE VIALIDAD",
-    "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-    "status": "Publicada",
-    "amount_clp": 2680000.0,
-    "published_at": "2026-09-03 12:26",
-    "close_at": "2026-09-13 17:33",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=979-93-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 3.0357142857142856,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2680000.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1057417-3673-COT26",
     "title": "SG GAV Evaluación y diagnostico para equipo monitor multiparámetro, marca Trionara Vitus +4. Se adjunta doc. con detalle del requerimiento.",
     "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
@@ -8090,58 +7716,6 @@
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1561-68-COT26",
-    "title": "ADQUISICIÓN DEL SERVICIO DE CAPACITACIÓN “RADIACIÓN IONIZANTE”",
-    "buyer": "DIRECCION GENERAL DEL CREDITO PRENDARIO",
-    "status": "Publicada",
-    "amount_clp": 2000000.0,
-    "published_at": "2026-09-02 11:24",
-    "close_at": "2026-09-13 15:09",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1561-68-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 3.0357142857142856,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2000000.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
       }
     },
     "reviewed": false
@@ -8402,58 +7976,6 @@
         "band": "1–2MM",
         "band_points": 2.0,
         "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "607-173-COT26",
-    "title": "CURSO PODA DE PLANTAS LEÑOSAS",
-    "buyer": "PARQUE METROPOLITANO DE SANTIAGO",
-    "status": "Publicada",
-    "amount_clp": 2800000.0,
-    "published_at": "2026-08-14 15:53",
-    "close_at": "2026-09-15 04:08",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=607-173-COT26",
-    "score": 6,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 3.0357142857142856,
-        "display_max": 20,
-        "display_score": 6
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2800000.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
       }
     },
     "reviewed": false
@@ -11268,58 +10790,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "2273-783-COT26",
-    "title": "SUSCRIPCIÓN ANUAL A MANUAL DE PRECIOS ONLINE”, Memo 24122 mms",
-    "buyer": "I MUNICIPALIDAD DE LA PINTANA",
-    "status": "Publicada",
-    "amount_clp": 2200000.0,
-    "published_at": "2026-09-07 17:04",
-    "close_at": "2026-09-13 14:57",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2273-783-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 4.285714285714286,
-        "total_0_10": 2.452380952380952,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 2200000.0,
-        "band": "2–3MM",
-        "band_points": 3.0,
-        "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1274907-140-COT26",
     "title": "Servicios de Capacitación para 50 funcionarios APS Chonchi.",
     "buyer": "CORPORACIÓN MUNICIPAL DE EDUCACIÓN, SALUD Y ATENCIÓN DE MENORES CHONCHI",
@@ -11476,58 +10946,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1509-153-COT26",
-    "title": "“Contratación talleres grupales de Yoga y Zumba”",
-    "buyer": "SERVICIO DE SALUD METROPOLITANO NORTE HOSPITAL DE TIL TIL",
-    "status": "Publicada",
-    "amount_clp": 1000000.0,
-    "published_at": "2026-09-07 10:58",
-    "close_at": "2026-09-13 15:55",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1509-153-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1000000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "2565-331-COT26",
     "title": "Adquisición de Insumos y Herramientas para Taller de Huertos Saludables - Promoción de Salud",
     "buyer": "I MUNICIPALIDAD DE CHEPICA",
@@ -11675,110 +11093,6 @@
       },
       "amount": {
         "amount_clp": 1800000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2341-450-COT26",
-    "title": "SERVICIOS DE CURSO DE TECNICAS DE CORTE, CONFECCION Y ARREGLOS TEXTILES _ ADQ 537  _ SP 262 _ DIDECO-OF. DE LA MUJER",
-    "buyer": "I MUNICIPALIDAD DE SAN BERNARDO",
-    "status": "Publicada",
-    "amount_clp": 1333333.0,
-    "published_at": "2026-09-04 15:45",
-    "close_at": "2026-09-14 05:14",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2341-450-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1333333.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2341-448-COT26",
-    "title": "SERVICIO DE CAPACITACION DE TECNICAS DE PANADERIA, MASAS TRADICIONALES Y PASTELERIA _ ADQ 535 _ SP 260 _ DIDECO-OF. DE LA MUJER",
-    "buyer": "I MUNICIPALIDAD DE SAN BERNARDO",
-    "status": "Publicada",
-    "amount_clp": 1333333.0,
-    "published_at": "2026-09-04 13:01",
-    "close_at": "2026-09-14 06:50",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2341-448-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1333333.0,
         "band": "1–2MM",
         "band_points": 2.0,
         "score_0_10": 2.8571428571428568
@@ -12042,58 +11356,6 @@
         "band": "2–3MM",
         "band_points": 3.0,
         "score_0_10": 4.285714285714286
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2111-1103-COT26",
-    "title": "CURSOS ESTRATEGIAS DE DESARROLLO LINGÜÍSTICO PARA LA PRIMERA INFANCIA Y ESTRATEGIAS DIDÁCTICAS PARA EL DESARROLLO DE HABILIDADES COGNITIVAS DE NIVEL SUPERIOR",
-    "buyer": "HOSPITAL DE URGENCIA ASISTENCIA PUBLICA DR ALEJANDRO DEL RIO",
-    "status": "Publicada",
-    "amount_clp": 1200000.0,
-    "published_at": "2026-08-21 16:45",
-    "close_at": "2026-09-13 16:31",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2111-1103-COT26",
-    "score": 5,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 2.8571428571428568,
-        "total_0_10": 2.6071428571428568,
-        "display_max": 20,
-        "display_score": 5
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 1200000.0,
-        "band": "1–2MM",
-        "band_points": 2.0,
-        "score_0_10": 2.8571428571428568
       }
     },
     "reviewed": false
@@ -15428,58 +14690,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1080289-19-COT26",
-    "title": "SERVICIO DE PRODUCCION DE TALLER \" LA DESPENSA DEL PIONERO\"     P. 425 Bienestar. PBC",
-    "buyer": "SUBSECRETARIA DE SALUD PUBLICA",
-    "status": "Publicada",
-    "amount_clp": 500000.0,
-    "published_at": "2026-09-10 16:59",
-    "close_at": "2026-09-13 09:00",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1080289-19-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 500000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "507428-351-COT26",
     "title": "CURSO “PROFUNDIZANDO EL TRATO DIGNO Y HUMANIZADO EN LA ATENCIÓN EN SALUD”",
     "buyer": "SERVICIO DE SALUD CHILOE",
@@ -16162,7 +15372,7 @@
     "status": "Publicada",
     "amount_clp": 800000.0,
     "published_at": "2026-09-10 15:26",
-    "close_at": "2026-09-13 17:00",
+    "close_at": "2026-09-16 18:33",
     "url": "https://buscador.mercadopublico.cl/ficha?code=1499900-113-COT26",
     "score": 4,
     "score_detail": {
@@ -17040,58 +16250,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1282238-56-COT26",
-    "title": "materiales para taller de mascaras",
-    "buyer": "CORPORACION CULTURAL MUNICIPAL DE COYHAIQUE",
-    "status": "Publicada",
-    "amount_clp": 500000.0,
-    "published_at": "2026-09-09 17:25",
-    "close_at": "2026-09-13 18:34",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1282238-56-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 500000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "5194-397-COT26",
     "title": "ESTADO VERDE - D.R.G. AFTA. – “TALLER DE RELAJACION PARA LOS FUENCIONARIOS DEL C.R.S. AFTA”",
     "buyer": "Servicio de Bienestar Social",
@@ -17239,58 +16397,6 @@
       },
       "amount": {
         "amount_clp": 750000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1282238-51-COT26",
-    "title": "MATERIALES Taller Gastronomía Local: Saberes, Tradiciones y Ritos",
-    "buyer": "CORPORACION CULTURAL MUNICIPAL DE COYHAIQUE",
-    "status": "Publicada",
-    "amount_clp": 505917.0,
-    "published_at": "2026-09-09 12:22",
-    "close_at": "2026-09-13 19:37",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1282238-51-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 505917.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -17456,110 +16562,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "4236-517-COT26",
-    "title": "3.Material kinesiológico de rehabilitación y talleres complementarios",
-    "buyer": "I MUNICIPALIDAD DE CURANILAHUE",
-    "status": "Publicada",
-    "amount_clp": 210000.0,
-    "published_at": "2026-09-08 14:50",
-    "close_at": "2026-09-13 08:03",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=4236-517-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 210000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "1274667-344-COT26",
-    "title": "RVB - librillos personalizados de trabajo para taller de prevención en suicidio a adolescentes // ESPACIO AMIGABLE",
-    "buyer": "CENTRO DE SALUD FAMILIAR PUERTO AYSÉN",
-    "status": "Publicada",
-    "amount_clp": 500000.0,
-    "published_at": "2026-09-08 14:22",
-    "close_at": "2026-09-14 01:37",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1274667-344-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 500000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "1300-148-COT26",
     "title": "Servicios logísticos para jornada de capacitación en Quillón",
     "buyer": "SERVICIO NACIONAL DEL ADULTO MAYOR",
@@ -17603,58 +16605,6 @@
       },
       "amount": {
         "amount_clp": 375000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "4769-65-COT26",
-    "title": "Adquisición de insumos de cafetería para la ejecución de talleres comunitarios y sesiones educativas del programa Chile Crece Contigo",
-    "buyer": "I MUNICIPALIDAD DE LA ESTRELLA",
-    "status": "Publicada",
-    "amount_clp": 110000.0,
-    "published_at": "2026-09-08 13:24",
-    "close_at": "2026-09-13 10:52",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=4769-65-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 110000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -17759,162 +16709,6 @@
       },
       "amount": {
         "amount_clp": 900000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2021-240-COT26",
-    "title": "CECOPAC N°10000/683 PROFESOR PARA EL CURSO UNMOC",
-    "buyer": "ESTADO MAYOR CONJUNTO",
-    "status": "Publicada",
-    "amount_clp": 660000.0,
-    "published_at": "2026-09-08 11:03",
-    "close_at": "2026-09-13 16:32",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2021-240-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 660000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2021-239-COT26",
-    "title": "CECOPAC N°10000/669 PROFESOR PARA EL CURSO UNMOC.",
-    "buyer": "ESTADO MAYOR CONJUNTO",
-    "status": "Publicada",
-    "amount_clp": 660000.0,
-    "published_at": "2026-09-08 10:56",
-    "close_at": "2026-09-13 16:36",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2021-239-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 660000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "2021-237-COT26",
-    "title": "CECOPAC N°10000/670 PROFESOR PARA EL CURSO UNMOC",
-    "buyer": "ESTADO MAYOR CONJUNTO",
-    "status": "Publicada",
-    "amount_clp": 990000.0,
-    "published_at": "2026-09-08 10:46",
-    "close_at": "2026-09-13 16:46",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2021-237-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 990000.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -18236,110 +17030,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "2859-911-COT26",
-    "title": "Servicio de taller presencial",
-    "buyer": "UNIVERSIDAD DE ATACAMA",
-    "status": "Publicada",
-    "amount_clp": 999600.0,
-    "published_at": "2026-09-07 11:54",
-    "close_at": "2026-09-13 11:43",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=2859-911-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 999600.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3287-419-COT26",
-    "title": "Taller de reutilización textil, PMJH",
-    "buyer": "I MUNICIPALIDAD DE LICANTEN",
-    "status": "Publicada",
-    "amount_clp": 650000.0,
-    "published_at": "2026-09-07 11:41",
-    "close_at": "2026-09-13 13:03",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3287-419-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 650000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "4711-17-COT26",
     "title": "COMPRA DE INSUMOS COMPUTACIONALES REGIONAL ARAUCANIA",
     "buyer": "SERVICIO NACIONAL DE CAPACITACION Y EMPLEO",
@@ -18435,58 +17125,6 @@
       },
       "amount": {
         "amount_clp": 850000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3568-365-COT26",
-    "title": "ADQUISICIÓN DE MATERIALES PARA FUNCIONAMIENTO TALLER DE OFICIO",
-    "buyer": "I MUNICIPALIDAD DE PANGUIPULLI",
-    "status": "Publicada",
-    "amount_clp": 27650.0,
-    "published_at": "2026-09-04 12:51",
-    "close_at": "2026-09-13 14:35",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3568-365-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 27650.0,
         "band": "0–1MM",
         "band_points": 1.0,
         "score_0_10": 1.4285714285714284
@@ -18860,110 +17498,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "1485-54-COT26",
-    "title": "Capacitación en Técnicas de Esmalte sobre Telas SAAT Liceo Industrial \"Samuel Vivanco Parada\" – Tercera Jornada",
-    "buyer": "Departamento Provincial de Educación Bío Bío",
-    "status": "Publicada",
-    "amount_clp": 250000.0,
-    "published_at": "2026-09-02 15:44",
-    "close_at": "2026-09-14 05:18",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=1485-54-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 250000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
-    "id": "3116-36-COT26",
-    "title": "ADQUSICION DE PUBLICACIONES  DIGITALES OMI.",
-    "buyer": "CENTRO DE INSTRUCCION Y CAPACITACION MARITIMA",
-    "status": "Publicada",
-    "amount_clp": 528800.0,
-    "published_at": "2026-09-01 12:40",
-    "close_at": "2026-09-13 19:34",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=3116-36-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 528800.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "2387-329-COT26",
     "title": "SP 1082: Servicio proceso de acreditación de guías especialidad hiking y trekking, según Especificaciones Técnicas.",
     "buyer": "I MUNICIPALIDAD DE PUCON",
@@ -19224,58 +17758,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "5421-29-COT26",
-    "title": "ADQUISICIÓN DE TABLET PARA FORMACIÓN CONTINUA SEDE SANTIAGO",
-    "buyer": "UNIVERSIDAD DE LOS LAGOS",
-    "status": "Publicada",
-    "amount_clp": 250000.0,
-    "published_at": "2026-08-14 12:10",
-    "close_at": "2026-09-13 20:17",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=5421-29-COT26",
-    "score": 4,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 2.5,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 2.1785714285714284,
-        "display_max": 20,
-        "display_score": 4
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 3.0,
-        "exclude_points": 0.0,
-        "raw_points": 3.0,
-        "max_points": 12.0,
-        "score_0_10": 2.5,
-        "include_hits": [
-          {
-            "pattern": "\\bcapacitaci[oó]n\\b|\\bcurso(s)?\\b|\\bformaci[oó]n\\b|\\btaller(es)?\\b",
-            "weight": 3.0,
-            "note": "Capacitación / talleres"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 250000.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "359-316-COT26",
     "title": "RESUCITADOR PULMONAR MANUAL PROFESIONAL DE ADULTOS Y PEDIATRICO",
     "buyer": "Instituto Nacional del Cancer",
@@ -19432,58 +17914,6 @@
   },
   {
     "source": "compra_agil",
-    "id": "607-208-COT26",
-    "title": "Guías de campo y material educativo para programa de educación ambiental",
-    "buyer": "PARQUE METROPOLITANO DE SANTIAGO",
-    "status": "Publicada",
-    "amount_clp": 569390.0,
-    "published_at": "2026-09-07 16:28",
-    "close_at": "2026-09-13 07:43",
-    "url": "https://buscador.mercadopublico.cl/ficha?code=607-208-COT26",
-    "score": 3,
-    "score_detail": {
-      "rules_source": null,
-      "weights": {
-        "keywords": 0.7,
-        "amount": 0.3
-      },
-      "score": {
-        "keywords_0_10": 1.6666666666666665,
-        "amount_0_10": 1.4285714285714284,
-        "total_0_10": 1.595238095238095,
-        "display_max": 20,
-        "display_score": 3
-      },
-      "gate": {
-        "enabled": true,
-        "reason": null
-      },
-      "keywords": {
-        "include_points": 2.0,
-        "exclude_points": 0.0,
-        "raw_points": 2.0,
-        "max_points": 12.0,
-        "score_0_10": 1.6666666666666665,
-        "include_hits": [
-          {
-            "pattern": "\\bsistematizaci[oó]n\\b|\\bmanual(es)?\\b|\\bgu[ií]a(s)?\\b|\\bprotocolo(s)?\\b",
-            "weight": 2.0,
-            "note": "Manuales / guías / protocolos"
-          }
-        ],
-        "exclude_hits": []
-      },
-      "amount": {
-        "amount_clp": 569390.0,
-        "band": "0–1MM",
-        "band_points": 1.0,
-        "score_0_10": 1.4285714285714284
-      }
-    },
-    "reviewed": false
-  },
-  {
-    "source": "compra_agil",
     "id": "929-163-COT26",
     "title": "CONTRATACIÓN DE UN SERVICIO TÉCNICO Y PROFESIONAL DE ASESORÍA PARA MANTENCIÓN DE ESTANQUE DE COMBUSTIBLE.",
     "buyer": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
@@ -19532,6 +17962,3996 @@
         "score_0_10": 1.4285714285714284
       }
     },
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
+    "reviewed": false
+  },
+  {
+    "source": "licitaciones",
+    "id": "1593-19-LE26",
+    "title": "Estudio Catastro de las Plantas de Tratamiento de Aguas Servidas relacionadas con Servicios Sanitarios Rurales: Etapa 1.",
+    "buyer": null,
+    "status": null,
+    "amount_clp": null,
+    "published_at": null,
+    "questions_end_at": null,
+    "close_at": "2026-08-13T15:00:00",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1593-19-LE26",
+    "score": 2,
+    "score_detail": {
+      "rules_source": null,
+      "weights": {
+        "keywords": 0.7,
+        "amount": 0.3
+      },
+      "score": {
+        "keywords_0_10": 1.25,
+        "amount_0_10": 0.0,
+        "total_0_10": 0.875,
+        "display_max": 20,
+        "display_score": 2
+      },
+      "gate": {
+        "enabled": true,
+        "reason": null
+      },
+      "keywords": {
+        "include_points": 2.0,
+        "exclude_points": 0.0,
+        "raw_points": 2.0,
+        "max_points": 16.0,
+        "score_0_10": 1.25,
+        "include_hits": [
+          {
+            "pattern": "\\bestudio(s)?\\b",
+            "weight": 2.0,
+            "note": "Estudios (genérico)"
+          }
+        ],
+        "exclude_hits": []
+      },
+      "amount": {
+        "amount_clp": null,
+        "band": null,
+        "band_points": 0,
+        "score_0_10": 0.0
+      }
+    },
+    "category_codes": [
+      "80111700"
+    ],
+    "category_nivel1": [],
     "reviewed": false
   }
 ]
